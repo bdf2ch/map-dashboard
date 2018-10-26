@@ -5,6 +5,7 @@ import { OSM, Vector, BingMaps, XYZ } from 'ol/source';
 import TileLayer from 'ol/layer/Tile';
 import VectorLayer from 'ol/layer/vector';
 import KML from 'ol/format/KML';
+import Overlay from 'ol/overlay';
 
 
 @Component({
@@ -42,6 +43,36 @@ export class AppComponent implements OnInit {
     });
     // view.fit(vector.extent);
 
+    /**
+     * Elements that make up the popup.
+     */
+    const container = document.getElementById('popup');
+    const content = document.getElementById('popup-content');
+    const closer = document.getElementById('popup-closer');
+
+
+    /**
+     * Create an overlay to anchor the popup to the map.
+     */
+    const overlay = new Overlay({
+      element: container,
+      autoPan: true,
+      autoPanAnimation: {
+        duration: 250
+      }
+    });
+
+
+    /**
+     * Add a click handler to hide the popup.
+     * @return {boolean} Don't follow the href.
+     */
+    closer.onclick = function() {
+      overlay.setPosition(undefined);
+      closer.blur();
+      return false;
+    };
+
 
     this.map = new Map({
       target: document.getElementById('map'),
@@ -55,14 +86,15 @@ export class AppComponent implements OnInit {
         }),
         vector
       ],
+      overlays: [overlay],
       view: view
     });
 
 
 
-    const displayFeatureInfo = (pixel) => {
+    const displayFeatureInfo = (evt) => {
       const features = [];
-      this.map.forEachFeatureAtPixel(pixel, function(feature) {
+      this.map.forEachFeatureAtPixel(evt.pixel, function(feature) {
         console.log(feature);
         features.push(feature);
       });
@@ -70,28 +102,34 @@ export class AppComponent implements OnInit {
         const info = [];
         let i, ii;
         for (i = 0, ii = features.length; i < ii; ++i) {
-          info.push(features[i].get('name'));
+          info.push('<h6 class="font-weight-bold">' + features[i].get('name') + '</h6>');
           info.push(features[i].get('description'));
         }
-        document.getElementById('info').innerHTML = info.join(', ') || '(unknown)';
         console.log(this.map.getTarget());
         this.map.getTarget().style.cursor = 'pointer';
+
+        const coordinate = evt.coordinate;
+
+        content.innerHTML = info.join('');
+        overlay.setPosition(coordinate);
       } else {
-        document.getElementById('info').innerHTML = '&nbsp;';
         this.map.getTarget().style.cursor = '';
       }
     };
 
+
     this.map.on('pointermove', (evt) => {
+      /*
       if (evt.dragging) {
         return;
       }
       const pixel = this.map.getEventPixel(evt.originalEvent);
-      displayFeatureInfo(pixel);
+      displayFeatureInfo(evt);
+      */
     });
 
     this.map.on('click', function(evt) {
-      displayFeatureInfo(evt.pixel);
+      displayFeatureInfo(evt);
     });
 
   }

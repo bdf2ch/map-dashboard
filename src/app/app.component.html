@@ -1,9 +1,52 @@
-<!--
-<agm-map>
-  <agm-kml-layer url="http://localhost:4200/assets/test.kml"></agm-kml-layer>
-</agm-map>
--->
-
+<mat-toolbar color="primary">
+  <img src="assets/logo-rosseti.png" class="mr-3">
+  <img src="assets/logo-mrsk.png" style="height: 50px !important;">
+</mat-toolbar>
 
 <div id="map" class="map"></div>
-<div id="info"></div>
+
+<div id="panel">
+  <mat-accordion>
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>Лоухский РЭС</mat-panel-title>
+        <mat-panel-description class="d-flex justify-content-end text-right">100 км</mat-panel-description>
+      </mat-expansion-panel-header>
+      <mat-list dense>
+        <mat-list-item> Pepper </mat-list-item>
+        <mat-list-item> Salt </mat-list-item>
+        <mat-list-item> Paprika </mat-list-item>
+      </mat-list>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel (opened)="panelOpenState = true"
+                         (closed)="panelOpenState = false">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Кемский РЭС
+        </mat-panel-title>
+        <mat-panel-description class="d-flex justify-content-end text-right">200 км</mat-panel-description>
+      </mat-expansion-panel-header>
+      <p>I'm visible because I am open</p>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel (opened)="panelOpenState = true"
+                         (closed)="panelOpenState = false">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Еще какой-то РЭС
+        </mat-panel-title>
+        <mat-panel-description class="d-flex justify-content-end text-right">300 км</mat-panel-description>
+      </mat-expansion-panel-header>
+      <p>I'm visible because I am open</p>
+    </mat-expansion-panel>
+
+  </mat-accordion>
+
+</div>
+
+
+<div id="popup" class="ol-popup">
+  <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+  <div id="popup-content"></div>
+</div>

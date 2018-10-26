@@ -1,4 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import '~bootstrap/dist/css/bootstrap.css';
 @import "~ol/ol.css";
 
 html, body {
@@ -7,6 +9,107 @@ html, body {
   padding:  0px;
 }
 
+.mat-toolbar {
+  overflow: hidden;
+  // padding-left: 0px !important;
+  background: url('/assets/slider-background.jpg') repeat-x !important;
+  border-bottom: 1px solid lightgray;
+}
+.mat-toolbar img {
+  height: 40px;
+}
+
 #map {
-  height: 500px;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  top: 64px;
+}
+
+#panel {
+  display: block;
+  position: absolute;
+  z-index: 10;
+  right: 50px;
+  top: 100px;
+  width: 350px;
+  //height: 400px;
+  //background: white;
+}
+
+
+.ol-popup {
+  position: absolute;
+  background-color: white;
+  -webkit-filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+  filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+  padding: 15px;
+  border-radius: 4px;
+  border: 1px solid #cccccc;
+  bottom: 12px;
+  left: -50px;
+  min-width: 350px;
+  max-width: 400px
+}
+.ol-popup:after, .ol-popup:before {
+  top: 100%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+.ol-popup:after {
+  border-top-color: white;
+  border-width: 10px;
+  left: 48px;
+  margin-left: -10px;
+}
+.ol-popup:before {
+  border-top-color: #cccccc;
+  border-width: 11px;
+  left: 48px;
+  margin-left: -11px;
+}
+.ol-popup-closer {
+  text-decoration: none;
+  position: absolute;
+  top: 12px;
+  right: 8px;
+}
+.ol-popup-closer:after {
+  content: "✖";
+}
+
+
+
+
+.ol-popup h6 {
+  font-family: "Segoe UI Light";
+  text-weight: bold;
+  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 10px;
+}
+.ol-popup table td {
+  font-family: "Segoe UI Light";
+  font-size: 15px;
+  line-height: 18px;
+  //padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+/*
+.ol-popup table td {
+  padding: 5px;
+}
+*/
+.ol-popup table tr:nth-child(n+2) {
+  // background: #f5f5f5;
+}
+.ol-popup table td:nth-last-of-type(1) {
+  padding-left: 10px !important;
 }
