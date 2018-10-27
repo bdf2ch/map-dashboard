@@ -62,7 +62,8 @@ export class AppComponent implements OnInit {
             if (xhr.status === 200) {
               console.log(xhr.responseText)
               console.log(this.vectorSource.getFormat());
-              this.vectorSource.addFeatures(format.readFeatures(xhr.responseText));
+              this.vectorSource.addFeatures(
+                format.readFeatures(xhr.responseText));
             } else {
               onError();
             }
@@ -107,7 +108,22 @@ export class AppComponent implements OnInit {
         return false;
       };
 
+      this.map = new Map({
+        target: document.getElementById('map'),
+        layers: [
+          this.tileLayer = new TileLayer({
+            zIndex: 1,
+            source: new XYZ({
+              url: 'http://10.50.0.172/hot/{z}/{x}/{y}.png',
+              useSpatialIndex: true
+            })
 
+          }),
+          this.vectorLayer
+        ],
+        overlays: [overlay],
+        view: view
+      });
 
 
       const displayFeatureInfo = (evt) => {
