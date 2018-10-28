@@ -7,9 +7,9 @@
 
 <div id="panel">
   <mat-accordion>
-    <mat-expansion-panel>
+    <mat-expansion-panel *ngFor="let item of res" (click)="onResSelect(item)">
       <mat-expansion-panel-header>
-        <mat-panel-title>Лоухский РЭС</mat-panel-title>
+        <mat-panel-title>{{ item.title }}</mat-panel-title>
         <mat-panel-description class="d-flex justify-content-end text-right">100 км</mat-panel-description>
       </mat-expansion-panel-header>
       <mat-list dense>
@@ -18,29 +18,6 @@
         <mat-list-item> Paprika </mat-list-item>
       </mat-list>
     </mat-expansion-panel>
-
-    <mat-expansion-panel (opened)="panelOpenState = true"
-                         (closed)="panelOpenState = false">
-      <mat-expansion-panel-header>
-        <mat-panel-title>
-          Кемский РЭС
-        </mat-panel-title>
-        <mat-panel-description class="d-flex justify-content-end text-right">200 км</mat-panel-description>
-      </mat-expansion-panel-header>
-      <p>I'm visible because I am open</p>
-    </mat-expansion-panel>
-
-    <mat-expansion-panel (opened)="panelOpenState = true"
-                         (closed)="panelOpenState = false">
-      <mat-expansion-panel-header>
-        <mat-panel-title>
-          Еще какой-то РЭС
-        </mat-panel-title>
-        <mat-panel-description class="d-flex justify-content-end text-right">300 км</mat-panel-description>
-      </mat-expansion-panel-header>
-      <p>I'm visible because I am open</p>
-    </mat-expansion-panel>
-
   </mat-accordion>
 
 </div>
