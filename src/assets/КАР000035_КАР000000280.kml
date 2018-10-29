@@ -1,0 +1,6320 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+	<Document>
+		<Style id="StyleInfo">
+			<IconStyle>
+				<scale>0.5</scale>
+				<!--Видимость 1% (прозрачный)<color>03ffffff</color>-->
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="StyleOpora">
+			<IconStyle>
+				<scale>.01</scale>
+				<!--Видимость 1% (прозрачный)-->
+				<color>03ffffff</color>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<!--Видимость 1% (прозрачный)<color>03ffffff</color>-->
+				<scale>0.01</scale>
+			</LabelStyle>
+		</Style>
+		<Style id="StyleOporaVisible">
+			<IconStyle>
+				<scale>0.5</scale>
+				<!--Видимость 1% (прозрачный)-->
+				<color>03ffffff</color>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<!--Видимость 1% (прозрачный)<color>03ffffff</color>-->
+				<scale>0.01</scale>
+			</LabelStyle>
+		</Style>
+		<Style id="StyleProletLightGreen">
+			<LineStyle>
+				<color>ff64ff64</color>
+				<width>3</width>
+			</LineStyle>
+		</Style>
+		<Style id="StyleProletDarkGreen">
+			<LineStyle>
+				<color>ff009600</color>
+				<width>3</width>
+			</LineStyle>
+		</Style>
+		<Style id="StyleProletRed">
+			<LineStyle>
+				<color>ff0000ff</color>
+				<width>3</width>
+			</LineStyle>
+		</Style>
+		<Style id="StyleProletYellow">
+			<LineStyle>
+				<color>ff00ffff</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<Style id="StyleProletBlue">
+			<LineStyle>
+				<color>ffff5500</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<name>Л-12-09</name>
+		<Placemark>
+			<name>Пролет оп.1-оп.2</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>176.92 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7407666666667,64.5321666666667,0 34.74435,64.5317666666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.2-оп.3</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>153.38 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.74435,64.5317666666667,0 34.7412666666667,64.5313833333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.3-оп.4</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>41.85 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7412666666667,64.5313833333333,0 34.7414666666667,64.5310166666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.4-оп.5</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>62.44 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7414666666667,64.5310166666667,0 34.7417333333333,64.5304666666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.5-оп.6</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>110.05 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7417333333333,64.5304666666667,0 34.7422333333333,64.5295,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.6-оп.7</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>82.11 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7422333333333,64.5295,0 34.74305,64.52885,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.7-оп.8</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>41.46 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>0,5</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.74305,64.52885,10 34.74335,64.5285,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.7-Оп.7/1</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>16.14 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.74305,64.52885,0 34.74335,64.5289166666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.8-оп.9</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>66.19 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.74335,64.5285,0 34.7439666666667,64.5279666666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.9-оп.10</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>41.33 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7439666666667,64.5279666666667,0 34.74435,64.5276333333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.10-оп.11</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>130.02 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.74435,64.5276333333333,0 34.74555,64.5265833333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.11-оп.12</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>61.47 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.74555,64.5265833333333,0 34.7461,64.5260833333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.12-оп.13</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>58.88 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7461,64.5260833333333,0 34.7466833333333,64.5256166666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.13-оп.14</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>49.62 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7466833333333,64.5256166666667,0 34.7469333333333,64.5251833333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.14-оп.15</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>15.34 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7469333333333,64.5251833333333,0 34.7470166666667,64.52505,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.15-оп.16</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>45.77 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7470166666667,64.52505,0 34.7473666666667,64.5246666666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.16/1-Оп.17</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>55.81 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.74755,64.52445,0 34.7478666666667,64.5239666666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.16-Оп.16/1</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>25.62 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7473666666667,64.5246666666667,0 34.74755,64.52445,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.16-оп.17</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>81.38 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7473666666667,64.5246666666667,0 34.7478666666667,64.5239666666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.17-оп.18</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>46.96 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7478666666667,64.5239666666667,0 34.7481833333333,64.5235666666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.18-оп.19</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>130.09 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7481833333333,64.5235666666667,0 34.749,64.52245,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.19-оп.20</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>58.03 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.749,64.52245,0 34.74935,64.52195,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.20-оп.21</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b> м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.74935,64.52195,0 34.74935,64.52195,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.21-оп.22</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>86.90 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.74935,64.52195,0 34.7503,64.5212833333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.22-оп.23</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>56.25 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7503,64.5212833333333,0 34.75115,64.5209333333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.23-оп.24</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>58.33 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.75115,64.5209333333333,0 34.7519833333333,64.52055,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.24-оп.25</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>57.55 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7519833333333,64.52055,0 34.7528333333333,64.5201833333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.25-оп.26</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>52.73 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7528333333333,64.5201833333333,0 34.7535333333333,64.5198166666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.26-оп.27</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>52.37 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7535333333333,64.5198166666667,0 34.7542666666667,64.5194666666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.27-оп.28</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>43.14 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7542666666667,64.5194666666667,0 34.7548833333333,64.5191833333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.28-оп.29</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>44.70 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7548833333333,64.5191833333333,0 34.7555833333333,64.5189166666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.29-Оп.30</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>39.87 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7555833333333,64.5189166666667,0 34.7562166666667,64.5186833333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.31-оп.32</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>43.24 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7573166666667,64.5184,0 34.7582,64.5184833333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.32-оп.33</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>24.44 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7582,64.5184833333333,0 34.7586333333333,64.5183666666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.33-оп.34</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>53.81 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7586333333333,64.5183666666667,0 34.7595166666667,64.5180666666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.34-оп.35</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>35.84 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7595166666667,64.5180666666667,0 34.7601333333333,64.5178833333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.35-оп.36</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>37.71 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7601333333333,64.5178833333333,0 34.7606666666667,64.5176333333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.36-оп.37</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>31.49 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7606666666667,64.5176333333333,0 34.7611333333333,64.5174333333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.37-оп.38</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>47.14 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7611333333333,64.5174333333333,0 34.7619,64.5171666666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.38-оп.39</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>41.69 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7619,64.5171666666667,0 34.76255,64.5169166666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.39-оп.40</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>46.74 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.76255,64.5169166666667,0 34.7626833333333,64.5165,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.40-оп.41</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>28.34 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7626833333333,64.5165,0 34.7628,64.51625,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.42-оп.43</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>40.55 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7632666666667,64.51605,0 34.764,64.5162333333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.43-оп.44</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>59.31 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.764,64.5162333333333,0 34.76515,64.5160333333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.44-оп.45</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>38.13 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.76515,64.5160333333333,0 34.7659,64.5159166666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.45-оп.46</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>36.78 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7659,64.5159166666667,0 34.7666333333333,64.5158166666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.46-оп.47</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>58.09 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7666333333333,64.5158166666667,0 34.7676,64.5155,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.47-оп.47/1</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>15.57 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7676,64.5155,0 34.7677,64.5156333333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.47-оп.48</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>30.24 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7676,64.5155,0 34.7681,64.5153333333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.48-оп.49</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>37.46 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7681,64.5153333333333,0 34.7687,64.5151166666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.49-оп.50</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>36.29 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7687,64.5151166666667,0 34.7693,64.5149166666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.50-оп.51</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>26.59 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7693,64.5149166666667,0 34.7697333333333,64.5147666666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.51-оп.52</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>32.64 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7697333333333,64.5147666666667,0 34.7702666666667,64.5145833333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.52-оп.53</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>28.86 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7702666666667,64.5145833333333,0 34.77085,64.5145166666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.53-оп.54</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>36.62 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.77085,64.5145166666667,0 34.7716,64.51445,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.54-оп.55</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>40.16 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7716,64.51445,0 34.7721666666667,64.5141833333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.55-оп.56</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>35.27 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7721666666667,64.5141833333333,0 34.7726666666667,64.51395,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.56-оп.56/1</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>44.57 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7726666666667,64.51395,0 34.7726,64.51435,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.56-оп.57</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>45.43 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7726666666667,64.51395,0 34.7732166666667,64.5136166666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.57-оп.58</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>62.26 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7732166666667,64.5136166666667,0 34.7742333333333,64.5132666666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.58-Оп.59</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>102.30 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7742333333333,64.5132666666667,0 34.7756666666667,64.5125833333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.59-оп.60</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>42.60 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7756666666667,64.5125833333333,0 34.7762666666667,64.5123,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.60-Оп.61</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>39.87 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7762666666667,64.5123,0 34.7769,64.5120666666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.62-Оп.63</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>27.95 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7773,64.5118666666667,0 34.7777,64.5116833333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.63-Оп.64</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>43.25 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7777,64.5116833333333,0 34.7781666666667,64.51135,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.64-Оп.65</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>50.98 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7781666666667,64.51135,0 34.7785166666667,64.5109166666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.65-Оп.66</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>74.10 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7785166666667,64.5109166666667,0 34.7793333333333,64.51035,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.66-Оп.67</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>94.43 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7793333333333,64.51035,0 34.7809833333333,64.5098833333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.67-Оп.68</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>81.19 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7809833333333,64.5098833333333,0 34.78235,64.50945,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.68-Оп.69</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>77.03 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.78235,64.50945,0 34.7837166666667,64.5090833333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.69-Оп.70</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>32.65 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7837166666667,64.5090833333333,0 34.78425,64.5089,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.70-оп.71</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>62.86 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.78425,64.5089,0 34.78555,64.5088166666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.71-Оп.72</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>68.16 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.78555,64.5088166666667,0 34.7869666666667,64.50875,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.72-оп.73</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>90.50 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7869666666667,64.50875,0 34.7888333333333,64.5086166666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.73-Оп.74</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>75.14 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7888333333333,64.5086166666667,0 34.7904,64.5085666666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.74-оп.75</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>80.49 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7904,64.5085666666667,0 34.7920666666667,64.5084666666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.75-Оп.76</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>57.29 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7920666666667,64.5084666666667,0 34.7932333333333,64.50835,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.76-оп.77</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>88.66 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7932333333333,64.50835,0 34.7950833333333,64.5084,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.77-Оп.78</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>68.78 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7950833333333,64.5084,0 34.7965166666667,64.50845,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.78-оп.79</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>60.04 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7965166666667,64.50845,0 34.7977666666667,64.5085,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.79-Оп.80</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>56.72 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7977666666667,64.5085,0 34.79895,64.5085333333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.80-оп.81</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>62.86 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.79895,64.5085333333333,0 34.80025,64.5086166666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.81-оп.82</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>49.73 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.80025,64.5086166666667,0 34.8012833333333,64.5086666666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.82-оп.83</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>39.86 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.8012833333333,64.5086666666667,0 34.8021166666667,64.5086666666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.83-оп.84</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>55.03 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.8021166666667,64.5086666666667,0 34.8032666666667,64.5086833333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.84-оп.85</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>69.18 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.8032666666667,64.5086833333333,0 34.8047,64.5087666666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.85-оп.86</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>79.26 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.8047,64.5087666666667,0 34.80635,64.5088333333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.86-оп.87</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>55.01 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.80635,64.5088333333333,0 34.8067333333333,64.5093,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.87-оп.88</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>56.50 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.8067333333333,64.5093,0 34.8071,64.5097833333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.88-оп.89</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>76.61 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.8071,64.5097833333333,0 34.8076333333333,64.5104333333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.35-оп.35/1</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>37.58 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7601333333333,64.5178833333333,0 34.7606166666667,64.51815,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.35/1-оп.35/2</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>56.72 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7606166666667,64.51815,0 34.7614,64.5185333333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.35/2-оп.35/3</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>45.91 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7614,64.5185333333333,0 34.7620166666667,64.51885,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.35/3-оп.35/4</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>41.97 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7620166666667,64.51885,0 34.76255,64.51915,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.35/4-оп.35/5</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>40.12 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.76255,64.51915,0 34.7630166666667,64.51945,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.35/5-Оп.35/6</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>47.34 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7630166666667,64.51945,0 34.7624,64.5197833333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.35/6-оп.35/7</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>45.40 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7624,64.5197833333333,0 34.7618,64.5201,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.35/7-оп.35/8</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>30.25 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7618,64.5201,0 34.76155,64.52035,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.35/8-оп.35/9</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>18.48 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.76155,64.52035,0 34.7613833333333,64.5205,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.35/9-оп.35/10</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>50.24 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7613833333333,64.5205,0 34.7604833333333,64.5207333333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.43/1-оп.43/2</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>29.63 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7642333333333,64.51635,0 34.7646833333333,64.5165333333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.43-оп.43/1</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>17.11 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.764,64.5162333333333,0 34.7642333333333,64.51635,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.43/2-оп.43/3</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>44.24 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7646833333333,64.5165333333333,0 34.7653333333333,64.5168166666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.43/3-оп.43/4</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>45.90 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7653333333333,64.5168166666667,0 34.7659,64.51715,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.43/4-оп.43/5</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>32.06 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7659,64.51715,0 34.7663833333333,64.51735,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.43/5-оп.43/6</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>40.02 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7663833333333,64.51735,0 34.7669,64.5176333333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.43/6-оп.43/7</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>42.06 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7669,64.5176333333333,0 34.7674833333333,64.5179166666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.43/7-оп.43/8</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>17.63 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7674833333333,64.5179166666667,0 34.7677333333333,64.5180333333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.43/8-оп.43/9</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>57.59 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7677333333333,64.5180333333333,0 34.76805,64.5185333333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.43/9-оп.43/10</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>57.56 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.76805,64.5185333333333,0 34.7681333333333,64.51905,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.43/10-оп.43/11</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>33.34 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7681333333333,64.51905,0 34.7681333333333,64.51935,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.43/11-оп.43/12</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>41.03 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7681333333333,64.51935,0 34.7682333333333,64.5197166666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.43/12-оп.43/13</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>39.37 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7682333333333,64.5197166666667,0 34.7688166666667,64.5199666666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.43/13-оп.43/14</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>36.85 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7688166666667,64.5199666666667,0 34.7694,64.5201833333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.43/14-оп.43/15</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>30.16 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7694,64.5201833333333,0 34.7692833333333,64.52045,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.43/15-оп.43/16</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>44.70 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7692833333333,64.52045,0 34.769,64.5208333333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.43/16-оп.43/17</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>10.08 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.769,64.5208333333333,0 34.7689166666667,64.5209166666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.43/17-оп.43/18</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>55.59 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7689166666667,64.5209166666667,0 34.7688833333333,64.5214166666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.43/18-оп.43/19</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>37.71 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7688833333333,64.5214166666667,0 34.7694166666667,64.5216666666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.43/19-оп.43/20</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>28.49 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7694166666667,64.5216666666667,0 34.7698333333333,64.52185,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.43/20-оп.43/21</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>40.52 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7698333333333,64.52185,0 34.7703666666667,64.5221333333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.43/21-оп.43/22</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>46.84 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7703666666667,64.5221333333333,0 34.7698833333333,64.5225,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.43/22-оп.43/23</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>35.16 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7698833333333,64.5225,0 34.76965,64.5228,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.43/22-оп.43/22/1</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>28.44 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7698833333333,64.5225,0 34.7695666666667,64.5222833333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.43/23-оп.43/24</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>35.71 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.76965,64.5228,0 34.7692333333333,64.5230666666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.43/24-оп.43/25</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>45.48 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7692333333333,64.5230666666667,0 34.7689,64.52345,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.43/25-оп.43/26</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>42.06 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7689,64.52345,0 34.7684833333333,64.5237833333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.43/26-оп.43/27</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>82.02 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7684833333333,64.5237833333333,0 34.7667833333333,64.5238833333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.43/27-оп.43/28</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>52.61 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7667833333333,64.5238833333333,0 34.7657,64.5238,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.43/28-оп.43/29</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>49.30 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7657,64.5238,0 34.7648,64.5235833333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.43/29-оп.43/30</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>34.71 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7648,64.5235833333333,0 34.7640833333333,64.5236333333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.43/22/1-оп.43/22/2</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>20.53 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7695666666667,64.5222833333333,0 34.7691833333333,64.5222,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.43/22/2-оп.43/22/3</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>46.68 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7691833333333,64.5222,0 34.7685,64.5219,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.43/22/3-оп.43/22/4</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>54.28 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7685,64.5219,0 34.76775,64.5215333333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.43/22/4-Оп.43/22/4/1</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>30.86 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.76775,64.5215333333333,0 34.7674,64.5217666666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.43/22/4-оп.43/22/5</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>38.67 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.76775,64.5215333333333,0 34.76715,64.5213,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.43/22/5-оп.43/22/6</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>48.56 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.76715,64.5213,0 34.76645,64.5209833333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.56/1-оп.56/2</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>46.48 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7726,64.51435,0 34.7725166666667,64.5147666666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.61/1-Оп.61/2</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>66.46 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7772,64.5118333333333,0 34.7779,64.5113166666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.61/2-Оп.61/3</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>55.78 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7779,64.5113166666667,0 34.7784166666667,64.5108666666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.61/3-Оп.61/4</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>69.28 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7784166666667,64.5108666666667,0 34.7791666666667,64.5103333333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.61/4-Оп.61/5</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>53.65 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7791666666667,64.5103333333333,0 34.7797333333333,64.5099166666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.61/5-Оп.61/6</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>46.85 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7797333333333,64.5099166666667,0 34.7802166666667,64.50955,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.61/6-Оп.61/7</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>26.37 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7802166666667,64.50955,0 34.7801166666667,64.5093166666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.61/8-Оп.61/9</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b> м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>99.9999999999999,99.9999999999999,0 99.9999999999999,99.9999999999999,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.81-оп.81/1</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>20.93 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.80025,64.5086166666667,0 34.80035,64.5088,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.81/1-Оп.81/2</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>43.66 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.80035,64.5088,0 34.80055,64.5091833333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.81/2-Оп.81/3</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>36.92 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.80055,64.5091833333333,0 34.8007833333333,64.5095,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.81/3-Оп.81/4</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>46.48 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.8007833333333,64.5095,0 34.8008666666667,64.5099166666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.81/4-оп.81/5</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>34.28 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.8008666666667,64.5099166666667,0 34.8010333333333,64.5102166666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.35/5-Оп.35/6</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>47.34 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7630166666667,64.51945,0 34.7624,64.5197833333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.43/21-оп.43/21/1</name>
+			<resId>КАР000035</resId>
+			<lineId>КАР000000280</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-12-09</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>33.80 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Беломорский РЭС-4 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>11,52</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7703666666667,64.5221333333333,0 34.7704833333333,64.5218333333333,0</coordinates>
+			</LineString>
+		</Placemark>
+	</Document>
+</kml>

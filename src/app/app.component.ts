@@ -186,7 +186,7 @@ export class AppComponent implements OnInit, AfterContentInit {
   ngAfterContentInit(): void {
     setTimeout(() =>  {
       this.resVectorSource.getFeatures().forEach((feature: Feature) => {
-        const res = new RES(Number(feature.get('id')), feature.get('name'), feature);
+        const res = new RES(feature.get('id'), feature.get('name'), feature);
         this.res.push(res);
       });
       console.log('timeout', this.res);
@@ -223,6 +223,7 @@ export class AppComponent implements OnInit, AfterContentInit {
     console.log(res.isOpened);
     if (!res.isOpened) {
       this.view.fit(res.feature.getGeometry().getExtent());
+      this.view.setZoom(9);
       res.isOpened = !res.isOpened;
     }
     res.isOpened = res.isOpened ? false : true;

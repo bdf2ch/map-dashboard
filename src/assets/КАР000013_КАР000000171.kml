@@ -1,0 +1,2328 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+	<Document>
+		<Style id="StyleInfo">
+			<IconStyle>
+				<scale>0.5</scale>
+				<!--Видимость 1% (прозрачный)<color>03ffffff</color>-->
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="StyleOpora">
+			<IconStyle>
+				<scale>.01</scale>
+				<!--Видимость 1% (прозрачный)-->
+				<color>03ffffff</color>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<!--Видимость 1% (прозрачный)<color>03ffffff</color>-->
+				<scale>0.01</scale>
+			</LabelStyle>
+		</Style>
+		<Style id="StyleOporaVisible">
+			<IconStyle>
+				<scale>0.5</scale>
+				<!--Видимость 1% (прозрачный)-->
+				<color>03ffffff</color>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<!--Видимость 1% (прозрачный)<color>03ffffff</color>-->
+				<scale>0.01</scale>
+			</LabelStyle>
+		</Style>
+		<Style id="StyleProletLightGreen">
+			<LineStyle>
+				<color>ff64ff64</color>
+				<width>3</width>
+			</LineStyle>
+		</Style>
+		<Style id="StyleProletDarkGreen">
+			<LineStyle>
+				<color>ff009600</color>
+				<width>3</width>
+			</LineStyle>
+		</Style>
+		<Style id="StyleProletRed">
+			<LineStyle>
+				<color>ff0000ff</color>
+				<width>3</width>
+			</LineStyle>
+		</Style>
+		<Style id="StyleProletYellow">
+			<LineStyle>
+				<color>ff00ffff</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<Style id="StyleProletBlue">
+			<LineStyle>
+				<color>ffff5500</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<name>Л-10С-14 ПС-10-  ТП-482</name>
+		<Placemark>
+			<name>Пролет Оп.1-Оп.2</name>
+			<resId>КАР000013</resId>
+			<lineId>КАР000000171</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-10С-14 ПС-10-  ТП-482</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>39.25 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-3 Лахденпохский ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>19,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>29.54896,61.31684,0 29.54854,61.31713,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.2-Оп.3</name>
+			<resId>КАР000013</resId>
+			<lineId>КАР000000171</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-10С-14 ПС-10-  ТП-482</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>67.11 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-3 Лахденпохский ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>19,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>29.54854,61.31713,0 29.54775,61.3176,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.3-Оп.4</name>
+			<resId>КАР000013</resId>
+			<lineId>КАР000000171</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-10С-14 ПС-10-  ТП-482</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>103.67 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-3 Лахденпохский ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>19,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>29.54775,61.3176,0 29.54654,61.31833,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.4-Оп.5</name>
+			<resId>КАР000013</resId>
+			<lineId>КАР000000171</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-10С-14 ПС-10-  ТП-482</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>26.48 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-3 Лахденпохский ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>19,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>29.54654,61.31833,0 29.54627,61.31853,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.5-Оп.6</name>
+			<resId>КАР000013</resId>
+			<lineId>КАР000000171</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-10С-14 ПС-10-  ТП-482</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>49.37 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-3 Лахденпохский ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>19,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>29.54627,61.31853,0 29.5457,61.31888,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.6-Оп.7</name>
+			<resId>КАР000013</resId>
+			<lineId>КАР000000171</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-10С-14 ПС-10-  ТП-482</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>39.97 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-3 Лахденпохский ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>19,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>29.5457,61.31888,0 29.54532,61.31919,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.7-Оп.8</name>
+			<resId>КАР000013</resId>
+			<lineId>КАР000000171</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-10С-14 ПС-10-  ТП-482</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>34.01 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-3 Лахденпохский ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>19,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>29.54532,61.31919,0 29.54502,61.31946,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.8-Оп.9</name>
+			<resId>КАР000013</resId>
+			<lineId>КАР000000171</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-10С-14 ПС-10-  ТП-482</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>74.67 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-3 Лахденпохский ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>19,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>29.54502,61.31946,0 29.54439,61.32006,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.9-Оп.10</name>
+			<resId>КАР000013</resId>
+			<lineId>КАР000000171</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-10С-14 ПС-10-  ТП-482</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>67.12 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-3 Лахденпохский ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>19,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>29.54439,61.32006,0 29.54387,61.32061,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.10-Оп.11</name>
+			<resId>КАР000013</resId>
+			<lineId>КАР000000171</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-10С-14 ПС-10-  ТП-482</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>72.34 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-3 Лахденпохский ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>19,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>29.54387,61.32061,0 29.54289,61.32106,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.11-Оп.12</name>
+			<resId>КАР000013</resId>
+			<lineId>КАР000000171</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-10С-14 ПС-10-  ТП-482</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>71.64 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-3 Лахденпохский ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>19,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>29.54289,61.32106,0 29.54179,61.32143,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.12-Оп.13</name>
+			<resId>КАР000013</resId>
+			<lineId>КАР000000171</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-10С-14 ПС-10-  ТП-482</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>68.89 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-3 Лахденпохский ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>19,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>29.54179,61.32143,0 29.54088,61.32187,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.13-Оп.14</name>
+			<resId>КАР000013</resId>
+			<lineId>КАР000000171</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-10С-14 ПС-10-  ТП-482</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>64.98 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-3 Лахденпохский ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>19,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>29.54088,61.32187,5 29.53992,61.32223,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.14-Оп.15</name>
+			<resId>КАР000013</resId>
+			<lineId>КАР000000171</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-10С-14 ПС-10-  ТП-482</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>58.31 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-3 Лахденпохский ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>19,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>29.53992,61.32223,0 29.53907,61.32256,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.15-Оп.16</name>
+			<resId>КАР000013</resId>
+			<lineId>КАР000000171</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-10С-14 ПС-10-  ТП-482</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>76.57 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-3 Лахденпохский ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>19,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>29.53907,61.32256,0 29.53804,61.32304,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.16-Оп.17</name>
+			<resId>КАР000013</resId>
+			<lineId>КАР000000171</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-10С-14 ПС-10-  ТП-482</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>67.40 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-3 Лахденпохский ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>19,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>29.53804,61.32304,0 29.53709,61.32344,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.17-Оп.18</name>
+			<resId>КАР000013</resId>
+			<lineId>КАР000000171</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-10С-14 ПС-10-  ТП-482</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>73.86 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-3 Лахденпохский ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>19,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>29.53709,61.32344,0 29.536,61.32385,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.18-Оп.19</name>
+			<resId>КАР000013</resId>
+			<lineId>КАР000000171</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-10С-14 ПС-10-  ТП-482</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>74.26 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-3 Лахденпохский ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>19,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>29.536,61.32385,0 29.53499,61.32431,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.19-Оп.20</name>
+			<resId>КАР000013</resId>
+			<lineId>КАР000000171</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-10С-14 ПС-10-  ТП-482</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>69.78 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-3 Лахденпохский ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>19,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>29.53499,61.32431,0 29.53389,61.32465,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.20-Оп.21</name>
+			<resId>КАР000013</resId>
+			<lineId>КАР000000171</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-10С-14 ПС-10-  ТП-482</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>76.21 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-3 Лахденпохский ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>19,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>29.53389,61.32465,0 29.53283,61.32511,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.21-Оп.22</name>
+			<resId>КАР000013</resId>
+			<lineId>КАР000000171</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-10С-14 ПС-10-  ТП-482</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>70.42 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-3 Лахденпохский ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>19,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>29.53283,61.32511,5 29.53186,61.32554,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.22-Оп.23</name>
+			<resId>КАР000013</resId>
+			<lineId>КАР000000171</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-10С-14 ПС-10-  ТП-482</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>64.27 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-3 Лахденпохский ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>19,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>29.53186,61.32554,0 29.53101,61.32595,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.23-Оп.24</name>
+			<resId>КАР000013</resId>
+			<lineId>КАР000000171</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-10С-14 ПС-10-  ТП-482</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>76.17 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-3 Лахденпохский ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>19,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>29.53101,61.32595,0 29.52985,61.32635,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.24-Оп.25</name>
+			<resId>КАР000013</resId>
+			<lineId>КАР000000171</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-10С-14 ПС-10-  ТП-482</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>62.73 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-3 Лахденпохский ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>19,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>29.52985,61.32635,0 29.52898,61.32673,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.25-Оп.26</name>
+			<resId>КАР000013</resId>
+			<lineId>КАР000000171</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-10С-14 ПС-10-  ТП-482</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>79.68 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-3 Лахденпохский ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>19,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>29.52898,61.32673,0 29.52787,61.32721,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.26-Оп.27</name>
+			<resId>КАР000013</resId>
+			<lineId>КАР000000171</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-10С-14 ПС-10-  ТП-482</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>82.48 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-3 Лахденпохский ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>19,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>29.52787,61.32721,0 29.52664,61.32766,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.27-Оп.28</name>
+			<resId>КАР000013</resId>
+			<lineId>КАР000000171</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-10С-14 ПС-10-  ТП-482</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>82.01 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-3 Лахденпохский ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>19,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>29.52664,61.32766,0 29.52549,61.32815,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.28-Оп.29</name>
+			<resId>КАР000013</resId>
+			<lineId>КАР000000171</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-10С-14 ПС-10-  ТП-482</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>77.00 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-3 Лахденпохский ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>19,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>29.52549,61.32815,0 29.52441,61.32861,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.29-Оп.30</name>
+			<resId>КАР000013</resId>
+			<lineId>КАР000000171</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-10С-14 ПС-10-  ТП-482</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>73.20 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-3 Лахденпохский ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>19,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>29.52441,61.32861,0 29.52337,61.32904,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.30-Оп.31</name>
+			<resId>КАР000013</resId>
+			<lineId>КАР000000171</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-10С-14 ПС-10-  ТП-482</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>74.42 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-3 Лахденпохский ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>19,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>29.52337,61.32904,0 29.5223,61.32947,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.31-Оп.32</name>
+			<resId>КАР000013</resId>
+			<lineId>КАР000000171</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-10С-14 ПС-10-  ТП-482</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>76.18 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-3 Лахденпохский ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>19,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>29.5223,61.32947,0 29.52126,61.32994,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.32-Оп.33</name>
+			<resId>КАР000013</resId>
+			<lineId>КАР000000171</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-10С-14 ПС-10-  ТП-482</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>76.27 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-3 Лахденпохский ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>19,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>29.52126,61.32994,0 29.52018,61.33039,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.33-Оп.34</name>
+			<resId>КАР000013</resId>
+			<lineId>КАР000000171</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-10С-14 ПС-10-  ТП-482</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>84.34 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-3 Лахденпохский ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>19,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>29.52018,61.33039,0 29.51899,61.33089,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.34-Оп.35</name>
+			<resId>КАР000013</resId>
+			<lineId>КАР000000171</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-10С-14 ПС-10-  ТП-482</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>75.81 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-3 Лахденпохский ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>19,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>29.51899,61.33089,0 29.51794,61.33135,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.35-Оп.36</name>
+			<resId>КАР000013</resId>
+			<lineId>КАР000000171</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-10С-14 ПС-10-  ТП-482</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>81.48 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-3 Лахденпохский ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>19,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>29.51794,61.33135,0 29.51675,61.33181,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.36-Оп.37</name>
+			<resId>КАР000013</resId>
+			<lineId>КАР000000171</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-10С-14 ПС-10-  ТП-482</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>86.56 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-3 Лахденпохский ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>19,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>29.51675,61.33181,5 29.51558,61.33235,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.37-Оп.38</name>
+			<resId>КАР000013</resId>
+			<lineId>КАР000000171</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-10С-14 ПС-10-  ТП-482</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>88.00 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-3 Лахденпохский ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>19,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>29.51558,61.33235,0 29.5143,61.33285,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.38-Оп.39</name>
+			<resId>КАР000013</resId>
+			<lineId>КАР000000171</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-10С-14 ПС-10-  ТП-482</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>80.02 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-3 Лахденпохский ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>19,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>29.5143,61.33285,0 29.51322,61.33335,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.39-Оп.40</name>
+			<resId>КАР000013</resId>
+			<lineId>КАР000000171</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-10С-14 ПС-10-  ТП-482</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>77.91 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-3 Лахденпохский ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>19,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>29.51322,61.33335,0 29.51205,61.33377,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.40-Оп.41</name>
+			<resId>КАР000013</resId>
+			<lineId>КАР000000171</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-10С-14 ПС-10-  ТП-482</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>75.83 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-3 Лахденпохский ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>19,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>29.51205,61.33377,5 29.51106,61.33426,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.41-Оп.42</name>
+			<resId>КАР000013</resId>
+			<lineId>КАР000000171</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-10С-14 ПС-10-  ТП-482</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>71.90 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-3 Лахденпохский ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>19,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>29.51106,61.33426,0 29.51,61.33466,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.42-Оп.43</name>
+			<resId>КАР000013</resId>
+			<lineId>КАР000000171</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-10С-14 ПС-10-  ТП-482</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>80.03 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-3 Лахденпохский ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>19,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>29.51,61.33466,0 29.5089,61.33515,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.43-Оп.44</name>
+			<resId>КАР000013</resId>
+			<lineId>КАР000000171</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-10С-14 ПС-10-  ТП-482</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>67.06 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-3 Лахденпохский ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>19,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>29.5089,61.33515,0 29.50794,61.33554,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.44-Оп.45</name>
+			<resId>КАР000013</resId>
+			<lineId>КАР000000171</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-10С-14 ПС-10-  ТП-482</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>76.66 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-3 Лахденпохский ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>19,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>29.50794,61.33554,0 29.50685,61.33599,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.45-Оп.46</name>
+			<resId>КАР000013</resId>
+			<lineId>КАР000000171</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-10С-14 ПС-10-  ТП-482</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>52.47 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-3 Лахденпохский ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>19,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>29.50685,61.33599,0 29.50609,61.33629,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.46-Оп.47</name>
+			<resId>КАР000013</resId>
+			<lineId>КАР000000171</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-10С-14 ПС-10-  ТП-482</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>77.34 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-3 Лахденпохский ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>19,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>29.50609,61.33629,0 29.50502,61.33676,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.47-Оп.48</name>
+			<resId>КАР000013</resId>
+			<lineId>КАР000000171</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-10С-14 ПС-10-  ТП-482</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>98.89 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-3 Лахденпохский ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>19,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>29.50502,61.33676,0 29.50365,61.33736,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.48-Оп.49</name>
+			<resId>КАР000013</resId>
+			<lineId>КАР000000171</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-10С-14 ПС-10-  ТП-482</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>69.26 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-3 Лахденпохский ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>19,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>29.50365,61.33736,0 29.50269,61.33778,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.49-Оп.50</name>
+			<resId>КАР000013</resId>
+			<lineId>КАР000000171</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-10С-14 ПС-10-  ТП-482</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>73.00 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-3 Лахденпохский ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>19,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>29.50269,61.33778,0 29.50162,61.33819,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.50-Оп.51</name>
+			<resId>КАР000013</resId>
+			<lineId>КАР000000171</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-10С-14 ПС-10-  ТП-482</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>56.55 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-3 Лахденпохский ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>19,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>29.50162,61.33819,0 29.50085,61.33854,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.51-Оп.52</name>
+			<resId>КАР000013</resId>
+			<lineId>КАР000000171</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-10С-14 ПС-10-  ТП-482</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>60.81 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-3 Лахденпохский ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>19,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>29.50085,61.33854,0 29.49994,61.33887,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.52-Оп.53</name>
+			<resId>КАР000013</resId>
+			<lineId>КАР000000171</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-10С-14 ПС-10-  ТП-482</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>74.26 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-3 Лахденпохский ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>19,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>29.49994,61.33887,0 29.49891,61.33932,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.53-Оп.54</name>
+			<resId>КАР000013</resId>
+			<lineId>КАР000000171</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-10С-14 ПС-10-  ТП-482</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>71.06 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-3 Лахденпохский ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>19,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>29.49891,61.33932,0 29.49787,61.33972,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.54-Оп.55</name>
+			<resId>КАР000013</resId>
+			<lineId>КАР000000171</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-10С-14 ПС-10-  ТП-482</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>68.91 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-3 Лахденпохский ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>19,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>29.49787,61.33972,0 29.4969,61.34013,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.55-Оп.56</name>
+			<resId>КАР000013</resId>
+			<lineId>КАР000000171</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-10С-14 ПС-10-  ТП-482</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>56.07 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-3 Лахденпохский ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>19,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>1,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>29.4969,61.34013,0 29.49607,61.34044,0</coordinates>
+			</LineString>
+		</Placemark>
+	</Document>
+</kml>

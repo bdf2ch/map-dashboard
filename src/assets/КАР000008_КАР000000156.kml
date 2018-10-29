@@ -1,0 +1,4132 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+	<Document>
+		<Style id="StyleInfo">
+			<IconStyle>
+				<scale>0.5</scale>
+				<!--Видимость 1% (прозрачный)<color>03ffffff</color>-->
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="StyleOpora">
+			<IconStyle>
+				<scale>.01</scale>
+				<!--Видимость 1% (прозрачный)-->
+				<color>03ffffff</color>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<!--Видимость 1% (прозрачный)<color>03ffffff</color>-->
+				<scale>0.01</scale>
+			</LabelStyle>
+		</Style>
+		<Style id="StyleOporaVisible">
+			<IconStyle>
+				<scale>0.5</scale>
+				<!--Видимость 1% (прозрачный)-->
+				<color>03ffffff</color>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<!--Видимость 1% (прозрачный)<color>03ffffff</color>-->
+				<scale>0.01</scale>
+			</LabelStyle>
+		</Style>
+		<Style id="StyleProletLightGreen">
+			<LineStyle>
+				<color>ff64ff64</color>
+				<width>3</width>
+			</LineStyle>
+		</Style>
+		<Style id="StyleProletDarkGreen">
+			<LineStyle>
+				<color>ff009600</color>
+				<width>3</width>
+			</LineStyle>
+		</Style>
+		<Style id="StyleProletRed">
+			<LineStyle>
+				<color>ff0000ff</color>
+				<width>3</width>
+			</LineStyle>
+		</Style>
+		<Style id="StyleProletYellow">
+			<LineStyle>
+				<color>ff00ffff</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<Style id="StyleProletBlue">
+			<LineStyle>
+				<color>ffff5500</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<name>Л-61С ПС-41С Тумба-ПС-42С Мотко</name>
+		<Placemark>
+			<name>Пролет Оп.1-Оп.2</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>199.15 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.030064,63.254257,0 32.027882,63.255756,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.2-Оп.3</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>166.45 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.027882,63.255756,0 32.024597,63.255997,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.3-Оп.4</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>176.60 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.024597,63.255997,0 32.021091,63.256187,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.4-Оп.5</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>189.53 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.021091,63.256187,0 32.017338,63.256424,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.5-Оп.6</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>148.45 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.017338,63.256424,0 32.0144,63.256615,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.6-Оп.7</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>168.14 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.0144,63.256615,0 32.011089,63.256878,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.7-Оп.8</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>183.06 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.011089,63.256878,0 32.007481,63.257156,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.8-Оп.9</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>150.54 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.007481,63.257156,0 32.004494,63.257324,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.9-Оп.10</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>222.22 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.004494,63.257324,0 32.000095,63.257607,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.10-Оп.11</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>205.14 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.000095,63.257607,0 31.996031,63.257858,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.11-Оп.12</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>199.42 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.996031,63.257858,0 31.9921,63.25816,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.12-Оп.13</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>200.43 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.9921,63.25816,0 31.988119,63.258369,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.13-Оп.14</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>201.51 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.988119,63.258369,0 31.984131,63.258629,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.14-Оп.15</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>191.93 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.984131,63.258629,0 31.98033,63.258869,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.15-Оп.16</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>178.17 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.98033,63.258869,0 31.976801,63.25909,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.16-Оп.17</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>198.39 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.976801,63.25909,0 31.97287,63.259331,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.17-Оп.18</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>198.70 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.97287,63.259331,0 31.968929,63.25956,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.18-Оп.19</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>201.29 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.968929,63.25956,0 31.964939,63.2598,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.19-Оп.20</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>171.28 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.964939,63.2598,0 31.96154,63.259991,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.20-Оп.21</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>228.91 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.96154,63.259991,0 31.95701,63.260288,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.21-Оп.22</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>219.72 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.95701,63.260288,0 31.952629,63.260441,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.22-Оп.23</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>216.61 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.952629,63.260441,0 31.948339,63.260712,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.23-Оп.24</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>185.04 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.948339,63.260712,0 31.94467,63.260929,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.24-Оп.25</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>190.83 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.94467,63.260929,0 31.94088,63.261131,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.25-Оп.26</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>200.22 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.94088,63.261131,0 31.93692,63.261398,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.26-Оп.27</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>248.62 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.93692,63.261398,0 31.93206,63.261871,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.27-Оп.28</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>118.19 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.93206,63.261871,0 31.929697,63.261898,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.28-Оп.29</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>125.48 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.929697,63.261898,0 31.927191,63.261959,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.29-Оп.30</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>241.68 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.927191,63.261959,0 31.922359,63.261902,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.30-Оп.31</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>162.52 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.922359,63.261902,0 31.919109,63.261879,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.31-Оп.32</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>204.68 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.919109,63.261879,0 31.91502,63.261791,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.32-Оп.32А</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>62.05 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.91502,63.261791,0 31.91378,63.261768,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.32А-Оп.33</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>213.83 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.91378,63.261768,0 31.90951,63.261662,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.33-Оп.34</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>166.57 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.90951,63.261662,0 31.906179,63.261681,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.34-Оп.35</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>145.06 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.906179,63.261681,0 31.90328,63.261631,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.35-Оп.36</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>207.27 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.90328,63.261631,0 31.899136,63.261585,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.36-Оп.37</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>209.18 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.899136,63.261585,0 31.894957,63.261497,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.37-Оп.38</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>154.99 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.894957,63.261497,0 31.891861,63.261429,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.38-Оп.39</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>230.88 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.891861,63.261429,0 31.887251,63.261311,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.39-Оп.40</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>209.13 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.887251,63.261311,0 31.88307,63.261261,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.40-Оп.41</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>208.46 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.88307,63.261261,0 31.878901,63.26125,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.41-Оп.42</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>213.26 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.878901,63.26125,0 31.874651,63.261089,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.42-Оп.43</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>225.00 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.874651,63.261089,0 31.87018,63.26086,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.43-Оп.44</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>175.99 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.87018,63.26086,0 31.866819,63.26133,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.44-Оп.45</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>168.99 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.866819,63.26133,0 31.863621,63.261822,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.45-Оп.46</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>206.87 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.863621,63.261822,0 31.85964,63.262329,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.46-Оп.47</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>206.85 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.85964,63.262329,0 31.85565,63.262821,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.47-Оп.48</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>172.96 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.85565,63.262821,0 31.85236,63.263302,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.48-Оп.49</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>148.60 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.85236,63.263302,0 31.849558,63.263748,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.49-Оп.50</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>253.61 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.849558,63.263748,0 31.84474,63.264462,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.50-Оп.51</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>162.12 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.84474,63.264462,0 31.841619,63.264858,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.51-Оп.52</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>193.71 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.841619,63.264858,0 31.837959,63.26543,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.52-Оп.53</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>197.43 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.837959,63.26543,0 31.83489,63.266548,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.53-Оп.54</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>225.87 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.83489,63.266548,0 31.8316,63.267941,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.54-Оп.55</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>211.81 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.8316,63.267941,0 31.828819,63.269379,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.55-Оп.56</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>127.61 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.828819,63.269379,0 31.826811,63.270088,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.56-Оп.57</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>204.38 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.826811,63.270088,0 31.823839,63.271351,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.57-Оп.58</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>181.39 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.823839,63.271351,0 31.821268,63.272503,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.58-Оп.59</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>149.33 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.821268,63.272503,0 31.81908,63.273418,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.59-Оп.60</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>145.67 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.81908,63.273418,0 31.8169,63.274288,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.60-Оп.61</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>123.87 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.8169,63.274288,0 31.81501,63.275009,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.61-Оп.62</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>250.50 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.81501,63.275009,0 31.8116,63.276661,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.62-Оп.63</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>199.80 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.8116,63.276661,0 31.80872,63.277908,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.63-Оп.64</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>173.70 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.80872,63.277908,0 31.806231,63.278999,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.64-Оп.65</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>197.76 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.806231,63.278999,0 31.803329,63.280209,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.65-Оп.66</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>174.94 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.803329,63.280209,0 31.800871,63.28133,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.66-Оп.67</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>205.70 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.800871,63.28133,0 31.79813,63.282711,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.67-Оп.68</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>197.98 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.79813,63.282711,0 31.795469,63.284031,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.68-Оп.69</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>189.65 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.795469,63.284031,0 31.792601,63.285149,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.69-Оп.70</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>186.39 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.792601,63.285149,0 31.78993,63.28632,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.70-Оп.71</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>210.84 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.78993,63.28632,0 31.78694,63.287659,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.71-Оп.72</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>214.51 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.78694,63.287659,0 31.783871,63.289009,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.72-Оп.73</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>206.98 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.783871,63.289009,0 31.78093,63.290321,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.73-Оп.74</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>205.76 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.78093,63.290321,0 31.777849,63.29155,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.74-Оп.75</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>192.57 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.777849,63.29155,0 31.7752,63.292809,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.75-Оп.76</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>132.65 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.7752,63.292809,0 31.77327,63.293629,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.76-Оп.77</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>151.86 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.77327,63.293629,0 31.771151,63.294609,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.77-Оп.78</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>237.60 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.771151,63.294609,0 31.76754,63.296001,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.78-Оп.79</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>202.17 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.76754,63.296001,0 31.76366,63.29652,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.79-Оп.80</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>191.07 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.76366,63.29652,0 31.759979,63.296989,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.80-Оп.81</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>196.71 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.759979,63.296989,0 31.75617,63.29744,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.81-Оп.82</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>214.33 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.75617,63.29744,0 31.75202,63.297932,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.82-Оп.83</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>187.95 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.75202,63.297932,0 31.748409,63.298409,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.83-Оп.84</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>215.20 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.748409,63.298409,0 31.74423,63.298882,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.84-Оп.85</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>182.44 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.74423,63.298882,0 31.740709,63.29932,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.85-Оп.86</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>200.39 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.740709,63.29932,0 31.73683,63.299782,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.86-Оп.87</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>219.37 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.73683,63.299782,0 31.73258,63.300282,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.87-Оп.88</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>202.23 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.73258,63.300282,0 31.728649,63.30072,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.88-Оп.89</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>160.59 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.728649,63.30072,0 31.72554,63.30109,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.89А-Оп.90</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>84.04 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.72257,63.301479,0 31.720961,63.301701,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.89-Оп.89А</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>154.47 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.72554,63.30109,0 31.72257,63.301479,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.90-Оп.91</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>188.85 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.720961,63.301701,0 31.71739,63.302261,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.91-Оп.92</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>184.81 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.71739,63.302261,0 31.71373,63.302509,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.92-Оп.93</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>153.00 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.71373,63.302509,0 31.71076,63.30217,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.93-Оп.93А</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>115.76 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.71076,63.30217,0 31.710279,63.301151,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.93А-Оп.94</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>99.12 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.710279,63.301151,0 31.70997,63.30027,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.94-Оп.95</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>140.28 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.70997,63.30027,0 31.70932,63.299042,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.95-Оп.96</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>128.62 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.70932,63.299042,0 31.70854,63.297939,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.96-Оп.97</name>
+			<resId>КАР000008</resId>
+			<lineId>КАР000000156</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-61С ПС-41С Тумба-ПС-42С Мотко</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>115.80 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-2 Суоярви ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Комиэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>18,35</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>6</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.70854,63.297939,0 31.707979,63.296928,0</coordinates>
+			</LineString>
+		</Placemark>
+	</Document>
+</kml>

@@ -1,0 +1,1508 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+	<Document>
+		<Style id="StyleInfo">
+			<IconStyle>
+				<scale>0.5</scale>
+				<!--Видимость 1% (прозрачный)<color>03ffffff</color>-->
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="StyleOpora">
+			<IconStyle>
+				<scale>.01</scale>
+				<!--Видимость 1% (прозрачный)-->
+				<color>03ffffff</color>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<!--Видимость 1% (прозрачный)<color>03ffffff</color>-->
+				<scale>0.01</scale>
+			</LabelStyle>
+		</Style>
+		<Style id="StyleOporaVisible">
+			<IconStyle>
+				<scale>0.5</scale>
+				<!--Видимость 1% (прозрачный)-->
+				<color>03ffffff</color>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<!--Видимость 1% (прозрачный)<color>03ffffff</color>-->
+				<scale>0.01</scale>
+			</LabelStyle>
+		</Style>
+		<Style id="StyleProletLightGreen">
+			<LineStyle>
+				<color>ff64ff64</color>
+				<width>3</width>
+			</LineStyle>
+		</Style>
+		<Style id="StyleProletDarkGreen">
+			<LineStyle>
+				<color>ff009600</color>
+				<width>3</width>
+			</LineStyle>
+		</Style>
+		<Style id="StyleProletRed">
+			<LineStyle>
+				<color>ff0000ff</color>
+				<width>3</width>
+			</LineStyle>
+		</Style>
+		<Style id="StyleProletYellow">
+			<LineStyle>
+				<color>ff00ffff</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<Style id="StyleProletBlue">
+			<LineStyle>
+				<color>ffff5500</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<name>Л-9П-4</name>
+		<Placemark>
+			<name>Пролет оп.1-оп.2</name>
+			<resId>КАР000084</resId>
+			<lineId>КАР000000091</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-9П-4</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>16.18 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Прионежский сетевой район РЭС-1</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>2,10</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>0,8</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.1087166666667,61.8174333333333,0 34.1084166666667,61.8174,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.2-оп.3</name>
+			<resId>КАР000084</resId>
+			<lineId>КАР000000091</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-9П-4</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>62.32 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Прионежский сетевой район РЭС-1</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>2,10</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>0,8</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.1084166666667,61.8174,0 34.10805,61.8179333333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.3-оп.4</name>
+			<resId>КАР000084</resId>
+			<lineId>КАР000000091</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-9П-4</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>61.60 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Прионежский сетевой район РЭС-1</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>2,10</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>0,8</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.10805,61.8179333333333,0 34.1074166666667,61.8184,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.4-оп.5</name>
+			<resId>КАР000084</resId>
+			<lineId>КАР000000091</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-9П-4</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>55.27 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Прионежский сетевой район РЭС-1</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>2,10</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>0,8</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.1074166666667,61.8184,0 34.1069,61.8188333333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.5-оп.6</name>
+			<resId>КАР000084</resId>
+			<lineId>КАР000000091</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-9П-4</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>52.07 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Прионежский сетевой район РЭС-1</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>2,10</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>0,8</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.1069,61.8188333333333,0 34.1063833333333,61.8192333333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.6-оп.7</name>
+			<resId>КАР000084</resId>
+			<lineId>КАР000000091</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-9П-4</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>54.11 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Прионежский сетевой район РЭС-1</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>2,10</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>0,8</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.1063833333333,61.8192333333333,0 34.10585,61.81965,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.7-оп.8</name>
+			<resId>КАР000084</resId>
+			<lineId>КАР000000091</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-9П-4</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>68.95 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Прионежский сетевой район РЭС-1</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>2,10</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>0,8</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.10585,61.81965,0 34.1047,61.81995,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.8-оп.9</name>
+			<resId>КАР000084</resId>
+			<lineId>КАР000000091</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-9П-4</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>60.16 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Прионежский сетевой район РЭС-1</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>2,10</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>0,8</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.1047,61.81995,0 34.1036833333333,61.8202,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.9-оп.10</name>
+			<resId>КАР000084</resId>
+			<lineId>КАР000000091</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-9П-4</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>59.51 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Прионежский сетевой район РЭС-1</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>2,10</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>0,8</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.1036833333333,61.8202,0 34.10255,61.8201833333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.10-оп.11</name>
+			<resId>КАР000084</resId>
+			<lineId>КАР000000091</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-9П-4</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>57.73 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Прионежский сетевой район РЭС-1</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>2,10</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>0,8</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.10255,61.8201833333333,0 34.10145,61.8201833333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.11-оп.12</name>
+			<resId>КАР000084</resId>
+			<lineId>КАР000000091</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-9П-4</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>60.35 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Прионежский сетевой район РЭС-1</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>2,10</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>0,8</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.10145,61.8201833333333,0 34.1003,61.8201833333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.12-оп.13</name>
+			<resId>КАР000084</resId>
+			<lineId>КАР000000091</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-9П-4</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>70.87 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Прионежский сетевой район РЭС-1</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>2,10</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>0,8</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.1003,61.8201833333333,0 34.09895,61.8201666666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.13-оп.14</name>
+			<resId>КАР000084</resId>
+			<lineId>КАР000000091</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-9П-4</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>70.95 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Прионежский сетевой район РЭС-1</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>2,10</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>0,8</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.09895,61.8201666666667,0 34.0976,61.8202,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.14-оп.15</name>
+			<resId>КАР000084</resId>
+			<lineId>КАР000000091</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-9П-4</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>69.99 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Прионежский сетевой район РЭС-1</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>2,10</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>0,8</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.0976,61.8202,0 34.0962833333333,61.8203,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.15-оп.16</name>
+			<resId>КАР000084</resId>
+			<lineId>КАР000000091</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-9П-4</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>67.25 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Прионежский сетевой район РЭС-1</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>2,10</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>0,8</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.0962833333333,61.8203,0 34.0950333333333,61.8204333333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.16-оп.17</name>
+			<resId>КАР000084</resId>
+			<lineId>КАР000000091</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-9П-4</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>86.69 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Прионежский сетевой район РЭС-1</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>2,10</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>0,8</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.0950333333333,61.8204333333333,0 34.0934,61.82055,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.17-оп.18</name>
+			<resId>КАР000084</resId>
+			<lineId>КАР000000091</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-9П-4</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>68.96 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Прионежский сетевой район РЭС-1</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>2,10</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>0,8</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.0934,61.82055,0 34.0921166666667,61.8204166666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.18-оп.19</name>
+			<resId>КАР000084</resId>
+			<lineId>КАР000000091</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-9П-4</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>62.54 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Прионежский сетевой район РЭС-1</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>2,10</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>0,8</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.0921166666667,61.8204166666667,0 34.0909333333333,61.82035,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.19-оп.20</name>
+			<resId>КАР000084</resId>
+			<lineId>КАР000000091</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-9П-4</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>8.09 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Прионежский сетевой район РЭС-1</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>2,10</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>0,8</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.0909333333333,61.82035,0 34.0907833333333,61.8203333333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.20-оп.21</name>
+			<resId>КАР000084</resId>
+			<lineId>КАР000000091</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-9П-4</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>71.19 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Прионежский сетевой район РЭС-1</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>2,10</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>0,8</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.0907833333333,61.8203333333333,0 34.0895666666667,61.82005,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.21-оп.22</name>
+			<resId>КАР000084</resId>
+			<lineId>КАР000000091</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-9П-4</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>45.10 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Прионежский сетевой район РЭС-1</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>2,10</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>0,8</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.0895666666667,61.82005,0 34.0888,61.8198666666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.22-оп.23</name>
+			<resId>КАР000084</resId>
+			<lineId>КАР000000091</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-9П-4</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>64.86 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Прионежский сетевой район РЭС-1</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>2,10</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>0,8</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.0888,61.8198666666667,0 34.0876833333333,61.8196166666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.23-оп.24</name>
+			<resId>КАР000084</resId>
+			<lineId>КАР000000091</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-9П-4</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>65.67 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Прионежский сетевой район РЭС-1</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>2,10</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>0,8</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.0876833333333,61.8196166666667,0 34.0865666666667,61.81935,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.23-оп.25</name>
+			<resId>КАР000084</resId>
+			<lineId>КАР000000091</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-9П-4</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>101.75 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Прионежский сетевой район РЭС-1</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>2,10</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>0,8</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.0876833333333,61.8196166666667,0 34.0862833333333,61.8189833333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.25-оп.26</name>
+			<resId>КАР000084</resId>
+			<lineId>КАР000000091</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-9П-4</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>69.30 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Прионежский сетевой район РЭС-1</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>2,10</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>0,8</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.0862833333333,61.8189833333333,0 34.0858166666667,61.8184,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.26-оп.27</name>
+			<resId>КАР000084</resId>
+			<lineId>КАР000000091</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-9П-4</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>67.97 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Прионежский сетевой район РЭС-1</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>2,10</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>0,8</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.0858166666667,61.8184,0 34.08525,61.81785,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.27-оп.34</name>
+			<resId>КАР000084</resId>
+			<lineId>КАР000000091</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-9П-4</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>210.00 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Прионежский сетевой район РЭС-1</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>2,10</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>0,8</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.08525,61.81785,0 34.0886666666667,61.8168666666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.27-оп.28</name>
+			<resId>КАР000084</resId>
+			<lineId>КАР000000091</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-9П-4</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>97.91 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Прионежский сетевой район РЭС-1</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>2,10</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>0,8</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.08525,61.81785,0 34.08455,61.8170333333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.28-оп.29</name>
+			<resId>КАР000084</resId>
+			<lineId>КАР000000091</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-9П-4</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>62.32 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Прионежский сетевой район РЭС-1</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>2,10</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>0,8</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.08455,61.8170333333333,0 34.0841833333333,61.8165,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.29-оп.30</name>
+			<resId>КАР000084</resId>
+			<lineId>КАР000000091</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-9П-4</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>2.05 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Прионежский сетевой район РЭС-1</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>2,10</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>0,8</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.0841833333333,61.8165,0 34.0842,61.8164833333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.30-оп.31</name>
+			<resId>КАР000084</resId>
+			<lineId>КАР000000091</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-9П-4</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>159.62 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Прионежский сетевой район РЭС-1</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>2,10</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>0,8</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.0842,61.8164833333333,0 34.0864166666667,61.8174666666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.31-оп.32</name>
+			<resId>КАР000084</resId>
+			<lineId>КАР000000091</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-9П-4</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>59.61 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Прионежский сетевой район РЭС-1</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>2,10</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>0,8</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.0864166666667,61.8174666666667,0 34.0873333333333,61.81715,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.32-оп.33</name>
+			<resId>КАР000084</resId>
+			<lineId>КАР000000091</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-9П-4</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>40.43 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Прионежский сетевой район РЭС-1</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>2,10</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>0,8</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.0873333333333,61.81715,0 34.08805,61.8170166666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.34-оп.35</name>
+			<resId>КАР000084</resId>
+			<lineId>КАР000000091</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-9П-4</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>39.69 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Прионежский сетевой район РЭС-1</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>2,10</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>0,8</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.0886666666667,61.8168666666667,0 34.0888166666667,61.8165166666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.35-оп.36</name>
+			<resId>КАР000084</resId>
+			<lineId>КАР000000091</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-9П-4</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>31.75 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Прионежский сетевой район РЭС-1</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>2,10</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>0,8</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.0888166666667,61.8165166666667,0 34.0893833333333,61.8164166666667,0</coordinates>
+			</LineString>
+		</Placemark>
+	</Document>
+</kml>

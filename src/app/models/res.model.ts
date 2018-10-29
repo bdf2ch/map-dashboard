@@ -1,12 +1,12 @@
 import Feature from 'ol/Feature';
 
 export class RES {
-  id: number;
+  id: string;
   title: string;
   feature: Feature;
   isOpened: boolean;
 
-  constructor(id: number, title: string, feature: Feature) {
+  constructor(id: string, title: string, feature: Feature) {
     this.id = id;
     this.title = title;
     this.feature = feature;

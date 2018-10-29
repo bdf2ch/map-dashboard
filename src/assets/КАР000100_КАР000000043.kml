@@ -1,0 +1,6434 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+	<Document>
+		<Style id="StyleInfo">
+			<IconStyle>
+				<scale>0.5</scale>
+				<!--Видимость 1% (прозрачный)<color>03ffffff</color>-->
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="StyleOpora">
+			<IconStyle>
+				<scale>.01</scale>
+				<!--Видимость 1% (прозрачный)-->
+				<color>03ffffff</color>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<!--Видимость 1% (прозрачный)<color>03ffffff</color>-->
+				<scale>0.01</scale>
+			</LabelStyle>
+		</Style>
+		<Style id="StyleOporaVisible">
+			<IconStyle>
+				<scale>0.5</scale>
+				<!--Видимость 1% (прозрачный)-->
+				<color>03ffffff</color>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<!--Видимость 1% (прозрачный)<color>03ffffff</color>-->
+				<scale>0.01</scale>
+			</LabelStyle>
+		</Style>
+		<Style id="StyleProletLightGreen">
+			<LineStyle>
+				<color>ff64ff64</color>
+				<width>3</width>
+			</LineStyle>
+		</Style>
+		<Style id="StyleProletDarkGreen">
+			<LineStyle>
+				<color>ff009600</color>
+				<width>3</width>
+			</LineStyle>
+		</Style>
+		<Style id="StyleProletRed">
+			<LineStyle>
+				<color>ff0000ff</color>
+				<width>3</width>
+			</LineStyle>
+		</Style>
+		<Style id="StyleProletYellow">
+			<LineStyle>
+				<color>ff00ffff</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<Style id="StyleProletBlue">
+			<LineStyle>
+				<color>ffff5500</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<name>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</name>
+		<Placemark>
+			<name>Пролет Оп.3-Оп.4</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>230.64 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>20,15</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.0295166666667,62.0213166666667,10 36.03145,62.01945,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.4-Оп.5</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>168.01 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>20,15</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.03145,62.01945,10 36.0330333333333,62.0181333333333,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.5-Оп.6</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>224.88 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>20,15</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.0330333333333,62.0181333333333,10 36.0353166666667,62.0164166666667,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.6-Оп.7</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>178.34 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.0353166666667,62.0164166666667,0 36.03705,62.0150333333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.7-Оп.8</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>142.84 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.03705,62.0150333333333,0 36.0384666666667,62.0139333333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.8-Оп.9</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>163.64 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.0384666666667,62.0139333333333,0 36.0400666666667,62.0126666666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.9-Оп.10</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>163.20 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.0400666666667,62.0126666666667,0 36.04165,62.0114,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.10-Оп.11</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>173.13 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.04165,62.0114,0 36.0433666666667,62.0100666666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.11-Оп.12</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>159.57 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.0433666666667,62.0100666666667,5 36.0449333333333,62.0088333333333,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.12-Оп.13</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>136.56 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.0449333333333,62.0088333333333,5 36.04635,62.0078,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.13-Оп.14</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>101.36 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.04635,62.0078,5 36.0472833333333,62.007,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.14-Оп.15</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>128.85 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.0472833333333,62.007,5 36.0485333333333,62.006,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.15-Оп.16</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>147.82 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.0485333333333,62.006,0 36.0500166666667,62.0048666666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.16-Оп.17</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>104.68 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.0500166666667,62.0048666666667,0 36.0510166666667,62.00405,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.17-Оп.18</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>108.95 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.0510166666667,62.00405,0 36.0521166666667,62.0032166666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.18-Оп.19</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>132.23 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.0521166666667,62.0032166666667,0 36.0534333333333,62.0022,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.19-Оп.20-1</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>69.48 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.0534333333333,62.0022,0 36.0540666666667,62.00165,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.20-1-Оп.20-2</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>17.32 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.0540666666667,62.00165,0 36.0543666666667,62.0015833333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.20-2-Оп.21</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>130.58 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.0543666666667,62.0015833333333,0 36.0567666666667,62.00125,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.21-Оп.22</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>154.90 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>20,15</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.0567666666667,62.00125,10 36.0596,62.0008333333333,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.22-Оп.23</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>158.86 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>20,15</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.0596,62.0008333333333,10 36.0625333333333,62.00045,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.23-Оп.24</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>126.97 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.0625333333333,62.00045,0 36.06485,62.0001,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.24-Оп.24п</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>63.95 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.06485,62.0001,0 36.0660333333333,61.99995,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.24п-Оп.25</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>94.61 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.0660333333333,61.99995,0 36.0677666666667,61.9997,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.25-Оп.26</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>112.86 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.0677666666667,61.9997,0 36.0698333333333,61.9994,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.26-Оп.27</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>132.58 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.0698333333333,61.9994,0 36.0722833333333,61.9990833333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.27-Оп.28</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>135.28 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>20,15</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.0722833333333,61.9990833333333,10 36.0747666666667,61.9987333333333,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.28-Оп.29</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>157.41 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>20,15</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.0747666666667,61.9987333333333,10 36.07765,61.9983166666667,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.29-Оп.30</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>143.64 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>20,15</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.07765,61.9983166666667,10 36.0803,61.9979666666667,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.30-Оп.31</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>110.67 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.0803,61.9979666666667,0 36.0823333333333,61.9976833333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.31-Оп.32</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>76.68 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>20,15</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.0823333333333,61.9976833333333,10 36.08375,61.9975,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.32-Оп.33</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>186.74 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>20,15</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.08375,61.9975,10 36.0871666666667,61.997,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.33-Оп.34</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>156.88 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>20,15</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.0871666666667,61.997,10 36.09005,61.9966,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.34-Оп.34п</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>117.26 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>20,15</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.09005,61.9966,10 36.0922333333333,61.99635,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.34п-Оп.35</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>65.85 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>20,15</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.0922333333333,61.99635,10 36.0934333333333,61.9961666666667,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.35-Оп.36</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>164.68 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.0934333333333,61.9961666666667,0 36.0964166666667,61.9956833333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.36-Оп.37</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>153.27 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.0964166666667,61.9956833333333,0 36.0992166666667,61.9952666666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.37-Оп.38</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>138.12 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.0992166666667,61.9952666666667,0 36.1017666666667,61.9949333333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.38-Оп.39</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>120.38 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.1017666666667,61.9949333333333,0 36.1039833333333,61.9946333333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.39-Оп.40</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>149.52 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.1039833333333,61.9946333333333,0 36.10675,61.9942833333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.40-Оп.41</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>179.32 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.10675,61.9942833333333,0 36.11005,61.9938333333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.41-Оп.42</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>131.14 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.11005,61.9938333333333,0 36.11245,61.9934833333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.42-Оп.43</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>147.20 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.11245,61.9934833333333,0 36.11515,61.9931,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.43-Оп.43п</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>87.43 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.11515,61.9931,0 36.11675,61.9928666666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.43п-Оп.44</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>89.65 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.11675,61.9928666666667,0 36.1183833333333,61.9926166666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.45-Оп.45п</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>89.77 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.1211,61.9922333333333,0 36.1227666666667,61.9920333333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.45п-Оп.46</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>78.37 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.1227666666667,61.9920333333333,0 36.1242166666667,61.99185,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.46-Оп.46п</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>91.31 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.1242166666667,61.99185,0 36.1258833333333,61.9916,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.46п-Оп.47</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>73.05 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.1258833333333,61.9916,0 36.1272166666667,61.9914,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.47-Оп.47п</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>122.58 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.1272166666667,61.9914,0 36.1294666666667,61.9910833333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.47п-Оп.48</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>78.37 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.1294666666667,61.9910833333333,0 36.1309166666667,61.9909,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.49-Оп.50</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>86.81 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.1325666666667,61.9907,0 36.1341166666667,61.9904166666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.48-Оп.49</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>88.93 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.1309166666667,61.9909,0 36.1325666666667,61.9907,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.50-Оп.51</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>74.71 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.1341166666667,61.9904166666667,0 36.1354833333333,61.9902166666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.51-Оп.52</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>138.98 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.1354833333333,61.9902166666667,0 36.13805,61.9898833333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.52-Оп.53</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>166.11 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.13805,61.9898833333333,0 36.1411166666667,61.9894833333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.53-Оп.54</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>167.69 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.1411166666667,61.9894833333333,0 36.1442333333333,61.9891166666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.54-Оп.55</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>159.42 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.1442333333333,61.9891166666667,0 36.1471666666667,61.9887166666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.55-Оп.56</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>73.64 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.1471666666667,61.9887166666667,0 36.1485,61.9885,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.56-Оп.57</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>154.42 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.1485,61.9885,0 36.1513333333333,61.9881,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.57-Оп.58</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>153.87 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.1513333333333,61.9881,0 36.1541333333333,61.9876666666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.58-Оп.59</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>96.99 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.1541333333333,61.9876666666667,0 36.15595,61.9874833333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.59-Оп.60</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>154.26 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.15595,61.9874833333333,0 36.1587333333333,61.9870166666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.60-Оп.61</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>176.59 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.1587333333333,61.9870166666667,0 36.1620166666667,61.9866333333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.61-Оп.62</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>125.13 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.1620166666667,61.9866333333333,0 36.1642833333333,61.9862666666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.62-Оп.63</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>116.79 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.1642833333333,61.9862666666667,0 36.1663666666667,61.9858833333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.63-Оп.63-1</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>194.38 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.1663666666667,61.9858833333333,0 36.1699833333333,61.9854666666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.63-1-Оп.63-2</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>124.81 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.1699833333333,61.9854666666667,0 36.1722666666667,61.9851333333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.63-2-Оп.63-3</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>163.13 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.1722666666667,61.9851333333333,0 36.1752833333333,61.98475,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.63-3-Оп.63-4</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>191.25 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.1752833333333,61.98475,0 36.1787666666667,61.9842166666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.63-4-Оп.64</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>157.48 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.1787666666667,61.9842166666667,0 36.18165,61.9838,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.64-Оп.65</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>158.61 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.18165,61.9838,0 36.1845333333333,61.98335,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.65-Оп.66</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>136.38 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.1845333333333,61.98335,0 36.1870666666667,61.98305,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.66-Оп.67</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>146.22 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.1870666666667,61.98305,0 36.1897666666667,61.9827,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.67-Оп.68</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>116.25 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>20,15</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.1897666666667,61.9827,10 36.1919,61.9824,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.68-Оп.69</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>92.74 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.1919,61.9824,0 36.1935833333333,61.9821333333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.69-Оп.69п</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>84.14 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.1935833333333,61.9821333333333,0 36.1951166666667,61.9819,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.69п-Оп.70</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>97.85 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.1951166666667,61.9819,0 36.1969333333333,61.9816833333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.70-Оп.71</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>115.20 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.1969333333333,61.9816833333333,0 36.1990833333333,61.98145,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.71-Оп.71п</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>94.62 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.1990833333333,61.98145,0 36.2006833333333,61.98105,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.71п-Оп.72</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>104.65 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.2006833333333,61.98105,0 36.2025833333333,61.98075,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.72-Оп.73</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>141.49 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.2025833333333,61.98075,0 36.2052333333333,61.9804833333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.73-Оп.73п</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>87.67 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.2052333333333,61.9804833333333,0 36.2068666666667,61.9803,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.73п-Оп.74</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>84.74 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.2068666666667,61.9803,0 36.2084,61.98005,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.74-Оп.75</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>128.71 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.2084,61.98005,0 36.21075,61.9797,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.75-Оп.76</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>149.47 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.21075,61.9797,0 36.2134833333333,61.9793,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.76-Оп.77</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>153.09 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.2134833333333,61.9793,0 36.2162666666667,61.9788666666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.77-Оп.78</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>128.36 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.2162666666667,61.9788666666667,0 36.21865,61.9785833333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.78-Оп.79</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>119.60 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.21865,61.9785833333333,0 36.22085,61.9782833333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.79-Оп.80</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>144.91 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.22085,61.9782833333333,0 36.2235333333333,61.97795,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.80-Оп.81</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>110.45 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.2235333333333,61.97795,5 36.22555,61.97765,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.81-Оп.82</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>120.31 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>20,15</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.22555,61.97765,10 36.2277833333333,61.9773833333333,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.82-Оп.83</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>140.97 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>20,15</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.2277833333333,61.9773833333333,10 36.2303333333333,61.9769666666667,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.83-Оп.84</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>120.72 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>20,15</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.2303333333333,61.9769666666667,10 36.2325833333333,61.9767166666667,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.84-Оп.85</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>99.72 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>20,15</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.2325833333333,61.9767166666667,10 36.2343833333333,61.9764166666667,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.85-Оп.86</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>166.09 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>20,15</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.2343833333333,61.9764166666667,10 36.2374166666667,61.9759666666667,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.86-Оп.87</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>126.51 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>20,15</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.2374166666667,61.9759666666667,10 36.2397333333333,61.9756333333333,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.87-Оп.88</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>125.00 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>20,15</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.2397333333333,61.9756333333333,10 36.24205,61.97535,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.88-Оп.89</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>79.64 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.24205,61.97535,0 36.2435333333333,61.9755166666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.89-Оп.90</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>213.61 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.2435333333333,61.9755166666667,0 36.2471666666667,61.9746333333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.90-Оп.91</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>99.97 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.2471666666667,61.9746333333333,0 36.2490333333333,61.9744333333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.91-Оп.92</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>105.27 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.2490333333333,61.9744333333333,0 36.2509333333333,61.9741166666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.92-Оп.93</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>109.63 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.2509333333333,61.9741166666667,0 36.2529333333333,61.9738166666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.93-Оп.94</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>112.28 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.2529333333333,61.9738166666667,0 36.2550166666667,61.9735666666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.94-Оп.95</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>109.63 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.2550166666667,61.9735666666667,0 36.2570166666667,61.9732666666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.95-Оп.96</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>126.52 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.2570166666667,61.9732666666667,0 36.2593333333333,61.9729333333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.96-Оп.97</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>158.36 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.2593333333333,61.9729333333333,0 36.2622333333333,61.9725166666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.97-Оп.98</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>102.20 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.2622333333333,61.9725166666667,0 36.2641166666667,61.9722666666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.98-Оп.99</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>186.64 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.2641166666667,61.9722666666667,0 36.26755,61.9718,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.99-Оп.100</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>87.06 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.26755,61.9718,0 36.2688333333333,61.9713,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.100-Оп.101</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>113.13 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.2688333333333,61.9713,0 36.2705833333333,61.9707,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.101-Оп.102</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>120.85 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.2705833333333,61.9707,0 36.2723833333333,61.9700166666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.102-Оп.103</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>115.64 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.2723833333333,61.9700166666667,0 36.2740833333333,61.96935,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.103-Оп.104</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>125.89 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.2740833333333,61.96935,0 36.27595,61.9686333333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.105-Оп.106</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>89.33 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.2784666666667,61.9677166666667,0 36.2798333333333,61.9672333333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.106-Оп.107</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>90.93 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>20,15</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.2798333333333,61.9672333333333,10 36.2811833333333,61.9667166666667,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.107-Оп.108</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>115.36 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>20,15</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.2811833333333,61.9667166666667,10 36.2829333333333,61.9660833333333,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.108-Оп.109</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>119.70 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>20,15</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.2829333333333,61.9660833333333,10 36.2847333333333,61.9654166666667,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.109-Оп.110</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>121.35 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>20,15</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.2847333333333,61.9654166666667,10 36.2866,61.9647666666667,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.110-Оп.111</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>144.39 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.2866,61.9647666666667,0 36.28875,61.96395,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.111-Оп.112</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>114.68 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.28875,61.96395,0 36.2904833333333,61.9633166666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.112-Оп.113</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>176.84 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.2904833333333,61.9633166666667,0 36.2931166666667,61.9623166666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.113-Оп.114</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>104.96 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.2931166666667,61.9623166666667,0 36.29475,61.9617666666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.114-Оп.115</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>128.62 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.29475,61.9617666666667,0 36.2966833333333,61.96105,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.115-Оп.116</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>115.66 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.2966833333333,61.96105,0 36.2983833333333,61.9603833333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.116-Оп.117</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>132.07 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.2983833333333,61.9603833333333,0 36.3004,61.9596666666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.117-Оп.118</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>89.11 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.3004,61.9596666666667,0 36.3017333333333,61.9591666666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.121-Оп.122</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>48.24 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.3088166666667,61.95655,0 36.3096166666667,61.9563333333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.122-Оп.123</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>93.33 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.3096166666667,61.9563333333333,0 36.3109666666667,61.9557833333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.123-Оп.124</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>122.93 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.3109666666667,61.9557833333333,0 36.3128166666667,61.9551,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.124-Оп.125</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>157.30 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.3128166666667,61.9551,0 36.31525,61.9542666666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.126-Оп.127</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>114.50 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.3178,61.9532333333333,0 36.3195,61.9525833333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.129-Оп.130</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>92.32 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.32495,61.9507166666667,0 36.3263333333333,61.9502,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.131-Оп.132</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>118.88 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.3293833333333,61.9490333333333,0 36.3311333333333,61.94835,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.134-Оп.135</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>97.59 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.3368333333333,61.9463166666667,0 36.3383166666667,61.9457833333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.136-Оп.137</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>98.29 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.3404333333333,61.9449666666667,0 36.3419333333333,61.9444333333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.138-Оп.139</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>111.53 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.3448,61.9433833333333,0 36.3464833333333,61.9427666666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.140-Оп.141</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>136.45 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.3491,61.9418,0 36.3511666666667,61.94105,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.141-Оп.142</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>161.82 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.3511666666667,61.94105,0 36.3536,61.94015,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.142-Оп.143</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>158.62 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.3536,61.94015,0 36.3559833333333,61.9392666666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.144-Оп.145</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>142.75 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.3584666666667,61.9383833333333,0 36.3606833333333,61.9376333333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.149-Оп.150</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>141.35 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.3727,61.9331166666667,0 36.3748833333333,61.9323666666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.150-Оп.151</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>140.81 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.3748833333333,61.9323666666667,0 36.377,61.9315833333333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.151-Оп.152</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>142.08 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.377,61.9315833333333,0 36.37925,61.9308666666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.152-Оп.153</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>162.01 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.37925,61.9308666666667,0 36.3816,61.9299166666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.153-Оп.154</name>
+			<resId>КАР000100</resId>
+			<lineId>КАР000000043</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-86П ПС-76 Авдеево-ПС-34П Рагнукса</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>49.50 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Пудожский сетевой район РЭС-4</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,11</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>10,32</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>36.3816,61.9299166666667,0 36.3823833333333,61.9296666666667,0</coordinates>
+			</LineString>
+		</Placemark>
+	</Document>
+</kml>

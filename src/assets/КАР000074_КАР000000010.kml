@@ -1,0 +1,3681 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+	<Document>
+		<Style id="StyleInfo">
+			<IconStyle>
+				<scale>0.5</scale>
+				<!--Видимость 1% (прозрачный)<color>03ffffff</color>-->
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="StyleOpora">
+			<IconStyle>
+				<scale>.01</scale>
+				<!--Видимость 1% (прозрачный)-->
+				<color>03ffffff</color>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<!--Видимость 1% (прозрачный)<color>03ffffff</color>-->
+				<scale>0.01</scale>
+			</LabelStyle>
+		</Style>
+		<Style id="StyleOporaVisible">
+			<IconStyle>
+				<scale>0.5</scale>
+				<!--Видимость 1% (прозрачный)-->
+				<color>03ffffff</color>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<!--Видимость 1% (прозрачный)<color>03ffffff</color>-->
+				<scale>0.01</scale>
+			</LabelStyle>
+		</Style>
+		<Style id="StyleProletLightGreen">
+			<LineStyle>
+				<color>ff64ff64</color>
+				<width>3</width>
+			</LineStyle>
+		</Style>
+		<Style id="StyleProletDarkGreen">
+			<LineStyle>
+				<color>ff009600</color>
+				<width>3</width>
+			</LineStyle>
+		</Style>
+		<Style id="StyleProletRed">
+			<LineStyle>
+				<color>ff0000ff</color>
+				<width>3</width>
+			</LineStyle>
+		</Style>
+		<Style id="StyleProletYellow">
+			<LineStyle>
+				<color>ff00ffff</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<Style id="StyleProletBlue">
+			<LineStyle>
+				<color>ffff5500</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<name>Л-77-16</name>
+		<Placemark>
+			<name>Пролет Оп.1-Оп.2</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>44.46 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.49556,62.51269,0 34.4947,62.51264,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.2-Оп.3</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>38.98 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.4947,62.51264,0 34.49396,62.51256,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.3-Оп.4</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>37.71 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.49396,62.51256,0 34.49323,62.51252,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.4-Оп.5</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>36.24 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.49323,62.51252,0 34.49254,62.51245,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.5-Оп.6</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>35.67 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.49254,62.51245,0 34.49185,62.51241,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.6-Оп.7</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>36.02 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.49185,62.51241,0 34.49116,62.51235,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.7-Оп.8</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>36.52 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.49116,62.51235,0 34.49046,62.51229,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.8-Оп.9</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>35.51 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.49046,62.51229,0 34.48978,62.51223,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.9-Оп.10</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>32.27 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.48978,62.51223,0 34.48927,62.51206,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.10-Оп.11</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>37.14 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.48927,62.51206,0 34.48866,62.51188,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.11-Оп.12</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>27.55 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.48866,62.51188,0 34.48819,62.51176,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.12-Оп.13</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>39.45 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.48819,62.51176,0 34.48757,62.51155,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.13-Оп.14</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>33.34 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.48757,62.51155,0 34.48705,62.51137,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.14-Оп.15</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>33.62 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.48705,62.51137,0 34.48654,62.51118,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.15-Оп.16</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>36.71 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.48654,62.51118,0 34.48594,62.511,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.16-Оп.17</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>31.63 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.48594,62.511,0 34.48543,62.51084,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.17-Оп.18</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>32.92 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.48543,62.51084,0 34.48489,62.51068,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.18-Оп.19</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>33.75 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.48489,62.51068,0 34.48436,62.5105,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.19-Оп.20</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>33.35 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.48436,62.5105,0 34.48381,62.51034,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.20-Оп.21</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>34.17 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.48381,62.51034,0 34.48327,62.51016,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.21-Оп.22</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>32.92 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.48327,62.51016,0 34.48273,62.51,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.22-Оп.23</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>33.11 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.48273,62.51,5 34.4822,62.50983,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.23-Оп.24</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>42.83 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.4822,62.50983,5 34.4815,62.50962,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.24-Оп.25</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>32.49 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.4815,62.50962,5 34.48097,62.50946,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.25-Оп.26</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>28.89 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.48097,62.50946,5 34.48051,62.50931,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.26-Оп.27</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>38.22 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.48051,62.50931,5 34.47992,62.5091,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.27-Оп.28</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>31.24 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.47992,62.5091,5 34.47938,62.50897,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.28-Оп.29</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>34.43 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.47938,62.50897,5 34.47885,62.50878,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.29-Оп.30</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>37.97 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.47885,62.50878,5 34.47825,62.50858,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.30-Оп.31</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>32.92 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.47825,62.50858,5 34.47771,62.50842,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.31-Оп.32</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>36.32 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.47771,62.50842,5 34.47715,62.50822,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.32-Оп.33</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>32.77 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.47715,62.50822,0 34.4766,62.50807,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.33-Оп.34</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>31.87 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.4766,62.50807,0 34.47626,62.50831,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.34-Оп.35</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>35.48 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.47626,62.50831,0 34.47583,62.50856,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.35-Оп.36</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>30.03 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.47583,62.50856,0 34.47549,62.50878,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.36-Оп.37</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>31.27 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.47549,62.50878,0 34.47511,62.509,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.37-Оп.38</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>33.36 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.47511,62.509,5 34.47475,62.50925,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.38-Оп.39</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>43.01 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.47475,62.50925,5 34.47411,62.509,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.39-Оп.40</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>41.76 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.47411,62.509,5 34.47345,62.50878,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.40-Оп.41</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>40.80 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.47345,62.50878,5 34.47283,62.50855,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.41-Оп.42</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>43.01 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.47283,62.50855,5 34.47219,62.5083,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.42-Оп.43</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>23.62 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.47219,62.5083,5 34.47181,62.50818,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.43-Оп.44</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>32.13 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.47181,62.50818,5 34.47132,62.508,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.44-Оп.45</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>29.44 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.47132,62.508,5 34.47088,62.50783,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.45-Оп.46</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>35.17 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.47088,62.50783,5 34.4702,62.50779,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.46-Оп.47</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>41.74 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.4702,62.50779,5 34.46941,62.5077,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.47-Оп.48</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>42.59 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.46941,62.5077,5 34.46859,62.50764,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.48-Оп.49</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>40.77 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.46859,62.50764,5 34.46781,62.50757,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.49-Оп.50</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>43.74 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.46781,62.50757,5 34.46698,62.50748,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.50-Оп.51</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>37.00 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.46698,62.50748,5 34.46626,62.50746,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.51-Оп.52</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>27.55 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.46626,62.50746,5 34.46579,62.50758,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.52-Оп.53</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>68.01 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.46579,62.50758,0 34.46466,62.5079,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.53-Оп.54</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>28.55 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.46466,62.5079,0 34.46418,62.50803,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.54-Оп.55</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>27.23 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.46418,62.50803,0 34.46373,62.50816,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.55-Оп.56</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>32.79 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.46373,62.50816,0 34.4631,62.50821,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.56-Оп.57</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>35.68 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.4631,62.50821,0 34.46241,62.50825,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.57-Оп.58</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>35.83 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.46241,62.50825,0 34.46172,62.5083,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.58-Оп.59</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>40.06 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.46172,62.5083,5 34.46095,62.50836,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.59-Оп.60</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>35.52 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.46095,62.50836,5 34.46027,62.50842,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.60-Оп.61</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>37.00 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.46027,62.50842,5 34.45955,62.5084,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.61-Оп.62</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>37.53 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.45955,62.5084,5 34.45883,62.50846,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.62-Оп.63</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>41.27 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.45883,62.50846,5 34.45804,62.50853,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.63-Оп.64</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>35.55 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.45804,62.50853,5 34.45735,62.50856,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.64-Оп.65</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>32.25 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.45735,62.50856,5 34.45674,62.50863,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.65-Оп.66</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>47.16 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.45674,62.50863,5 34.45583,62.50869,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.66-Оп.67</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>39.55 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.45583,62.50869,5 34.45507,62.50875,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.67-Оп.68</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>32.43 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.45507,62.50875,0 34.45483,62.50848,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.68-Оп.69</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>72.14 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.45483,62.50848,0 34.45396,62.50797,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.69-Оп.70</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>37.87 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.45396,62.50797,0 34.45361,62.50767,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.70-Оп.71</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>38.49 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.45361,62.50767,5 34.4532,62.50738,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.73-Оп.74</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>32.93 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.45265,62.50712,5 34.45222,62.5069,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.74-Оп.75</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>30.82 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.45222,62.5069,5 34.45196,62.50665,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.75-Оп.76</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>12.13 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.45196,62.50665,5 34.45174,62.50661,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.76-Оп.77</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>24.19 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.45174,62.50661,5 34.45151,62.50642,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.77-Оп.78</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>30.29 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.45151,62.50642,5 34.45179,62.50618,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.78-Оп.79</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>31.32 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.45179,62.50618,0 34.45211,62.50594,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.79-Оп.80</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>35.51 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.45211,62.50594,0 34.45248,62.50567,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.80-Оп.81</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletLightGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>27.76 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.45248,62.50567,0 34.45263,62.50543,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.81-Оп.82</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>33.56 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.45263,62.50543,5 34.45312,62.50523,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.81-Оп.83</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>76.45 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.45263,62.50543,5 34.45363,62.50492,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.83-Оп.84</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>46.27 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.45363,62.50492,5 34.45418,62.50459,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.84-Оп.85</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>42.28 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.45418,62.50459,5 34.45459,62.50426,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.85-Оп.86</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>48.47 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.45459,62.50426,5 34.45509,62.50389,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.86-Оп.87</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>50.16 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.45509,62.50389,5 34.45565,62.50352,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.87-Оп.88</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>24.98 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.45565,62.50352,5 34.45591,62.50333,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.88-Оп.89</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>54.07 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.45591,62.50333,5 34.45651,62.50293,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.89-Оп.90</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>42.07 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.45651,62.50293,5 34.45701,62.50263,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.90-Оп.91</name>
+			<resId>КАР000074</resId>
+			<lineId>КАР000000010</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-77-16</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>5.70 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Медвежьегорский сетевой район РЭС-3</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>10 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Архэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,21</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.45701,62.50263,5 34.4571,62.5026,5</coordinates>
+			</LineString>
+		</Placemark>
+	</Document>
+</kml>

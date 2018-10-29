@@ -1,0 +1,4033 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+	<Document>
+		<Style id="StyleInfo">
+			<IconStyle>
+				<scale>0.5</scale>
+				<!--Видимость 1% (прозрачный)<color>03ffffff</color>-->
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="StyleOpora">
+			<IconStyle>
+				<scale>.01</scale>
+				<!--Видимость 1% (прозрачный)-->
+				<color>03ffffff</color>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<!--Видимость 1% (прозрачный)<color>03ffffff</color>-->
+				<scale>0.01</scale>
+			</LabelStyle>
+		</Style>
+		<Style id="StyleOporaVisible">
+			<IconStyle>
+				<scale>0.5</scale>
+				<!--Видимость 1% (прозрачный)-->
+				<color>03ffffff</color>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<!--Видимость 1% (прозрачный)<color>03ffffff</color>-->
+				<scale>0.01</scale>
+			</LabelStyle>
+		</Style>
+		<Style id="StyleProletLightGreen">
+			<LineStyle>
+				<color>ff64ff64</color>
+				<width>3</width>
+			</LineStyle>
+		</Style>
+		<Style id="StyleProletDarkGreen">
+			<LineStyle>
+				<color>ff009600</color>
+				<width>3</width>
+			</LineStyle>
+		</Style>
+		<Style id="StyleProletRed">
+			<LineStyle>
+				<color>ff0000ff</color>
+				<width>3</width>
+			</LineStyle>
+		</Style>
+		<Style id="StyleProletYellow">
+			<LineStyle>
+				<color>ff00ffff</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<Style id="StyleProletBlue">
+			<LineStyle>
+				<color>ffff5500</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<name>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</name>
+		<Placemark>
+			<name>Пролет Оп.1а-Оп.2а</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>161.93 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.4676833,61.5743833,0 34.4682333,61.57581666,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.23-Оп.24</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>215.07 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>46,94</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b>5</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b>25</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b>7</b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.08041,61.46212,10 35.08446,61.46216,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.24-Оп.25</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>234.20 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>46,94</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b>5</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b>25</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b>7</b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.08446,61.46216,10 35.08887,61.46211,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.25-Оп.26</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>192.20 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>46,94</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b>5</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b>25</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b>7</b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.08887,61.46211,10 35.09249,61.46212,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.26-Оп.27</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>220.34 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>46,94</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b>5</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b>25</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b>7</b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.09249,61.46212,10 35.09664,61.46211,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.27-Оп.28</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>219.28 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>46,94</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b>5</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b>25</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b>7</b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.09664,61.46211,10 35.10077,61.4621,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.28-Оп.29</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>207.64 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>46,94</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b>5</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b>25</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b>7</b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.10077,61.4621,10 35.10468,61.46206,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.29-Оп.30</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>228.32 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>46,94</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b>5</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b>25</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b>7</b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.10468,61.46206,10 35.10898,61.46203,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.30-Оп.31</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>209.74 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>46,94</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b>5</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b>25</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b>7</b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.10898,61.46203,10 35.11293,61.462,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.31-Оп.32</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>220.36 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>46,94</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b>5</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b>25</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b>7</b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.11293,61.462,10 35.11708,61.46197,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.32-Оп.33</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>213.44 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>46,94</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b>5</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b>25</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b>7</b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.11708,61.46197,10 35.1211,61.46198,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.33-Оп.34</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>211.32 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.1211,61.46198,5 35.12508,61.46196,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.34-Оп.35</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>231.09 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>46,94</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b>5</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b>25</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b>7</b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.12508,61.46196,10 35.12943,61.46189,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.35-Оп.36</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>227.24 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>46,94</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b>5</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b>25</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b>7</b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.12943,61.46189,10 35.13371,61.46189,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.36-Оп.37</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>201.76 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>46,94</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b>5</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b>25</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b>7</b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.13371,61.46189,10 35.13751,61.46188,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.42-Оп.43</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>226.70 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>46,94</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b>5</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b>25</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b>7</b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.61008,61.58133,10 34.61333,61.58,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.43-Оп.44</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>209.26 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>46,94</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b>5</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b>25</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b>7</b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.61333,61.58,10 34.61643,61.57883,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.44-Оп.45</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>214.28 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>46,94</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b>5</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b>25</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b>7</b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.61643,61.57883,10 34.61965,61.57766,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.45-Оп.46</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>248.34 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>46,94</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b>5</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b>25</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b>7</b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.61965,61.57766,10 34.62313,61.57616,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.46-Оп.47</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>264.01 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>46,94</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b>5</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b>25</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b>7</b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.62313,61.57616,10 34.627,61.57466,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.47-Оп.48</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>236.09 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.627,61.57466,5 34.63048,61.57333,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.48-Оп.49</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>228.75 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.63048,61.57333,5 34.63378,61.572,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.49-Оп.50</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>231.49 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.63378,61.572,5 34.63713,61.57066,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.51-Оп.52</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>229.21 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.19201,61.4552,5 35.1951,61.45376,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.52-Оп.53</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>165.10 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.1951,61.45376,5 35.19732,61.45272,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.53-Оп.54</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>264.92 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.19732,61.45272,5 35.2009,61.45106,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.54-Оп.55</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>211.55 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.2009,61.45106,5 35.20377,61.44974,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.57-Оп.58</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>209.28 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.21024,61.4468,5 35.21305,61.44548,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.58-Оп.59</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>233.85 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.21305,61.44548,5 35.21622,61.44402,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.59-Оп.60</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>229.63 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.21622,61.44402,5 35.21934,61.44259,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.60-Оп.61</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>161.68 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.21934,61.44259,5 35.22151,61.44157,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.61-Оп.62</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>232.34 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.22151,61.44157,5 35.22464,61.44011,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.62-Оп.63</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>220.81 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.22464,61.44011,5 35.22763,61.43873,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.63-Оп.64</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>204.30 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.22763,61.43873,5 35.23041,61.43746,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.64-Оп.65</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>221.59 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.23041,61.43746,5 35.2334,61.43607,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.65-Оп.66</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>202.39 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.2334,61.43607,5 35.23617,61.43482,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.67-Оп.68</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>237.73 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.23916,61.4334,5 35.24239,61.43192,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.68-Оп.69</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>215.48 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.24239,61.43192,5 35.24536,61.4306,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.69-Оп.70</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>212.04 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.24536,61.4306,5 35.2482,61.42926,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.70-Оп.71</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>208.95 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.2482,61.42926,5 35.25106,61.42797,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.71-Оп.72</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>215.88 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.25106,61.42797,5 35.25396,61.42661,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.72-Оп.73</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>170.57 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.25396,61.42661,5 35.25632,61.42557,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.73-Оп.74</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>228.17 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.25632,61.42557,5 35.2594,61.42414,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.74-Оп.75</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>211.27 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.2594,61.42414,5 35.26226,61.42282,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.75-Оп.76</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>207.05 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.26226,61.42282,5 35.26505,61.42152,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.76-Оп.77</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>191.69 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.26505,61.42152,5 35.26764,61.42032,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.77-Оп.78</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>220.11 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.26764,61.42032,5 35.27063,61.41895,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.78-Оп.79</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>225.89 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.27063,61.41895,5 35.27367,61.41753,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.79-Оп.80</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>204.37 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.27367,61.41753,5 35.27645,61.41626,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.80-Оп.81</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>224.39 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.27645,61.41626,5 35.27945,61.41484,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.81-Оп.82</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>211.30 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.27945,61.41484,5 35.28231,61.41352,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.82-Оп.83</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>211.69 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.28231,61.41352,5 35.28518,61.4122,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.83-Оп.84</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>230.90 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.28518,61.4122,5 35.28831,61.41076,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.84-Оп.85</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>243.59 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.28831,61.41076,5 35.29163,61.40925,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.85-Оп.86</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>239.41 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.29163,61.40925,5 35.29482,61.40773,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.86-Оп.87</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>289.54 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.29482,61.40773,5 35.29918,61.40617,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.87-Оп.88</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>190.63 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.29918,61.40617,5 35.30128,61.40478,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.88-Оп.89</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>234.00 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.30128,61.40478,5 35.30445,61.40332,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.89-Оп.90</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>207.12 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.30445,61.40332,5 35.30724,61.40202,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.90-Оп.91</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>203.29 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.30724,61.40202,5 35.31003,61.40077,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.91-Оп.92</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>214.81 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.31003,61.40077,5 35.31294,61.39943,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.92-Оп.93</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>220.19 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.31294,61.39943,5 35.31593,61.39806,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.93-Оп.94</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>225.20 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.31593,61.39806,5 35.31897,61.39665,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.94-Оп.95</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>226.74 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.31897,61.39665,5 35.32203,61.39523,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.95-Оп.96</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>168.77 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.32203,61.39523,5 35.32426,61.39415,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.96-Оп.97</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>140.66 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.32426,61.39415,5 35.32616,61.39327,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.97-Оп.98</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>193.34 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.32616,61.39327,5 35.32883,61.39209,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.98-Оп.99</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>225.60 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.32883,61.39209,5 35.33188,61.39068,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.99-Оп.100</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>225.26 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.33188,61.39068,5 35.33488,61.38925,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.100-Оп.101</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>205.80 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.33488,61.38925,5 35.3377333333333,61.388,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.101-Оп.102</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>100.17 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.3377333333333,61.388,5 35.339,61.3873333333333,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.102-Оп.103</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>186.41 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.339,61.3873333333333,5 35.3415166666667,61.3861666666667,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.103-Оп.104</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>208.90 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.3415166666667,61.3861666666667,5 35.3442833333333,61.3848333333333,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.104-Оп.105</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>165.07 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.3442833333333,61.3848333333333,5 35.34565,61.3835,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.105-Оп.106</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>51.92 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.34565,61.3835,5 35.3463333333333,61.3831666666667,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.160а-Оп.161</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>271.22 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.02,61.4615,5 35.025,61.462,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.161-Оп.162</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>313.42 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.025,61.462,5 35.03079,61.46255,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.162-Оп.163</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>387.05 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.03079,61.46255,5 35.03808,61.46253,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.163-Оп.164</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>253.34 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.03808,61.46253,5 35.04285,61.46247,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.164-Оп.165</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>236.35 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.04285,61.46247,0 35.0473,61.46241,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.165-Оп.166</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>227.26 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.0473,61.46241,0 35.05158,61.46238,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.166-Оп.167</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>279.27 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.05158,61.46238,0 35.05684,61.46237,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.167-Оп.168</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>142.30 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.05684,61.46237,0 35.05952,61.46235,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.168-Оп.169</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>232.55 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.05952,61.46235,0 35.0639,61.46233,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.169-Оп.170</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>218.22 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.0639,61.46233,0 35.06801,61.46231,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.170-Оп.171</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>209.19 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.06801,61.46231,0 35.07195,61.4623,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.171-Оп.172</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>239.98 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>35.07195,61.4623,0 35.07647,61.4623,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.188-Оп.189</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>173.02 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.59652,61.58667,0 34.59901,61.58566,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.189-Оп.190</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>293.64 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.59901,61.58566,0 34.60333,61.584,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.190-Оп.191</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000085</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-69П ПС-5 Деревянка-ПС-21П Шелтозеро</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>223.43 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>102,70</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>68,89</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.60333,61.584,0 34.6029,61.582,0</coordinates>
+			</LineString>
+		</Placemark>
+	</Document>
+</kml>

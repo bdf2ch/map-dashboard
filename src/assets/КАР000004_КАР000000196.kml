@@ -1,0 +1,6329 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+	<Document>
+		<Style id="StyleInfo">
+			<IconStyle>
+				<scale>0.5</scale>
+				<!--Видимость 1% (прозрачный)<color>03ffffff</color>-->
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="StyleOpora">
+			<IconStyle>
+				<scale>.01</scale>
+				<!--Видимость 1% (прозрачный)-->
+				<color>03ffffff</color>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<!--Видимость 1% (прозрачный)<color>03ffffff</color>-->
+				<scale>0.01</scale>
+			</LabelStyle>
+		</Style>
+		<Style id="StyleOporaVisible">
+			<IconStyle>
+				<scale>0.5</scale>
+				<!--Видимость 1% (прозрачный)-->
+				<color>03ffffff</color>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<!--Видимость 1% (прозрачный)<color>03ffffff</color>-->
+				<scale>0.01</scale>
+			</LabelStyle>
+		</Style>
+		<Style id="StyleProletLightGreen">
+			<LineStyle>
+				<color>ff64ff64</color>
+				<width>3</width>
+			</LineStyle>
+		</Style>
+		<Style id="StyleProletDarkGreen">
+			<LineStyle>
+				<color>ff009600</color>
+				<width>3</width>
+			</LineStyle>
+		</Style>
+		<Style id="StyleProletRed">
+			<LineStyle>
+				<color>ff0000ff</color>
+				<width>3</width>
+			</LineStyle>
+		</Style>
+		<Style id="StyleProletYellow">
+			<LineStyle>
+				<color>ff00ffff</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<Style id="StyleProletBlue">
+			<LineStyle>
+				<color>ffff5500</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<name>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</name>
+		<Placemark>
+			<name>Пролет Оп.1-Оп.2</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>185.98 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.649111,61.713083,0 30.647056,61.714444,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.2-Оп.3</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>172.59 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.647056,61.714444,0 30.645111,61.715694,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.3-Оп.4</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>137.24 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.645111,61.715694,0 30.64475,61.716917,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.4-Оп.5</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>143.84 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.64475,61.716917,0 30.646889,61.717722,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.6-Оп.7</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>214.84 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.645944,61.72225,0 30.645417,61.724167,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.7-Оп.8</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>154.71 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.645417,61.724167,0 30.642722,61.724722,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп8-оп9</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>292.63 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.642722,61.724722,0 30.637556,61.725694,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп9-оп10</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>321.95 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.637556,61.725694,0 30.631861,61.72675,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп10-оп11</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>200.82 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.631861,61.72675,0 30.62825,61.727333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп11-оп12</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>484.66 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.62825,61.727333,5 30.619694,61.728944,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп12-оп13</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>186.54 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.619694,61.728944,5 30.616417,61.729583,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп13-оп14</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>122.97 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.616417,61.729583,5 30.614278,61.730028,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп14-оп15</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>131.99 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.614278,61.730028,5 30.611889,61.730389,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп15-оп16</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>284.68 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.611889,61.730389,0 30.606861,61.731333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп16-оп17</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>263.87 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.606861,61.731333,0 30.602167,61.732167,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп17-оп18</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>239.41 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.602167,61.732167,0 30.597972,61.733,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп18-оп19</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>116.74 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.597972,61.733,0 30.595889,61.733361,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп19-оп20</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>168.44 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.595889,61.733361,0 30.592889,61.733889,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп20-оп21</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>129.82 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.592889,61.733889,0 30.591361,61.734806,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп21-оп22</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>118.65 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.591361,61.734806,0 30.590028,61.735667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп22-оп23</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>110.36 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.590028,61.735667,0 30.588722,61.736444,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп23-оп24</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>123.75 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.588722,61.736444,5 30.587306,61.737333,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп24-оп25</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>170.37 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.587306,61.737333,5 30.585278,61.738528,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп25-оп26</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>117.95 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.585278,61.738528,5 30.583889,61.739361,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп26-оп27</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>98.67 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.583889,61.739361,5 30.582722,61.740056,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп27-оп28</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>134.66 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.582722,61.740056,5 30.581194,61.741028,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп28-оп29</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>179.04 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.581194,61.741028,5 30.581194,61.742639,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп29-оп30</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>138.99 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.581194,61.742639,5 30.581278,61.743889,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп30-оп31</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>134.75 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.581278,61.743889,0 30.580583,61.745056,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп31-оп32</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>204.37 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.580583,61.745056,0 30.579389,61.746806,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп32-оп33</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>141.02 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.579389,61.746806,0 30.578667,61.748028,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп33-оп34</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>176.94 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.578667,61.748028,0 30.577722,61.749556,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп34-оп35</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>186.60 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.577722,61.749556,0 30.576722,61.751167,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп35-оп36</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>106.75 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.576722,61.751167,0 30.576111,61.752083,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп36-оп37</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>142.56 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.576111,61.752083,0 30.574278,61.753028,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп37-оп38</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>87.72 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.574278,61.753028,0 30.573222,61.753639,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп38-оп39</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>128.68 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.573222,61.753639,0 30.571222,61.754306,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп39-оп40</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>153.20 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.571222,61.754306,0 30.568778,61.755056,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп40-оп41</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>142.97 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.568778,61.755056,0 30.566528,61.755778,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп41-оп42</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>147.84 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.566528,61.755778,0 30.564167,61.7565,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп42-оп43</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>137.18 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.564167,61.7565,0 30.561972,61.757167,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп43-оп44</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>167.36 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.561972,61.757167,0 30.559361,61.758028,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп44-оп45</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>180.88 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.559361,61.758028,0 30.555972,61.758306,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп45-оп46</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>160.30 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.555972,61.758306,0 30.553333,61.759028,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп46-оп47</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>109.60 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.553333,61.759028,0 30.551472,61.759472,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп47-оп48</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>186.87 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.551472,61.759472,0 30.548972,61.760667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп48-оп49</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>181.74 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.548972,61.760667,0 30.546889,61.761972,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп49-оп50</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>192.93 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.546889,61.761972,0 30.544611,61.763333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп50-оп51</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>187.24 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.544611,61.763333,0 30.542361,61.764639,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп51-оп52</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>178.45 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.542361,61.764639,0 30.540306,61.765917,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп52-оп53</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>172.66 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.540306,61.765917,0 30.538278,61.767139,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп53-оп54</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>387.38 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.538278,61.767139,0 30.53375,61.769889,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп54-оп55</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>428.29 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.53375,61.769889,0 30.528861,61.772972,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп55-оп56</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>297.22 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.528861,61.772972,0 30.525389,61.775083,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп56-оп57</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>138.25 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.525389,61.775083,0 30.52375,61.776056,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп57-оп58</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>201.31 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>44,6</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.52375,61.776056,10 30.521361,61.777472,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп58-оп59</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>244.28 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>44,6</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.521361,61.777472,10 30.518472,61.779194,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп59-оп60</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>155.79 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>44,6</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.518472,61.779194,10 30.516667,61.780306,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп60-оп61</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>140.60 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>44,6</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.516667,61.780306,10 30.515028,61.781306,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп61-оп62</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>143.87 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>44,6</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.515028,61.781306,10 30.513361,61.782333,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп62-оп63</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>156.09 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>44,6</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.513361,61.782333,10 30.511472,61.783417,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп63-оп64</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>187.56 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>44,6</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.511472,61.783417,10 30.509361,61.784778,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп64-оп65</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>206.19 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>44,6</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.509361,61.784778,10 30.506972,61.78625,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп65-оп66</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>191.97 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>44,6</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.506972,61.78625,10 30.504722,61.787611,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп66-оп67</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>202.02 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>44,6</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.504722,61.787611,10 30.502389,61.789056,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп67-оп68</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>219.13 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>44,6</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.502389,61.789056,10 30.49975,61.790583,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп68-оп69</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>166.57 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>44,6</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.49975,61.790583,10 30.497917,61.791806,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп69-оп70</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>190.43 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>44,6</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.497917,61.791806,10 30.495639,61.793139,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп70-оп71</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>164.81 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.495639,61.793139,0 30.493778,61.794333,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп71-оп72</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>168.42 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.493778,61.794333,0 30.491806,61.795528,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп72-оп73</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>149.89 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.491806,61.795528,0 30.490028,61.796583,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп73-оп74</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>152.42 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.490028,61.796583,0 30.48825,61.797667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп74-оп75</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>136.31 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.48825,61.797667,0 30.486667,61.798639,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп75-оп76</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>137.21 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.486667,61.798639,0 30.485056,61.799611,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп76-оп77</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>147.30 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.485056,61.799611,0 30.483361,61.800667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп77-оп78</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>156.56 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.483361,61.800667,0 30.481528,61.801778,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп78-оп79</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>152.33 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.481528,61.801778,0 30.47975,61.802861,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп79-оп80</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>144.79 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.47975,61.802861,0 30.478056,61.803889,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп80-оп81</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>147.20 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.478056,61.803889,0 30.476361,61.804944,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп81-оп82</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>113.68 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.476361,61.804944,0 30.475028,61.80575,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп82-оп83</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>116.95 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.475028,61.80575,0 30.473667,61.806583,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп83-оп84</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>111.92 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.473667,61.806583,0 30.472389,61.807389,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп84-оп85</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>106.09 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.472389,61.807389,0 30.471139,61.808139,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп85-оп86</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>144.43 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>44,6</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.471139,61.808139,10 30.470639,61.809417,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп86-оп87</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>147.65 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>44,6</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.470639,61.809417,10 30.470111,61.810722,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп87-оп88</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>147.49 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>44,6</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.470111,61.810722,10 30.469611,61.812028,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп88-оп89</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>141.37 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>44,6</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.469611,61.812028,10 30.469111,61.813278,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп89-оп90</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>156.58 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>44,6</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.469111,61.813278,10 30.468611,61.814667,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп90-оп91</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>138.32 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>44,6</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.468611,61.814667,10 30.468111,61.815889,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп91-оп92</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>150.45 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>44,6</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.468111,61.815889,10 30.467611,61.817222,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп92-оп93</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>150.82 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>44,6</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.467611,61.817222,10 30.467083,61.818556,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп93-оп94</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>149.74 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>44,6</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.467083,61.818556,10 30.466667,61.819889,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп94-оп95</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>145.60 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>44,6</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.466667,61.819889,10 30.466056,61.821167,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп95-оп96</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>153.77 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>44,6</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.466056,61.821167,10 30.465528,61.822528,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп96-оп97</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>122.33 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>44,6</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.465528,61.822528,10 30.465111,61.823611,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп97-оп98</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>153.27 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>44,6</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.465111,61.823611,10 30.464639,61.824972,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп98-оп99</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>156.83 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>44,6</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.464639,61.824972,10 30.464111,61.826361,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп99-оп100</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>172.54 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>44,6</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.464111,61.826361,10 30.463528,61.827889,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп100-оп101</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>78.23 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>44,6</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.463528,61.827889,10 30.463278,61.828583,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп101-оп102</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>185.21 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>44,6</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.463278,61.828583,10 30.462639,61.830222,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп102-оп103</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>159.65 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>44,6</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.462639,61.830222,10 30.462139,61.831639,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп103-оп104</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>122.07 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>44,6</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.462139,61.831639,10 30.46175,61.832722,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп104-оп105</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>147.49 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>44,6</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.46175,61.832722,10 30.46125,61.834028,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп105-оп106</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>160.31 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>44,6</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.46125,61.834028,10 30.460667,61.835444,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп106-оп107</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>131.52 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>44,6</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.460667,61.835444,10 30.46025,61.836611,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп107-оп108</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>144.17 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>44,6</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.46025,61.836611,10 30.459778,61.837889,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.108-Оп.109</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>84.62 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>44,6</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.459778,61.837889,10 30.4595,61.838639,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.109-Оп.110</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>97.54 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>44,6</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.4595,61.838639,10 30.459139,61.8395,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.110-Оп.111</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>209.76 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>44,6</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.459139,61.8395,10 30.458472,61.841361,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.111-Оп.112</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>272.62 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>44,6</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.458472,61.841361,10 30.457583,61.843778,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.112-Оп.113</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>190.97 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>44,6</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.457583,61.843778,10 30.456972,61.845472,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.113-Оп.114</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>257.46 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>44,6</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.456972,61.845472,10 30.4565,61.847778,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.114-Оп.115</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>117.57 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>44,6</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.4565,61.847778,10 30.456333,61.848833,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.115-Оп.116</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>133.31 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>44,6</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.456333,61.848833,10 30.456111,61.850028,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.116-Оп.117</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>185.84 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>44,6</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.456111,61.850028,10 30.455806,61.851694,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.117-Оп.118</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>173.54 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>44,6</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.455806,61.851694,10 30.455528,61.85325,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.118-Оп.119</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>188.82 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>44,6</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.455528,61.85325,10 30.45525,61.854944,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.119-Оп.120</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>152.21 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>44,6</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.45525,61.854944,10 30.454944,61.856306,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.120-Оп.121</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>210.67 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>44,6</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.454944,61.856306,10 30.454583,61.858194,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.121-Оп.122</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>176.76 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>44,6</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.454583,61.858194,10 30.454278,61.859778,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.122-Оп.123</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>164.24 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>44,6</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.454278,61.859778,10 30.454,61.86125,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.123-Оп.124</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>350.31 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>44,6</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.454,61.86125,10 30.453389,61.864389,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.124-Оп.124А</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>136.43 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>44,6</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.453389,61.864389,10 30.453639,61.863167,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.124А-Оп.125</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>275.83 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>44,6</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.453639,61.863167,10 30.453167,61.865639,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп125-оп126</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>421.08 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>44,6</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.453167,61.865639,10 30.452556,61.869417,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп126-оп127</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>112.08 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>44,6</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.452556,61.869417,10 30.452278,61.870417,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп127-оп128</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>130.40 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>44,6</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.452278,61.870417,10 30.452,61.871583,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп128-оп129</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>114.49 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>44,6</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.452,61.871583,10 30.450639,61.872389,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп129-оп130</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>93.35 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>44,6</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.450639,61.872389,10 30.449556,61.873056,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп130-оп131</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>145.95 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.449556,61.873056,0 30.44775,61.874056,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп131-оп132</name>
+			<resId>КАР000004</resId>
+			<lineId>КАР000000196</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-56С ПС-27 Сортавала-ПС-23С Кааламо</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>79.79 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-1 Сортавала ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Псковэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>22,67</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>62,24</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>30.44775,61.874056,0 30.446861,61.874639,0</coordinates>
+			</LineString>
+		</Placemark>
+	</Document>
+</kml>

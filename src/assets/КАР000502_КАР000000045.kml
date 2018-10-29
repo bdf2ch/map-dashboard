@@ -1,0 +1,5936 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+	<Document>
+		<Style id="StyleInfo">
+			<IconStyle>
+				<scale>0.5</scale>
+				<!--Видимость 1% (прозрачный)<color>03ffffff</color>-->
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="StyleOpora">
+			<IconStyle>
+				<scale>.01</scale>
+				<!--Видимость 1% (прозрачный)-->
+				<color>03ffffff</color>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<!--Видимость 1% (прозрачный)<color>03ffffff</color>-->
+				<scale>0.01</scale>
+			</LabelStyle>
+		</Style>
+		<Style id="StyleOporaVisible">
+			<IconStyle>
+				<scale>0.5</scale>
+				<!--Видимость 1% (прозрачный)-->
+				<color>03ffffff</color>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<!--Видимость 1% (прозрачный)<color>03ffffff</color>-->
+				<scale>0.01</scale>
+			</LabelStyle>
+		</Style>
+		<Style id="StyleProletLightGreen">
+			<LineStyle>
+				<color>ff64ff64</color>
+				<width>3</width>
+			</LineStyle>
+		</Style>
+		<Style id="StyleProletDarkGreen">
+			<LineStyle>
+				<color>ff009600</color>
+				<width>3</width>
+			</LineStyle>
+		</Style>
+		<Style id="StyleProletRed">
+			<LineStyle>
+				<color>ff0000ff</color>
+				<width>3</width>
+			</LineStyle>
+		</Style>
+		<Style id="StyleProletYellow">
+			<LineStyle>
+				<color>ff00ffff</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<Style id="StyleProletBlue">
+			<LineStyle>
+				<color>ffff5500</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<name>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</name>
+		<Placemark>
+			<name>Пролет Оп.127-Оп.128</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>261.57 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.70147,61.85872,5 32.70175,61.85637,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.128-Оп.129</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>241.49 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.70175,61.85637,5 32.70199,61.8542,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.129-Оп.130</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>251.53 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.70199,61.8542,5 32.70225,61.85194,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.130-Оп.131</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>245.93 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.70225,61.85194,5 32.70249,61.84973,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.131-Оп.132</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>235.86 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.70249,61.84973,5 32.7027,61.84761,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.132-Оп.133</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>280.53 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.7027,61.84761,5 32.70301,61.84509,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.133-Оп.134</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>206.97 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.70301,61.84509,5 32.70321,61.84323,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.134-Оп.135</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>239.32 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.70321,61.84323,5 32.70347,61.84108,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.135-Оп.136</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>183.70 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.70347,61.84108,5 32.70368,61.83943,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.136-Оп.137</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>246.72 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.70368,61.83943,5 32.70538,61.83736,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.137-Оп.138</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>278.16 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.70538,61.83736,5 32.70737,61.83504,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.138-Оп.139</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>244.65 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.70737,61.83504,5 32.70907,61.83299,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.139-Оп.140</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>222.71 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.70907,61.83299,5 32.71065,61.83113,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.140-Оп.141</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>322.64 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.71065,61.83113,5 32.71291,61.82843,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.141-Оп.142</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>234.39 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.71291,61.82843,5 32.71456,61.82647,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.142-Оп.143</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>247.12 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.71456,61.82647,5 32.71628,61.8244,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.143-Оп.144</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>209.18 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.71628,61.8244,5 32.7178,61.82266,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.144-Оп.145</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>255.70 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.7178,61.82266,5 32.71959,61.82052,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.145-Оп.146</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>207.16 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.71959,61.82052,5 32.72106,61.81879,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.146-Оп.147</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>210.26 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.72106,61.81879,5 32.72253,61.81703,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.147-Оп.148</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>217.24 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.72253,61.81703,5 32.72404,61.81521,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.148-Оп.149</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>202.06 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.72404,61.81521,5 32.72546,61.81352,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.149-Оп.150</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>206.73 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.72546,61.81352,5 32.72696,61.8118,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.150-Оп.151</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>218.47 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.72696,61.8118,5 32.72848,61.80997,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.151-Оп.152</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>213.28 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.72848,61.80997,5 32.73005,61.8082,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.152-Оп.153</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>205.95 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.73005,61.8082,5 32.73151,61.80648,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.153-Оп.154</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>209.43 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.73151,61.80648,5 32.73299,61.80473,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.154-Оп.155</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>209.00 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.73299,61.80473,5 32.7345,61.80299,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.155-Оп.156</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>208.21 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.7345,61.80299,5 32.73597,61.80125,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.156-Оп.157</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>211.31 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.73597,61.80125,5 32.73744,61.79948,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.157-Оп.158</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>197.95 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.73744,61.79948,5 32.73886,61.79783,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.158-Оп.159</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>184.85 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.73886,61.79783,5 32.74019,61.79629,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.159-Оп.160</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>196.14 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.74019,61.79629,5 32.74157,61.79465,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.160-Оп.161</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>213.52 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.74157,61.79465,5 32.7431,61.79287,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.161-Оп.162</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>210.67 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.7431,61.79287,5 32.74459,61.79111,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.162-Оп.163</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>221.97 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.74459,61.79111,5 32.74613,61.78925,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.163-Оп.164</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>200.40 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.74613,61.78925,5 32.74762,61.78759,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.164-Оп.165</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>191.00 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.74762,61.78759,5 32.749,61.786,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.165-Оп.166</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>198.80 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.749,61.786,5 32.75041,61.78434,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.166-Оп.167</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>203.59 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.75041,61.78434,5 32.7518,61.78263,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.167-Оп.168</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>250.15 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.7518,61.78263,5 32.75367,61.78056,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.168-Оп.169</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>323.88 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.75367,61.78056,5 32.75599,61.77786,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.169-Оп.170</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>325.95 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.75599,61.77786,5 32.75831,61.77514,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.170-Оп.171</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>250.66 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.75831,61.77514,5 32.76005,61.77304,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.171-Оп.172</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>303.19 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.76005,61.77304,5 32.76226,61.77052,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.172-Оп.173</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>245.30 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.76226,61.77052,5 32.76399,61.76847,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.173-Оп.174</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>189.59 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.76399,61.76847,5 32.76535,61.76689,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.174-Оп.175</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>207.28 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.76535,61.76689,5 32.76677,61.76515,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.175-Оп.176</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>193.88 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.76677,61.76515,5 32.76819,61.76354,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.176-Оп.177</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>163.99 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.76819,61.76354,5 32.7694,61.76218,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.177-Оп.178</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>245.12 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.7694,61.76218,5 32.77112,61.76013,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.178-Оп.179</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>239.13 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.77112,61.76013,5 32.77285,61.75814,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.179-Оп.180</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>270.95 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.77285,61.75814,5 32.77473,61.75587,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.180-Оп.181</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>303.62 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.77473,61.75587,5 32.77696,61.75335,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.181-Оп.182</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>165.89 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.77696,61.75335,5 32.77811,61.75196,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.182-Оп.183</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>270.90 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.77811,61.75196,5 32.78004,61.7497,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.183-Оп.184</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>165.52 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.78004,61.7497,5 32.78117,61.74831,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.184-Оп.185</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>375.93 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.78117,61.74831,5 32.78388,61.74518,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.185-Оп.186</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>290.16 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.78388,61.74518,5 32.78595,61.74276,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.186-Оп.187</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>227.58 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.78595,61.74276,5 32.78751,61.74085,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.187-Оп.188</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>216.86 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.78751,61.74085,5 32.78905,61.73904,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.188-Оп.189</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>259.23 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.78905,61.73904,5 32.79091,61.73688,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.189-Оп.190</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>157.46 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.79091,61.73688,5 32.79205,61.73557,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.190-Оп.191</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>202.73 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.79205,61.73557,5 32.7935,61.73388,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.191-Оп.192</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>185.11 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.7935,61.73388,5 32.79484,61.73234,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.192-Оп.193</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>212.79 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.79484,61.73234,5 32.79633,61.73056,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.193-Оп.194</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>262.14 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.79633,61.73056,5 32.79818,61.72837,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.194-Оп.195</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>227.72 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.79818,61.72837,5 32.7998,61.72647,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.195-Оп.196</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>193.55 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.7998,61.72647,5 32.80115,61.72485,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.196-Оп.197</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>257.43 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.80115,61.72485,5 32.80297,61.7227,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.197-Оп.198</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>240.01 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.80297,61.7227,5 32.80469,61.7207,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.198-Оп.199</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>255.82 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.80469,61.7207,5 32.80648,61.71856,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.199-Оп.200</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>319.06 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.80648,61.71856,5 32.8075,61.71573,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.200-Оп.201</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>245.55 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.8075,61.71573,5 32.80826,61.71355,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.201-Оп.202</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>227.24 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.80826,61.71355,5 32.80893,61.71153,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.202-Оп.203</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>205.14 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.80893,61.71153,5 32.80958,61.70971,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.203-Оп.204</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>195.10 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.80958,61.70971,5 32.81021,61.70798,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.204-Оп.205</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>191.21 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.81021,61.70798,5 32.81077,61.70628,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.205-Оп.206</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>197.29 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.81077,61.70628,5 32.8114,61.70453,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.206-Оп.207</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>299.23 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.8114,61.70453,5 32.81228,61.70187,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.207-Оп.208</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>316.96 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.81228,61.70187,5 32.81318,61.69905,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.208-Оп.209</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>162.10 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.81318,61.69905,5 32.81367,61.69761,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.209-Оп.210</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>282.27 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.81367,61.69761,5 32.81449,61.6951,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.210-Оп.211</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>287.79 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.81449,61.6951,5 32.81516,61.69253,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.211-Оп.212</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>386.70 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.81516,61.69253,5 32.81662,61.68912,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.212-Оп.213</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>453.48 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.81662,61.68912,5 32.81797,61.68509,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.213-Оп.214</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>226.16 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.81797,61.68509,5 32.81849,61.68307,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.214-Оп.215</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>229.95 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.81849,61.68307,5 32.81922,61.68103,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.215-Оп.216</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>236.03 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.81922,61.68103,5 32.81973,61.67892,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.216-Оп.217</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>291.13 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.81973,61.67892,5 32.8208,61.67635,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.217-Оп.218</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>266.57 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.8208,61.67635,5 32.82143,61.67397,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.218-Оп.219</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>268.54 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.82143,61.67397,5 32.82218,61.67158,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.219-Оп.220</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>209.62 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.82218,61.67158,5 32.82284,61.66972,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.220-Оп.221</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>220.00 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.82284,61.66972,5 32.82367,61.66778,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.221-Оп.222</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>204.33 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.82367,61.66778,5 32.82446,61.66598,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.222-Оп.223</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>222.11 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.82446,61.66598,5 32.82517,61.66401,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.223-Оп.224</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>228.30 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.82517,61.66401,5 32.82568,61.66197,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.224-Оп.225</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>202.65 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.82568,61.66197,5 32.82625,61.6601666666667,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.225-Оп.226</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>189.22 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.82625,61.6601666666667,5 32.8269833333333,61.6585,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.226-Оп.227</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>244.16 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.8269833333333,61.6585,5 32.82775,61.6563333333333,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.227-Оп.228</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>242.43 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.82775,61.6563333333333,5 32.8282833333333,61.6541666666667,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.228-Оп.229</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>243.34 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.8282833333333,61.6541666666667,5 32.82895,61.652,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.229-Оп.230</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>188.70 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.82895,61.652,5 32.8296333333333,61.6503333333333,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.230-Оп.231</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>281.29 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.8296333333333,61.6503333333333,5 32.8304666666667,61.6478333333333,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.231-Оп.232</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>281.16 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.8304666666667,61.6478333333333,5 32.8312833333333,61.6453333333333,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.232-Оп.233</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>206.61 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.8312833333333,61.6453333333333,5 32.8319333333333,61.6435,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.233-Оп.234</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>187.62 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.8319333333333,61.6435,5 32.8325,61.6418333333333,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.234-Оп.235</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>188.53 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.8325,61.6418333333333,5 32.8331666666667,61.6401666666667,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.235-Оп.236</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>224.04 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.8331666666667,61.6401666666667,5 32.8337,61.6381666666667,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.236-Оп.237</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>224.64 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.8337,61.6381666666667,5 32.8343166666667,61.6361666666667,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.237-Оп.238</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>169.36 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.8343166666667,61.6361666666667,5 32.8348833333333,61.6346666666667,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.238-Оп.239</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>168.64 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.8348833333333,61.6346666666667,5 32.8353666666667,61.6331666666667,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.239-Оп.240</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>299.73 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.8353666666667,61.6331666666667,5 32.8362166666667,61.6305,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.240-Оп.241</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>231.97 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.8362166666667,61.6305,5 32.8383166666667,61.6286666666667,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.241-Оп.242</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>254.57 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.8383166666667,61.6286666666667,5 32.8406666666667,61.6266666666667,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.242-Оп.243</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>204.70 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.8406666666667,61.6266666666667,5 32.8423166666667,61.625,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.243-Оп.244</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>209.83 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.8423166666667,61.625,5 32.8441833333333,61.6233333333333,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.244-Оп.245</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>217.72 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.8441833333333,61.6233333333333,5 32.84635,61.6216666666667,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.245-Оп.246</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>284.16 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.84635,61.6216666666667,5 32.84855,61.6193333333333,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.246-Оп.247</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>235.00 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.84855,61.6193333333333,5 32.8507666666667,61.6175,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.247-Оп.248</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>209.02 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.8507666666667,61.6175,5 32.8526,61.6158333333333,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.248-Оп.249</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>248.03 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.8526,61.6158333333333,5 32.8546833333333,61.6138333333333,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.249-Оп.250</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>205.09 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.8546833333333,61.6138333333333,5 32.85635,61.6121666666667,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.250-Оп.251</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>188.88 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.85635,61.6121666666667,5 32.85565,61.6105,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.251-Оп.252</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>286.41 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.85565,61.6105,5 32.8543333333333,61.608,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.252-Оп.253</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>227.11 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.8543333333333,61.608,5 32.85345,61.606,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.253-Оп.254</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>230.19 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.85345,61.606,5 32.8523166666667,61.604,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.254-Оп.255</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>227.67 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.8523166666667,61.604,5 32.8513833333333,61.602,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.255-Оп.256</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>229.30 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.8513833333333,61.602,5 32.8503166666667,61.6,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.256-Оп.257</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>208.83 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.8503166666667,61.6,5 32.84945,61.5981666666667,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.257-Оп.258</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>191.02 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.84945,61.5981666666667,5 32.8485666666667,61.5965,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.258-Оп.259</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>228.88 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.8485666666667,61.5965,5 32.8475333333333,61.5945,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.259-Оп.260</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>213.13 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.8475333333333,61.5945,5 32.84635,61.5926666666667,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.260-Оп.261</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>225.78 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.84635,61.5926666666667,5 32.8456,61.5906666666667,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.261-Оп.262</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>305.04 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.8456,61.5906666666667,5 32.8442333333333,61.588,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.262-Оп.263</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>296.49 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.8442333333333,61.588,5 32.8444,61.5853333333333,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.263-Оп.264</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>129.66 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.8444,61.5853333333333,5 32.8444,61.5841666666667,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.264-Оп.265</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>166.89 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.8444,61.5841666666667,5 32.84455,61.5826666666667,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.265-Оп.266</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>277.90 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.84455,61.5826666666667,5 32.8446666666667,61.5801666666667,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.266-Оп.267</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>333.46 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.8446666666667,61.5801666666667,5 32.8447833333333,61.5771666666667,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.267-Оп.268</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>278.07 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.8447833333333,61.5771666666667,5 32.845,61.5746666666667,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.268-Оп.269</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>148.34 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.845,61.5746666666667,5 32.8451333333333,61.5733333333333,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.269-Оп.270</name>
+			<resId>КАР000502</resId>
+			<lineId>КАР000000045</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-124 ПС-24 Суоярви(ФСК)-ПС-39 Ведлозеро (ЮКЭС)</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>18.54 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Служба воздушных линий ЮКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Вологдаэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>33,99</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>90</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.8451333333333,61.5733333333333,5 32.8451166666667,61.5731666666667,5</coordinates>
+			</LineString>
+		</Placemark>
+	</Document>
+</kml>

@@ -1,0 +1,2756 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+	<Document>
+		<Style id="StyleInfo">
+			<IconStyle>
+				<scale>0.5</scale>
+				<!--Видимость 1% (прозрачный)<color>03ffffff</color>-->
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="StyleOpora">
+			<IconStyle>
+				<scale>.01</scale>
+				<!--Видимость 1% (прозрачный)-->
+				<color>03ffffff</color>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<!--Видимость 1% (прозрачный)<color>03ffffff</color>-->
+				<scale>0.01</scale>
+			</LabelStyle>
+		</Style>
+		<Style id="StyleOporaVisible">
+			<IconStyle>
+				<scale>0.5</scale>
+				<!--Видимость 1% (прозрачный)-->
+				<color>03ffffff</color>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<!--Видимость 1% (прозрачный)<color>03ffffff</color>-->
+				<scale>0.01</scale>
+			</LabelStyle>
+		</Style>
+		<Style id="StyleProletLightGreen">
+			<LineStyle>
+				<color>ff64ff64</color>
+				<width>3</width>
+			</LineStyle>
+		</Style>
+		<Style id="StyleProletDarkGreen">
+			<LineStyle>
+				<color>ff009600</color>
+				<width>3</width>
+			</LineStyle>
+		</Style>
+		<Style id="StyleProletRed">
+			<LineStyle>
+				<color>ff0000ff</color>
+				<width>3</width>
+			</LineStyle>
+		</Style>
+		<Style id="StyleProletYellow">
+			<LineStyle>
+				<color>ff00ffff</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<Style id="StyleProletBlue">
+			<LineStyle>
+				<color>ffff5500</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<name>Л-66С ПС-25 Питкяранта-ПС-16С Карьер</name>
+		<Placemark>
+			<name>Пролет 1-2</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000166</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-66С ПС-25 Питкяранта-ПС-16С Карьер</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>93.34 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,05</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>14,5</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b>3</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b>0</b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.50518,61.571812,10 31.50526,61.572651,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 2-3</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000166</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-66С ПС-25 Питкяранта-ПС-16С Карьер</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>121.47 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,05</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>14,5</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b>3</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b>0</b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.50526,61.572651,10 31.5054,61.573742,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 3-4</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000166</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-66С ПС-25 Питкяранта-ПС-16С Карьер</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>90.88 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,05</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>14,5</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b>3</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b>0</b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.5054,61.573742,10 31.50396,61.574188,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 4-5</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000166</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-66С ПС-25 Питкяранта-ПС-16С Карьер</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>84.68 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,05</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>14,5</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b>3</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b>0</b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.50396,61.574188,10 31.50263,61.574612,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 5-6</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000166</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-66С ПС-25 Питкяранта-ПС-16С Карьер</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>168.53 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,05</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>14,5</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b>3</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b>0</b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.50263,61.574612,10 31.500031,61.575489,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 6-7</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000166</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-66С ПС-25 Питкяранта-ПС-16С Карьер</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>112.86 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,05</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>14,5</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b>3</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b>0</b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.500031,61.575489,10 31.49983,61.5765,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 7-8</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000166</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-66С ПС-25 Питкяранта-ПС-16С Карьер</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>193.34 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,05</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>14,5</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b>3</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b>0</b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.49983,61.5765,10 31.499281,61.57822,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 8-9</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000166</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-66С ПС-25 Питкяранта-ПС-16С Карьер</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>148.04 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,05</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>14,5</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b>3</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b>0</b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.499281,61.57822,10 31.49868,61.579521,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 9-10</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000166</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-66С ПС-25 Питкяранта-ПС-16С Карьер</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>146.69 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,05</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>14,5</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b>3</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b>0</b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.49868,61.579521,10 31.49663,61.58041,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 10-11</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000166</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-66С ПС-25 Питкяранта-ПС-16С Карьер</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>88.90 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,05</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>14,5</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b>3</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b>0</b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.49663,61.58041,10 31.495371,61.58094,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 11-12</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000166</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-66С ПС-25 Питкяранта-ПС-16С Карьер</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>106.49 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,05</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>14,5</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b>3</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b>0</b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.495371,61.58094,10 31.49382,61.581551,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 12-13</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000166</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-66С ПС-25 Питкяранта-ПС-16С Карьер</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>98.26 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,05</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>14,5</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b>3</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b>0</b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.49382,61.581551,10 31.49263,61.58223,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 13-14</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000166</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-66С ПС-25 Питкяранта-ПС-16С Карьер</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>115.63 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,05</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>14,5</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b>3</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b>0</b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.49263,61.58223,10 31.490959,61.582901,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 14-15</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000166</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-66С ПС-25 Питкяранта-ПС-16С Карьер</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>118.60 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,05</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>14,5</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b>3</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b>0</b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.490959,61.582901,10 31.489229,61.58358,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 15-16</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000166</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-66С ПС-25 Питкяранта-ПС-16С Карьер</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>112.01 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,05</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>14,5</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b>3</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b>0</b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.489229,61.58358,10 31.487749,61.584301,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 16-17</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000166</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-66С ПС-25 Питкяранта-ПС-16С Карьер</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>111.31 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,05</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>14,5</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b>3</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b>0</b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.487749,61.584301,10 31.486111,61.58493,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 17-18</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000166</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-66С ПС-25 Питкяранта-ПС-16С Карьер</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>81.43 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,05</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>14,5</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b>3</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b>0</b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.486111,61.58493,10 31.48505,61.585461,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 18-19</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000166</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-66С ПС-25 Питкяранта-ПС-16С Карьер</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>105.97 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,05</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>14,5</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b>3</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b>0</b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.48505,61.585461,10 31.48358,61.586109,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 19-20</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000166</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-66С ПС-25 Питкяранта-ПС-16С Карьер</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>98.97 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,05</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>14,5</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b>3</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b>0</b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.48358,61.586109,10 31.48218,61.5867,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 20-21</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000166</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-66С ПС-25 Питкяранта-ПС-16С Карьер</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>101.60 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,05</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>14,5</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b>3</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b>0</b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.48218,61.5867,10 31.48081,61.587341,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 21-22</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000166</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-66С ПС-25 Питкяранта-ПС-16С Карьер</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>115.48 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,05</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>14,5</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b>3</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b>0</b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.48081,61.587341,10 31.479179,61.588032,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 22-23</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000166</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-66С ПС-25 Питкяранта-ПС-16С Карьер</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>138.27 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,05</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.479179,61.588032,5 31.477171,61.588829,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 23-24</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000166</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-66С ПС-25 Питкяранта-ПС-16С Карьер</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>84.02 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,05</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.477171,61.588829,5 31.476,61.58934,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 24-25</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000166</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-66С ПС-25 Питкяранта-ПС-16С Карьер</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>102.01 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,05</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.476,61.58934,5 31.47473,61.590031,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 25-26</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000166</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-66С ПС-25 Питкяранта-ПС-16С Карьер</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>98.27 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,05</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.47473,61.590031,0 31.473169,61.590511,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 26-27</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000166</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-66С ПС-25 Питкяранта-ПС-16С Карьер</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>144.38 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,05</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.473169,61.590511,0 31.47135,61.59148,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 27-28</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000166</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-66С ПС-25 Питкяранта-ПС-16С Карьер</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>93.56 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,05</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.47135,61.59148,0 31.46983,61.591911,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 28-29</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000166</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-66С ПС-25 Питкяранта-ПС-16С Карьер</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>110.22 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,05</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.46983,61.591911,0 31.468349,61.592609,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 29-30</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000166</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-66С ПС-25 Питкяранта-ПС-16С Карьер</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>95.05 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,05</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.468349,61.592609,0 31.467091,61.59322,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 30-31</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000166</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-66С ПС-25 Питкяранта-ПС-16С Карьер</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>142.20 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,05</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.467091,61.59322,0 31.465179,61.59412,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 31-32</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000166</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-66С ПС-25 Питкяранта-ПС-16С Карьер</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>85.50 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,05</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>14,5</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b>3</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b>0</b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.465179,61.59412,10 31.46397,61.594631,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 32-33</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000166</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-66С ПС-25 Питкяранта-ПС-16С Карьер</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>73.87 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,05</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>14,5</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b>3</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b>0</b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.46397,61.594631,10 31.462721,61.594929,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 33-34</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000166</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-66С ПС-25 Питкяранта-ПС-16С Карьер</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>66.67 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,05</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>14,5</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b>3</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b>0</b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.462721,61.594929,10 31.462021,61.595428,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 34-35</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000166</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-66С ПС-25 Питкяранта-ПС-16С Карьер</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>108.83 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,05</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.462021,61.595428,0 31.460251,61.595928,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 35-36</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000166</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-66С ПС-25 Питкяранта-ПС-16С Карьер</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>115.46 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,05</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.460251,61.595928,0 31.458891,61.596741,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 36-37</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000166</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-66С ПС-25 Питкяранта-ПС-16С Карьер</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>111.04 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,05</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.458891,61.596741,0 31.457121,61.597279,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 37-38</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000166</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-66С ПС-25 Питкяранта-ПС-16С Карьер</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>104.12 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,05</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.457121,61.597279,0 31.455669,61.597912,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 38-39</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000166</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-66С ПС-25 Питкяранта-ПС-16С Карьер</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>88.38 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,05</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.455669,61.597912,0 31.454189,61.598282,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 39-40</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000166</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-66С ПС-25 Питкяранта-ПС-16С Карьер</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>119.75 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,05</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.454189,61.598282,0 31.452379,61.59893,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 40-41</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000166</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletDarkGreen</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-66С ПС-25 Питкяранта-ПС-16С Карьер</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>126.50 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,05</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.452379,61.59893,0 31.45027,61.599468,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 41-42</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000166</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-66С ПС-25 Питкяранта-ПС-16С Карьер</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>148.78 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,05</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>14,5</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b>3</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b>0</b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.45027,61.599468,10 31.447821,61.600128,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 42-43</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000166</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-66С ПС-25 Питкяранта-ПС-16С Карьер</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>146.38 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,05</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>14,5</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b>3</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b>0</b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.447821,61.600128,10 31.445999,61.60112,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 43-44</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000166</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-66С ПС-25 Питкяранта-ПС-16С Карьер</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>95.11 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,05</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>14,5</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b>3</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b>0</b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.445999,61.60112,10 31.44433,61.60144,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 44-45</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000166</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-66С ПС-25 Питкяранта-ПС-16С Карьер</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>85.99 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,05</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>14,5</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b>3</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b>0</b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.44433,61.60144,10 31.442949,61.601849,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 45-46</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000166</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-66С ПС-25 Питкяранта-ПС-16С Карьер</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>137.96 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,05</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>14,5</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b>3</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b>0</b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.442949,61.601849,10 31.44101,61.60268,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 46-47</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000166</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-66С ПС-25 Питкяранта-ПС-16С Карьер</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>91.01 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,05</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>14,5</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b>3</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b>0</b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.44101,61.60268,10 31.439369,61.602928,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 47-48</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000166</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-66С ПС-25 Питкяранта-ПС-16С Карьер</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>74.56 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,05</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>14,5</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b>3</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b>0</b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.439369,61.602928,10 31.43841,61.60342,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 48-49</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000166</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-66С ПС-25 Питкяранта-ПС-16С Карьер</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>85.45 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,05</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.43841,61.60342,5 31.437099,61.60387,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 49-50</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000166</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-66С ПС-25 Питкяранта-ПС-16С Карьер</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>117.21 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,05</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.437099,61.60387,5 31.43516,61.604382,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 50-51</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000166</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-66С ПС-25 Питкяранта-ПС-16С Карьер</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>80.82 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,05</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.43516,61.604382,5 31.43391,61.604801,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 51-52</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000166</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-66С ПС-25 Питкяранта-ПС-16С Карьер</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>116.30 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,05</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>14,5</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b>3</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b>0</b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.43391,61.604801,10 31.431999,61.60532,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 52-53</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000166</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-66С ПС-25 Питкяранта-ПС-16С Карьер</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>201.29 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,05</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>14,5</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b>3</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b>0</b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.431999,61.60532,10 31.42885,61.606339,10</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 53-54</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000166</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletBlue</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-66С ПС-25 Питкяранта-ПС-16С Карьер</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>108.82 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>6,05</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, га:</td><td><b>14,5</b></td>
+</tr>
+<tr>
+<td width="150">Факт работ, км:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">Кол-во бригад:</td><td><b>1</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во человек:</td><td><b>3</b></td>
+</tr>
+<tr>
+<td width="150">Кол-во техники:</td><td><b>0</b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.42885,61.606339,10 31.42683,61.606529,10</coordinates>
+			</LineString>
+		</Placemark>
+	</Document>
+</kml>

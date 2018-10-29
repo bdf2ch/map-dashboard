@@ -1,0 +1,770 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+	<Document>
+		<Style id="StyleInfo">
+			<IconStyle>
+				<scale>0.5</scale>
+				<!--Видимость 1% (прозрачный)<color>03ffffff</color>-->
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="StyleOpora">
+			<IconStyle>
+				<scale>.01</scale>
+				<!--Видимость 1% (прозрачный)-->
+				<color>03ffffff</color>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<!--Видимость 1% (прозрачный)<color>03ffffff</color>-->
+				<scale>0.01</scale>
+			</LabelStyle>
+		</Style>
+		<Style id="StyleOporaVisible">
+			<IconStyle>
+				<scale>0.5</scale>
+				<!--Видимость 1% (прозрачный)-->
+				<color>03ffffff</color>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<!--Видимость 1% (прозрачный)<color>03ffffff</color>-->
+				<scale>0.01</scale>
+			</LabelStyle>
+		</Style>
+		<Style id="StyleProletLightGreen">
+			<LineStyle>
+				<color>ff64ff64</color>
+				<width>3</width>
+			</LineStyle>
+		</Style>
+		<Style id="StyleProletDarkGreen">
+			<LineStyle>
+				<color>ff009600</color>
+				<width>3</width>
+			</LineStyle>
+		</Style>
+		<Style id="StyleProletRed">
+			<LineStyle>
+				<color>ff0000ff</color>
+				<width>3</width>
+			</LineStyle>
+		</Style>
+		<Style id="StyleProletYellow">
+			<LineStyle>
+				<color>ff00ffff</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<Style id="StyleProletBlue">
+			<LineStyle>
+				<color>ffff5500</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<name>Л-113 ГЭС-6 Беломорская-ПС--12 Беломорск</name>
+		<Placemark>
+			<name>Пролет Оп.5-Оп.6</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000233</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-113 ГЭС-6 Беломорская-ПС--12 Беломорск</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>296.99 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>3,61</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.704911,64.513794,5 34.710568,64.514897,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.14-Оп.15</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000233</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-113 ГЭС-6 Беломорская-ПС--12 Беломорск</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>402.56 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>3,61</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.73002,64.525751,5 34.733936,64.528958,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.7-Оп.8</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000233</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-113 ГЭС-6 Беломорская-ПС--12 Беломорск</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>171.78 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>3,61</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.711781,64.515447,5 34.714578,64.516417,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.18-Оп.19</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000233</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-113 ГЭС-6 Беломорская-ПС--12 Беломорск</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>30.62 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>3,61</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.739664,64.533531,0 34.74029,64.53359,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.4-Оп.5</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000233</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-113 ГЭС-6 Беломорская-ПС--12 Беломорск</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>286.93 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>3,61</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.699392,64.512781,5 34.704911,64.513794,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.1-Оп.2</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000233</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-113 ГЭС-6 Беломорская-ПС--12 Беломорск</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>245.78 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>3,61</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.6918609645,64.5133460127,0 34.696104,64.512098,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.17-Оп.18</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000233</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-113 ГЭС-6 Беломорская-ПС--12 Беломорск</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>112.31 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>3,61</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.739325,64.534531,0 34.739664,64.533531,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.10-Оп.11</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000233</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-113 ГЭС-6 Беломорская-ПС--12 Беломорск</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>216.07 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>3,61</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.720328,64.518403,5 34.7239,64.519594,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.12-Оп.13</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000233</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-113 ГЭС-6 Беломорская-ПС--12 Беломорск</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>312.07 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>3,61</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.727768,64.523743,5 34.727718,64.520935,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.8-Оп.9</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000233</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-113 ГЭС-6 Беломорская-ПС--12 Беломорск</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>191.73 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>3,61</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.714578,64.516417,5 34.717614,64.517544,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.6-Оп.7</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000233</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-113 ГЭС-6 Беломорская-ПС--12 Беломорск</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>84.26 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>3,61</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.710568,64.514897,5 34.711781,64.515447,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.3-Оп.4</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000233</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-113 ГЭС-6 Беломорская-ПС--12 Беломорск</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>174.69 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>3,61</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.696103,64.512097,5 34.699392,64.512781,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.16-Оп.17</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000233</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-113 ГЭС-6 Беломорская-ПС--12 Беломорск</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>407.80 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>3,61</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.736214,64.531114,5 34.739325,64.534531,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.2-Оп.3</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000233</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-113 ГЭС-6 Беломорская-ПС--12 Беломорск</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>0.12 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>3,61</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.696104,64.512098,5 34.696103,64.512097,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.15-Оп.16</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000233</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-113 ГЭС-6 Беломорская-ПС--12 Беломорск</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>263.18 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>3,61</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.733936,64.528958,5 34.736214,64.531114,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.9-Оп.10</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000233</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-113 ГЭС-6 Беломорская-ПС--12 Беломорск</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>161.10 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>3,61</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.717614,64.517544,5 34.720328,64.518403,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.11-Оп.12</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000233</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-113 ГЭС-6 Беломорская-ПС--12 Беломорск</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>496.79 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>3,61</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>4</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.7239,64.519594,5 34.727768,64.523743,5</coordinates>
+			</LineString>
+		</Placemark>
+	</Document>
+</kml>

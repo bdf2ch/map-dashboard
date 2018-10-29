@@ -1,0 +1,3271 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+	<Document>
+		<Style id="StyleInfo">
+			<IconStyle>
+				<scale>0.5</scale>
+				<!--Видимость 1% (прозрачный)<color>03ffffff</color>-->
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="StyleOpora">
+			<IconStyle>
+				<scale>.01</scale>
+				<!--Видимость 1% (прозрачный)-->
+				<color>03ffffff</color>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<!--Видимость 1% (прозрачный)<color>03ffffff</color>-->
+				<scale>0.01</scale>
+			</LabelStyle>
+		</Style>
+		<Style id="StyleOporaVisible">
+			<IconStyle>
+				<scale>0.5</scale>
+				<!--Видимость 1% (прозрачный)-->
+				<color>03ffffff</color>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<!--Видимость 1% (прозрачный)<color>03ffffff</color>-->
+				<scale>0.01</scale>
+			</LabelStyle>
+		</Style>
+		<Style id="StyleProletLightGreen">
+			<LineStyle>
+				<color>ff64ff64</color>
+				<width>3</width>
+			</LineStyle>
+		</Style>
+		<Style id="StyleProletDarkGreen">
+			<LineStyle>
+				<color>ff009600</color>
+				<width>3</width>
+			</LineStyle>
+		</Style>
+		<Style id="StyleProletRed">
+			<LineStyle>
+				<color>ff0000ff</color>
+				<width>3</width>
+			</LineStyle>
+		</Style>
+		<Style id="StyleProletYellow">
+			<LineStyle>
+				<color>ff00ffff</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<Style id="StyleProletBlue">
+			<LineStyle>
+				<color>ffff5500</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<name>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</name>
+		<Placemark>
+			<name>Пролет Оп.1-Оп.2</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>85.34 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.276381,61.682961,5 31.277969,61.682812,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 2-3</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>88.05 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.277969,61.682812,5 31.279638,61.682781,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 3-4</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>105.94 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.279638,61.682781,5 31.281647,61.682758,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 4-5</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>94.78 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.281647,61.682758,5 31.283445,61.682758,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 5-6</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>121.88 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.283445,61.682758,5 31.285757,61.682758,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 6-7</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>113.50 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.285757,61.682758,5 31.28791,61.682747,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 7-8</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>86.21 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.28791,61.682747,5 31.289545,61.682732,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 8-9</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>94.00 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.289545,61.682732,5 31.291328,61.682724,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 9-10</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>90.94 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.291328,61.682724,5 31.293053,61.682716,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 10-11</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>100.89 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.293053,61.682716,5 31.294966,61.682743,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 11-12</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>114.89 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.294966,61.682743,5 31.297144,61.682705,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 12-13</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>80.46 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.297144,61.682705,5 31.29867,61.68272,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 13-14</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>100.97 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.29867,61.68272,5 31.300585,61.682701,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 14-15</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>76.13 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.300585,61.682701,5 31.302029,61.682713,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 15-16</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>136.75 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.302029,61.682713,5 31.304623,61.682713,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 16-17</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>118.99 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.304623,61.682713,5 31.306879,61.682678,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 17-18</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>99.09 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.306879,61.682678,5 31.308758,61.682655,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 18-19</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>144.18 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.308758,61.682655,5 31.311493,61.682655,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 19-20</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>106.07 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.311493,61.682655,5 31.313505,61.682648,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 20-21</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>55.85 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.313505,61.682648,5 31.31456,61.682602,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 21-22</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>133.85 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.31456,61.682602,5 31.317099,61.682606,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 22-23</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>111.43 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.317099,61.682606,5 31.319212,61.682632,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 23-24</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>129.04 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.319212,61.682632,5 31.321659,61.682602,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 24-25</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>93.13 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.321659,61.682602,5 31.323425,61.682579,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 25-26</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>54.10 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.323425,61.682579,5 31.324053,61.682194,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 26-27</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>57.12 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.324053,61.682194,5 31.32472,61.681789,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 27-28</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>114.95 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.32472,61.681789,5 31.326038,61.680965,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 28-29</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>127.04 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.326038,61.680965,5 31.327513,61.680061,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 29-30</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>107.08 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.327513,61.680061,5 31.328775,61.679306,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 30-31</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>103.76 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.328775,61.679306,5 31.329975,61.678566,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 31-32</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>103.64 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.329975,61.678566,5 31.331129,61.677811,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 32-33</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>111.90 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.331129,61.677811,5 31.332466,61.677029,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 33-34</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>95.78 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.332466,61.677029,5 31.333563,61.676342,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 34-35</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>133.83 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.333563,61.676342,5 31.335112,61.675388,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 35-36</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>181.49 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.335112,61.675388,5 31.337061,61.674042,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 36-37</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>72.38 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.337061,61.674042,5 31.33744,61.673416,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 37-38</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>63.83 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.33744,61.673416,5 31.337669,61.672852,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 38-39</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>151.46 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.337669,61.672852,5 31.33954,61.671818,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 39-40</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>101.59 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.33954,61.671818,5 31.340691,61.671085,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 40-41</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>208.72 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.340691,61.671085,5 31.34317,61.669621,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 41-42</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>112.41 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.34317,61.669621,5 31.343941,61.668678,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 42-43</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>179.20 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.343941,61.668678,5 31.346733,61.667759,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 43-44</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>118.29 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.346733,61.667759,5 31.348587,61.66716,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 44-45</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>171.72 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.348587,61.66716,5 31.35125,61.666271,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 45-46</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>155.12 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.35125,61.666271,5 31.353676,61.665482,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 46-47</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>137.29 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.353676,61.665482,5 31.35586,61.66481,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 47-48</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>48.07 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.35586,61.66481,5 31.35677,61.664833,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 48-49</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>128.93 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.35677,61.664833,5 31.359198,61.664967,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 49-50</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>52.63 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.359198,61.664967,5 31.36018,61.665051,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 50-51</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>76.05 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.36018,61.665051,5 31.361279,61.664608,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 51-52</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>105.51 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.361279,61.664608,5 31.362831,61.664009,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 52-53</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>113.86 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.362831,61.664009,5 31.364496,61.663357,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 53-54</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>112.17 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.364496,61.663357,5 31.366112,61.662701,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 54-55</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>124.48 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.366112,61.662701,5 31.367918,61.66198,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 56-57</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>87.57 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.369743,61.661263,5 31.371038,61.66077,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 55-56</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>124.97 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.367918,61.66198,5 31.369743,61.661263,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 57-58</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>113.30 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.371038,61.66077,5 31.372696,61.660122,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 58-59</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>90.39 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.372696,61.660122,5 31.374029,61.659611,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 59-60</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>106.13 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.374029,61.659611,5 31.375582,61.659004,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 60-61</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>134.18 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.375582,61.659004,5 31.377541,61.658234,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 61-62</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>108.03 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.377541,61.658234,5 31.379147,61.657631,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 62-63</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>113.81 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.379147,61.657631,5 31.380836,61.656994,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 63-64</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>117.69 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.380836,61.656994,5 31.382521,61.6563,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 64-65</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>110.93 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.382521,61.6563,5 31.38419,61.655693,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 65-66</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>96.83 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.38419,61.655693,5 31.385567,61.655117,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 66-67</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>103.38 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.385567,61.655117,5 31.387087,61.65453,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 67-68</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>100.12 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.387087,61.65453,5 31.388565,61.653965,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 68-69</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>74.89 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.388565,61.653965,5 31.389629,61.653519,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 69-70</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>123.35 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.389629,61.653519,5 31.391483,61.652843,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 70-71</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>115.92 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.391483,61.652843,5 31.393179,61.65218,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 71-72</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>111.25 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.393179,61.65218,5 31.394777,61.651527,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 72-73</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>80.27 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.394777,61.651527,5 31.395948,61.651066,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 73-74</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>84.83 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.395948,61.651066,5 31.397203,61.650589,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 74-75</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>226.39 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.397203,61.650589,5 31.400497,61.649284,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 75-76</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>112.71 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.400497,61.649284,5 31.40214,61.648636,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 76-77</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>99.72 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.40214,61.648636,5 31.403608,61.648071,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 77-78</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>137.74 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.403608,61.648071,5 31.405626,61.647285,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет 78-79</name>
+			<resId>КАР000016</resId>
+			<lineId>КАР000000165</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-64С ПС-6С Леппясилта-РП-641 Койриноя</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>86.54 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>РЭС-4 Ляскеля ЗКЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>35 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>8,76</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>12</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>31.405626,61.647285,5 31.406935,61.646816,5</coordinates>
+			</LineString>
+		</Placemark>
+	</Document>
+</kml>

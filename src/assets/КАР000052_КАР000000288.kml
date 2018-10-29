@@ -1,0 +1,2697 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+	<Document>
+		<Style id="StyleInfo">
+			<IconStyle>
+				<scale>0.5</scale>
+				<!--Видимость 1% (прозрачный)<color>03ffffff</color>-->
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="StyleOpora">
+			<IconStyle>
+				<scale>.01</scale>
+				<!--Видимость 1% (прозрачный)-->
+				<color>03ffffff</color>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<!--Видимость 1% (прозрачный)<color>03ffffff</color>-->
+				<scale>0.01</scale>
+			</LabelStyle>
+		</Style>
+		<Style id="StyleOporaVisible">
+			<IconStyle>
+				<scale>0.5</scale>
+				<!--Видимость 1% (прозрачный)-->
+				<color>03ffffff</color>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<!--Видимость 1% (прозрачный)<color>03ffffff</color>-->
+				<scale>0.01</scale>
+			</LabelStyle>
+		</Style>
+		<Style id="StyleProletLightGreen">
+			<LineStyle>
+				<color>ff64ff64</color>
+				<width>3</width>
+			</LineStyle>
+		</Style>
+		<Style id="StyleProletDarkGreen">
+			<LineStyle>
+				<color>ff009600</color>
+				<width>3</width>
+			</LineStyle>
+		</Style>
+		<Style id="StyleProletRed">
+			<LineStyle>
+				<color>ff0000ff</color>
+				<width>3</width>
+			</LineStyle>
+		</Style>
+		<Style id="StyleProletYellow">
+			<LineStyle>
+				<color>ff00ffff</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<Style id="StyleProletBlue">
+			<LineStyle>
+				<color>ffff5500</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<name>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</name>
+		<Placemark>
+			<name>Пролет Оп.1-Оп.2</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>131.54 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.46567,64.417709,0 34.4654527777778,64.4188888888889,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.2-Оп.3</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>147.57 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.4654527777778,64.4188888888889,0 34.4648916666667,64.4201944444445,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.3-Оп.4</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>156.36 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.4648916666667,64.4201944444445,0 34.464366,64.421583,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.4-Оп.5</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>214.92 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.464366,64.421583,0 34.4660972222222,64.4233666666667,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.5-Оп.6</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>254.43 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.4660972222222,64.4233666666667,0 34.4681027777778,64.4254861111111,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.6-Оп.7</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>132.07 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.4681027777778,64.4254861111111,5 34.4690083333333,64.4266083333333,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.7-Оп.8</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>180.30 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.4690083333333,64.4266083333333,5 34.470293,64.428133,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.8-Оп.9</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>136.71 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.470293,64.428133,5 34.471299,64.429284,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.9-Оп.10</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>109.98 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.471299,64.429284,5 34.472862,64.430008,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.10-Оп.11</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>241.51 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.472862,64.430008,5 34.476778,64.431374,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.11-Оп.12</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>193.29 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.476778,64.431374,5 34.480642,64.431868,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.12-Оп.13</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>138.91 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.480642,64.431868,5 34.483333,64.431406,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.13-Оп.14</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>209.18 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.483333,64.431406,5 34.48766,64.431171,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.14-Оп.15</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>85.08 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.48766,64.431171,5 34.489288,64.431475,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.15-Оп.16</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>125.40 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.489288,64.431475,5 34.490178,64.432536,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.16-Оп.17</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>245.24 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.490178,64.432536,5 34.4925833333333,64.4344833333333,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.17-Оп.18</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>264.83 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.4925833333333,64.4344833333333,5 34.494872,64.436652,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.18-Оп.19</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>216.26 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.494872,64.436652,5 34.4981611111111,64.4379833333333,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.19-Оп.20</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>186.69 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.4981611111111,64.4379833333333,5 34.5010111111111,64.4391277777778,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.20-Оп.21</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>195.77 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.5010111111111,64.4391277777778,5 34.5040472222222,64.4403055555556,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.21-Оп.22</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>228.59 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.5040472222222,64.4403055555556,5 34.5074222222222,64.4417583333333,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.22-Оп.23</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>197.31 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.5074222222222,64.4417583333333,5 34.5103888888889,64.4429888888889,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.23-Оп.24</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>212.28 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.5103888888889,64.4429888888889,5 34.5136388888889,64.4442861111111,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.24-Оп.25</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>198.79 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.5136388888889,64.4442861111111,5 34.5167138888889,64.4454861111111,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.25-Оп.26</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>236.51 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.5167138888889,64.4454861111111,5 34.5202888888889,64.4469527777778,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.26-Оп.27</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>210.31 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.5202888888889,64.4469527777778,5 34.5234527777778,64.4482638888889,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.27-Оп.28</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>211.26 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.5234527777778,64.4482638888889,5 34.5266805555556,64.4495583333333,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.28-Оп.29</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>207.46 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.5266805555556,64.4495583333333,5 34.5298361111111,64.4508361111111,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.29-Оп.30</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>201.12 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.5298361111111,64.4508361111111,5 34.5328888888889,64.4520777777778,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.30-Оп.31</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>204.45 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.5328888888889,64.4520777777778,5 34.5360305555556,64.4533222222222,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.31-Оп.32</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>199.61 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.5360305555556,64.4533222222222,5 34.5390277777778,64.4545694444445,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.32-Оп.33</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>171.54 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.5390277777778,64.4545694444445,5 34.5416694444444,64.4556111111111,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.33-Оп.34</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>284.48 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.5416694444444,64.4556111111111,5 34.5459777777778,64.4573722222222,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.34-Оп.35</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>197.19 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.5459777777778,64.4573722222222,5 34.5489972222222,64.4585777777778,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.35-Оп.36</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>210.50 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.5489972222222,64.4585777777778,5 34.5521861111111,64.4598805555556,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.36-Оп.37</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>262.05 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.5521861111111,64.4598805555556,5 34.5561555555556,64.4615027777778,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.37-Оп.38</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>284.58 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.5561555555556,64.4615027777778,5 34.5605277777778,64.4632361111111,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.38-Оп.39</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>322.66 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.5605277777778,64.4632361111111,5 34.5654222222222,64.4652305555556,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.39-Оп.40</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>258.33 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.5654222222222,64.4652305555556,5 34.5693583333333,64.4668194444444,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.40-Оп.41</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>264.71 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.5693583333333,64.4668194444444,5 34.5734166666667,64.4684361111111,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.41-Оп.42</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>234.40 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.5734166666667,64.4684361111111,5 34.5769583333333,64.4698916666667,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.42-Оп.43</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>223.90 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.5769583333333,64.4698916666667,5 34.580337,64.471284,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.43-Оп.44</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>223.20 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.580337,64.471284,5 34.584575,64.4721194444444,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.44-Оп.45</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>204.54 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.584575,64.4721194444444,5 34.5884722222222,64.4728722222222,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.45-Оп.46</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>208.82 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.5884722222222,64.4728722222222,5 34.5924444444444,64.4736472222222,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.46-Оп.47</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>186.99 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.5924444444444,64.4736472222222,5 34.5959861111111,64.4743555555556,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.47-Оп.48</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>167.98 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.5959861111111,64.4743555555556,5 34.5991944444445,64.4749666666667,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.48-Оп.49</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>160.65 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.5991944444445,64.4749666666667,5 34.6022611111111,64.4755527777778,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.49-Оп.50</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>262.59 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.6022611111111,64.4755527777778,5 34.6072444444445,64.4765388888889,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.50-Оп.51</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>176.94 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.6072444444445,64.4765388888889,5 34.6106,64.4772055555556,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.51-Оп.52</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>210.18 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.6106,64.4772055555556,5 34.6145833333333,64.478,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.52-Оп.53</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>234.53 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.6145833333333,64.478,5 34.6190916666667,64.478825,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.53-Оп.54</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>170.45 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.6190916666667,64.478825,5 34.622325,64.4794666666667,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.54-Оп.55</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>185.42 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.622325,64.4794666666667,5 34.6258222222222,64.4801833333333,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.55-Оп.56</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>251.38 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.6258222222222,64.4801833333333,5 34.630625,64.4810972222222,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.56-Оп.57</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>180.25 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.630625,64.4810972222222,5 34.6340333333333,64.4817861111111,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.57-Оп.58</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>212.98 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.6340333333333,64.4817861111111,5 34.638076,64.482586,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.58-Оп.59</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>197.60 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.638076,64.482586,5 34.6418388888889,64.4833166666667,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.59-Оп.60</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>248.78 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.6418388888889,64.4833166666667,5 34.6453083333333,64.4849833333333,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.60-Оп.61</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>254.07 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.6453083333333,64.4849833333333,5 34.6495388888889,64.4863638888889,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.61-Оп.62</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>192.22 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.6495388888889,64.4863638888889,5 34.6527,64.4874305555556,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.62-Оп.63</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>135.02 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.6527,64.4874305555556,5 34.6548777777778,64.4882027777778,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.63-Оп.64</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>48.37 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.6548777777778,64.4882027777778,5 34.6557138888889,64.4884472222222,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.64-Оп.65</name>
+			<resId>КАР000052</resId>
+			<lineId>КАР000000288</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-105 ГЭС-3 "Маткожненская" - ГЭС-5 "Выгостровская"</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>112.68 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Кемский РЭС-1 СЭС</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Колэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>12,89</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>22</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>34.6557138888889,64.4884472222222,0 34.6575972222222,64.4890555555556,0</coordinates>
+			</LineString>
+		</Placemark>
+	</Document>
+</kml>

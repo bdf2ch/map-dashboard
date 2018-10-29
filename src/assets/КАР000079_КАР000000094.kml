@@ -1,0 +1,6715 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+	<Document>
+		<Style id="StyleInfo">
+			<IconStyle>
+				<scale>0.5</scale>
+				<!--Видимость 1% (прозрачный)<color>03ffffff</color>-->
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="StyleOpora">
+			<IconStyle>
+				<scale>.01</scale>
+				<!--Видимость 1% (прозрачный)-->
+				<color>03ffffff</color>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<!--Видимость 1% (прозрачный)<color>03ffffff</color>-->
+				<scale>0.01</scale>
+			</LabelStyle>
+		</Style>
+		<Style id="StyleOporaVisible">
+			<IconStyle>
+				<scale>0.5</scale>
+				<!--Видимость 1% (прозрачный)-->
+				<color>03ffffff</color>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<!--Видимость 1% (прозрачный)<color>03ffffff</color>-->
+				<scale>0.01</scale>
+			</LabelStyle>
+		</Style>
+		<Style id="StyleProletLightGreen">
+			<LineStyle>
+				<color>ff64ff64</color>
+				<width>3</width>
+			</LineStyle>
+		</Style>
+		<Style id="StyleProletDarkGreen">
+			<LineStyle>
+				<color>ff009600</color>
+				<width>3</width>
+			</LineStyle>
+		</Style>
+		<Style id="StyleProletRed">
+			<LineStyle>
+				<color>ff0000ff</color>
+				<width>3</width>
+			</LineStyle>
+		</Style>
+		<Style id="StyleProletYellow">
+			<LineStyle>
+				<color>ff00ffff</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<Style id="StyleProletBlue">
+			<LineStyle>
+				<color>ffff5500</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<name>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</name>
+		<Placemark>
+			<name>Пролет Оп.1-Оп.2</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>170.94 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.20028,61.26328,0 33.19857,61.26198,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.2-оп.3</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>162.95 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.19857,61.26198,0 33.19691,61.26075,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.3-оп.4</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>142.79 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.19691,61.26075,0 33.19537,61.2597,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.4-оп.5</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>179.02 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.19537,61.2597,0 33.1921,61.25935,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.5-оп.6</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>293.01 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.1921,61.25935,0 33.18662,61.25926,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.6-оп.7</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>381.17 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.18662,61.25926,0 33.17949,61.25916,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.7-оп.8</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>224.04 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.17949,61.25916,0 33.1753,61.25909,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.8-оп.9</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>180.14 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.1753,61.25909,0 33.17193,61.25913,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.9-оп.10</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>215.66 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.17193,61.25913,0 33.17023,61.25737,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.10-оп.11</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>274.32 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.17023,61.25737,0 33.16734,61.25533,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.11-оп.12</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>282.33 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.16734,61.25533,0 33.16501,61.25305,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.14-оп.15</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>249.72 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.16041,61.2488,0 33.15782,61.24693,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.15-оп.16</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>250.22 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.15782,61.24693,0 33.15548,61.24498,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.16-оп.17</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>264.46 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.15548,61.24498,0 33.15304,61.24291,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.17-оп.18</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>221.75 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.15304,61.24291,0 33.15101,61.24117,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.18-оп.19</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>223.43 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.15101,61.24117,0 33.14899,61.23941,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.19-оп.20</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>236.30 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.14899,61.23941,0 33.14674,61.23758,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.20-оп.21</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>351.76 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.14674,61.23758,0 33.14352,61.23482,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.21-оп.22</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>230.90 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.14352,61.23482,0 33.1414,61.23301,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.22-оп.23</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>190.47 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.1414,61.23301,0 33.13964,61.23152,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.23-оп.24</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>315.39 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.13964,61.23152,0 33.1367,61.22906,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.24-оп.25</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>255.09 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.1367,61.22906,0 33.13436,61.22706,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.25-оп.26</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>210.44 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.13436,61.22706,0 33.13243,61.22541,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.26-оп.27</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>339.40 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.13243,61.22541,0 33.12935,61.22274,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.27-оп.28</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>401.12 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.12935,61.22274,0 33.12569,61.21959,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.28-оп.29</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>326.66 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.12569,61.21959,0 33.12269,61.21703,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.29-оп.30</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>318.69 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.12269,61.21703,0 33.11981,61.21452,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.30-оп.31</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>319.03 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.11981,61.21452,0 33.11688,61.21202,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.31-оп.32</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>256.71 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.11688,61.21202,0 33.11448,61.21002,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.32-оп.33</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>297.77 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.11448,61.21002,0 33.11177,61.20768,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.33-оп.34</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>305.07 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.11177,61.20768,0 33.10893,61.2053,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.34-оп.35</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>282.56 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.10893,61.2053,0 33.10632,61.20309,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.35-оп.36</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>285.47 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.10632,61.20309,0 33.10371,61.20085,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.36-оп.37</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>290.59 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.10371,61.20085,0 33.10098,61.19859,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.37-оп.38</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>362.62 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.10098,61.19859,0 33.09772,61.19573,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.38-оп.39</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>278.19 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.09772,61.19573,0 33.09513,61.19356,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.39-оп.40</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>365.57 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.09513,61.19356,0 33.09165,61.19073,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.40-оп.41</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>331.32 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.09165,61.19073,0 33.08866,61.18812,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.41-оп.42</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>237.76 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.08866,61.18812,0 33.08658,61.18623,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.42-оп.43</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>260.21 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.08658,61.18623,0 33.08439,61.18414,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.43-оп.44</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>214.54 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.08439,61.18414,0 33.08218,61.18253,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.44-оп.45</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>243.50 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.08218,61.18253,0 33.07999,61.18061,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.45-оп.46</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>247.66 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.07999,61.18061,0 33.07779,61.17865,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.46-оп.47</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>254.04 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.07779,61.17865,0 33.07535,61.17669,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.47-оп.48</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>233.35 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.07535,61.17669,0 33.07329,61.17484,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.48-оп.49</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>189.06 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.07329,61.17484,0 33.07155,61.17336,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.49-оп.50</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>184.14 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.07155,61.17336,0 33.06985,61.17192,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.50-оп.51</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>202.29 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.06985,61.17192,0 33.06805,61.17032,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.51-оп.52</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>237.44 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.06805,61.17032,0 33.06587,61.16846,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.52-оп.53</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>262.33 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.06587,61.16846,0 33.06348,61.1664,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.53-оп.54</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>258.64 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.06348,61.1664,5 33.06112,61.16437,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.54-оп.55</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>254.20 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.06112,61.16437,5 33.05871,61.1624,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.55-оп.56</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>262.34 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.05871,61.1624,5 33.05632,61.16034,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.56-оп.57</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>235.63 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.05632,61.16034,5 33.0541,61.15851,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.57-оп.58</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>271.06 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.0541,61.15851,5 33.0516,61.15639,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.58-оп.59</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>282.06 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.0516,61.15639,5 33.04905,61.15417,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.59-оп.60</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>286.59 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.04905,61.15417,5 33.04613,61.15201,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.60-оп.61</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>165.75 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.04613,61.15201,5 33.04359,61.15116,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет ор.61-оп.62</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>257.66 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.04359,61.15116,5 33.03976,61.14976,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.62-оп.63</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>287.17 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.03976,61.14976,5 33.03724,61.14748,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.63-оп64</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>270.62 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.03724,61.14748,5 33.03491,61.14532,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.64-оп.65</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>314.12 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.03491,61.14532,5 33.0321,61.14284,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.65-оп.66</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>225.88 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.0321,61.14284,5 33.03135,61.14084,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.66-оп.67</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>302.40 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.03135,61.14084,5 33.03065,61.13814,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.67-оп.68</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>263.26 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.03065,61.13814,5 33.02834,61.13605,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.68-оп.69</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>249.82 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.02834,61.13605,5 33.02606,61.13409,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.69-оп.70</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>298.91 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.02606,61.13409,5 33.02335,61.13174,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.70-оп.71</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>246.32 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.02335,61.13174,5 33.02113,61.1298,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.71-оп.72</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>280.32 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.02113,61.1298,5 33.01865,61.12758,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.72-оп.73</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>271.77 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.01865,61.12758,5 33.01609,61.12547,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.73-оп.74</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>261.89 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.01609,61.12547,5 33.01372,61.12341,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.74-оп.75</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>251.43 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.01372,61.12341,0 33.01138,61.12145,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.75-оп.76</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>190.50 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.01138,61.12145,0 33.0097,61.11994,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.76-оп.77</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>291.47 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.0097,61.11994,0 33.00691,61.11769,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.77-оп.78</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>283.51 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.00691,61.11769,0 33.0045,61.11542,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.78-оп.79</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>272.76 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.0045,61.11542,0 33.00194,61.1133,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.79-оп.80</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>271.98 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.00194,61.1133,0 32.99952,61.11115,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.80-оп.81</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>251.19 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.99952,61.11115,0 32.99719,61.10919,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.81-оп.82</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>280.83 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.99719,61.10919,0 32.99473,61.10696,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.82-оп.83</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>241.06 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.99473,61.10696,0 32.99714,61.10513,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.83-оп.84</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>186.70 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.99714,61.10513,0 32.99903,61.10372,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.84-оп.85</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>94.76 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.99903,61.10372,0 32.99983,61.10296,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.85-оп.86</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>242.84 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.99983,61.10296,0 33.00251,61.1012,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.86-оп.87</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>314.34 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.00251,61.1012,0 33.00564,61.09881,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.87-оп.88</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>355.05 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.00564,61.09881,0 33.00927,61.09614,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.88-оп.89</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>363.58 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.00927,61.09614,0 33.013,61.09341,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.89-оп.90</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>303.51 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.013,61.09341,0 33.01611,61.09113,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.90-оп.91</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>271.49 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.01611,61.09113,0 33.01889,61.08909,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.91-оп.92</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>271.31 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.01889,61.08909,0 33.0216,61.08703,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.92-оп.93</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>286.54 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.0216,61.08703,0 33.02448,61.08486,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.93-оп.94</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>272.10 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.02448,61.08486,0 33.02743,61.08287,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.94-оп.95</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>260.50 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.02743,61.08287,0 33.03012,61.08092,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.95-оп.96</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>296.01 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.03012,61.08092,0 33.0331,61.07868,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.96-оп.97</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>269.94 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.0331,61.07868,0 33.03595,61.07668,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.97-оп.98</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>266.33 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.03595,61.07668,0 33.03868,61.07468,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.98-оп.99</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>246.88 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.03868,61.07468,0 33.04106,61.07278,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.99-оп.100</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>277.59 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.04106,61.07278,0 33.04395,61.07071,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.100-оп.101</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>257.46 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.04395,61.07071,0 33.04669,61.06881,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.101-оп.102</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>228.83 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.04669,61.06881,0 33.04903,61.06709,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.102-оп.103</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>226.00 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.04903,61.06709,0 33.04928,61.06506,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.103-оп.104</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>223.46 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.04928,61.06506,0 33.04917,61.06305,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.104-оп.105</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>232.48 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.04917,61.06305,0 33.04963,61.06097,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.105-оп.106</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>263.39 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.04963,61.06097,0 33.04959,61.0586,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.106-оп.107</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>247.90 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.04959,61.0586,0 33.04948,61.05637,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.107-оп.108</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>260.21 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.04948,61.05637,0 33.04965,61.05403,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.108-оп.109</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>277.29 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.04965,61.05403,0 33.04998,61.05154,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.109-оп.110</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>262.43 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.04998,61.05154,0 33.05015,61.04918,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.110-оп.111</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>262.33 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.05015,61.04918,0 33.05025,61.04682,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.111-оп.112</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>263.42 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.05025,61.04682,5 33.05017,61.04445,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.112-оп.113</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>303.77 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.05017,61.04445,5 33.05045,61.04172,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.113-оп.114</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>225.60 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.05045,61.04172,5 33.05044,61.03969,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.114-оп.115</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>249.69 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.05044,61.03969,5 33.0508,61.03745,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.115-оп.116</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>263.48 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.0508,61.03745,5 33.05093,61.03508,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.116-оп.117</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>265.37 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.05093,61.03508,5 33.05133,61.0327,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.117-оп.118</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>275.61 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.05133,61.0327,5 33.05133,61.03022,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.118-оп.119</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>281.24 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.05133,61.03022,5 33.05145,61.02769,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.119-оп.120</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>274.52 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.05145,61.02769,5 33.05151,61.02522,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.120-оп.121</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>275.69 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.05151,61.02522,5 33.05163,61.02274,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.121-оп.122</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>280.20 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.05163,61.02274,5 33.0518,61.02022,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.122-оп.123</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>224.57 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.0518,61.02022,5 33.05191,61.0182,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.123-оп.124</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>251.23 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.05191,61.0182,5 33.05202,61.01594,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.124-оп.125</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>244.71 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.05202,61.01594,5 33.05221,61.01374,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.125-оп.126</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>242.39 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.05221,61.01374,5 33.05235,61.01156,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.126-оп.127</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>242.32 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.05235,61.01156,5 33.05244,61.00938,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.127-оп.128</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>242.36 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.05244,61.00938,5 33.05256,61.0072,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.129-оп.130</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>243.44 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.05283,61.00256,5 33.05293,61.00037,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.130-оп.131</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>244.63 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.05293,61.00037,5 33.05308,60.99817,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.131-оп.132</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>236.82 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.05308,60.99817,5 33.05321,60.99604,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.132-оп.133</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>249.01 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.05321,60.99604,5 33.05332,60.9938,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.133-оп.134</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>165.07 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.05332,60.9938,5 33.05358,60.99232,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.134-оп.135</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>331.72 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.05358,60.99232,5 33.04942,60.99012,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.135-оп.136</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>249.60 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.04942,60.99012,5 33.04617,60.98852,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.136-оп.137</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>290.21 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.04617,60.98852,5 33.04237,60.98667,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.137-оп.138</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>233.07 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.04237,60.98667,5 33.03948,60.98511,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.138-оп.139</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>224.79 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.03948,60.98511,5 33.03649,60.9837,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.139-оп.140</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>246.91 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.03649,60.9837,5 33.03327,60.98212,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.140-оп.141</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>215.19 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.03327,60.98212,5 33.03047,60.98074,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.141-оп.142</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>231.09 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.03047,60.98074,5 33.02748,60.97925,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.142-оп.143</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>248.83 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.02748,60.97925,5 33.02421,60.97767,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.143-оп.144</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>270.19 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.02421,60.97767,5 33.02071,60.97593,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.144-оп.145</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>279.59 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.02071,60.97593,5 33.01713,60.97411,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.145-оп.146</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>267.02 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.01713,60.97411,5 33.01355,60.97245,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.146-оп.147</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>270.69 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.01355,60.97245,5 33.01008,60.97069,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.147-оп.148</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>269.74 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.01008,60.97069,5 33.00651,60.96899,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.148-оп.149</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>245.64 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.00651,60.96899,5 33.00429,60.96706,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.149-оп.150</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>273.23 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.00429,60.96706,5 33.00176,60.96493,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.150-оп.151</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>252.71 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>33.00176,60.96493,5 32.99935,60.96298,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.151-оп.152</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>241.62 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.99935,60.96298,5 32.9971,60.9611,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.152-оп.153</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>218.78 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.9971,60.9611,5 32.99502,60.95941,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.153-оп.154</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>225.41 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.99502,60.95941,5 32.99259,60.95776,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.154-оп.155</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>332.35 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.99259,60.95776,5 32.98962,60.95514,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.155-оп.156</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>287.15 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.98962,60.95514,5 32.98458,60.95597,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.156-оп.157</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>278.60 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.98458,60.95597,5 32.97964,60.9567,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.157-оп.158</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>244.08 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.97964,60.9567,5 32.9753,60.95732,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.158-оп.159</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>288.66 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.9753,60.95732,5 32.97019,60.95809,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.159-оп.160</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletYellow</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>291.94 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.97019,60.95809,5 32.96501,60.95885,5</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.160-оп.161</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>298.97 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.96501,60.95885,0 32.9597,60.95962,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.161-оп.162</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>321.44 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.9597,60.95962,0 32.95896,60.96249,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.162-оп.163</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>274.66 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.95896,60.96249,0 32.95847,60.96495,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет оп.163-оп.164</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>273.45 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.95847,60.96495,0 32.958,60.9674,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.164-Оп.193</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>11.11 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.958,60.9674,0 32.958,60.9675,0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Пролет Оп.193-Оп.194Л-170</name>
+			<resId>КАР000079</resId>
+			<lineId>КАР000000094</lineId>
+			<visibility>0</visibility>
+			<styleUrl>#StyleProletRed</styleUrl>
+			<description>
+				<![CDATA[<table border="0" width="300">
+<tr>
+<td width="150">Линия:</td><td><b>Л-126 ПС-40 Коткозеро-ПС-41 Олонец</b></td>
+</tr>
+<tr>
+<td width="150">Длина пролета:</td><td><b>142.30 м</b></td>
+</tr>
+<tr>
+<td width="150">РЭС:</td><td><b>Олонецкий сетевой район РЭС-2</b></td>
+</tr>
+<tr>
+<td width="150">Напряжение:</td><td><b>110 кВ</b></td>
+</tr>
+<tr>
+<td width="150">Исполнитель:</td><td><b>Новгородэнерго</b></td>
+</tr>
+<tr>
+<td width="150">Протяженность, км:</td><td><b>43,22</b></td>
+</tr>
+<tr>
+<td width="150">Показатели работ по линии:</td><td><b></b></td>
+</tr>
+<tr>
+<td width="150">План работ, га:</td><td><b>114,5</b></td>
+</tr>
+<tr>
+<td width="150">План работ, км:</td><td><b></b></td>
+</tr></table>]]></description>
+			<LineString>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>32.958,60.9675,0 32.95793,60.96878,0</coordinates>
+			</LineString>
+		</Placemark>
+	</Document>
+</kml>
