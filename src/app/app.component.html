@@ -13,9 +13,7 @@
         <mat-panel-description class="d-flex justify-content-end text-right">100 км</mat-panel-description>
       </mat-expansion-panel-header>
       <mat-list dense>
-        <mat-list-item> Pepper </mat-list-item>
-        <mat-list-item> Salt </mat-list-item>
-        <mat-list-item> Paprika </mat-list-item>
+        <mat-list-item *ngFor="let line of item.lines">{{ line }}</mat-list-item>
       </mat-list>
     </mat-expansion-panel>
   </mat-accordion>

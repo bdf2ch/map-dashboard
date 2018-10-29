@@ -2,16 +2,15 @@ import { AfterContentInit, Component, OnInit } from '@angular/core';
 import Map from 'ol/Map';
 import View from 'ol/View';
 import { OSM, Vector, BingMaps, XYZ } from 'ol/source';
-import bbox from 'ol/source';
 import TileLayer from 'ol/layer/Tile';
 import VectorLayer from 'ol/layer/vector';
 import KML from 'ol/format/KML';
 import Overlay from 'ol/overlay';
 import Feature from 'ol/Feature';
 import { Fill, Stroke, Style } from 'ol/style';
-import color from 'ol/color';
 import {BehaviorSubject} from 'rxjs/BehaviorSubject';
 import { RES } from './models/res.model';
+import { PowerLine } from './models/power-line.model';
 
 
 @Component({
@@ -30,6 +29,20 @@ export class AppComponent implements OnInit, AfterContentInit {
   resVectorLayer: VectorLayer;
   tileLayer: TileLayer;
   featuresSubject: BehaviorSubject<any[]>;
+  powerLines = [
+    'assets/КАР000004_КАР000000167.kml',
+    'assets/КАР000004_КАР000000172.kml',
+    'assets/КАР000004_КАР000000184.kml',
+    'assets/КАР000004_КАР000000185.kml',
+    'assets/КАР000004_КАР000000186.kml',
+    'assets/КАР000004_КАР000000187.kml',
+    'assets/КАР000004_КАР000000192.kml',
+    'assets/КАР000004_КАР000000193.kml',
+    'assets/КАР000004_КАР000000194.kml',
+    'assets/КАР000004_КАР000000195.kml',
+    'assets/КАР000004_КАР000000196.kml',
+    'assets/КАР000004_КАР000000212.kml'
+  ];
 
   constructor() {
     this.featuresSubject = new BehaviorSubject<any[]>([]);
@@ -175,11 +188,13 @@ export class AppComponent implements OnInit, AfterContentInit {
       */
 
       this.map.on('pointermove', (evt) => {
+        /*
         if (evt.dragging) {
           return;
         }
         const pixel = this.map.getEventPixel(evt.originalEvent);
         displayFeatureInfo(evt);
+        */
       });
   }
 
@@ -189,8 +204,29 @@ export class AppComponent implements OnInit, AfterContentInit {
         const res = new RES(feature.get('id'), feature.get('name'), feature);
         this.res.push(res);
       });
-      console.log('timeout', this.res);
       this.view.fit(this.resVectorSource.getExtent());
+      this.res.forEach((res: RES) => {
+        this.powerLines.forEach((line: string) => {
+          if (line.indexOf(res.id) !== -1) {
+            const layer = new VectorLayer({
+              source: new Vector({
+                url: `http://localhost:4200/${line}`,
+                format: new KML({
+                  extractStyles: true,
+                  defaultStyles: false,
+                  showPointNames: false
+                }),
+                useSpatialIndex: true
+              }),
+              zIndex: 6
+            });
+            const line_ = new PowerLine(line, 'voltage', null, layer);
+            this.map.addLayer(layer);
+            res.lines.push(line_);
+          }
+        });
+      });
+      console.log('timeout', this.res);
     }, 1000);
   }
 
