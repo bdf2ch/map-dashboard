@@ -35,11 +35,11 @@ for (let x = 2; x < 163; x++) {
           length: worksheet[`G${x}`].w,
           planGa: worksheet[`H${x}`].w,
           factGa: worksheet[`I${x}`].w,
-          planKm: worksheet[`K${x}`].w,
-          factKm: worksheet[`J${x}`].w,
+          planKm: worksheet[`J${x}`].w,
+          factKm: worksheet[`K${x}`].w,
           brigades: worksheet[`L${x}`].w,
-          people: worksheet[`M`].w,
-          machines: worksheet[``].w
+          people: worksheet[`M${x}`].w,
+          machines: worksheet[`N${x}`].w
         };
         item.lines.push(lineItem);
       }
@@ -48,3 +48,4 @@ for (let x = 2; x < 163; x++) {
 }
 
 console.log(res);
+return res;
