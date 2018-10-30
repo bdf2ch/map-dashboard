@@ -54,8 +54,7 @@ html, body {
   border: 1px solid #cccccc;
   bottom: 12px;
   left: -50px;
-  min-width: 350px;
-  max-width: 400px
+  min-width: 450px;
 }
 .ol-popup:after, .ol-popup:before {
   top: 100%;
@@ -97,7 +96,11 @@ html, body {
   border-bottom: 1px solid #eeeeee;
   padding-bottom: 10px;
 }
+.ol-popup table {
+  width: 100%;
+}
 .ol-popup table td {
+  width: 50%;
   font-family: "Segoe UI Light";
   font-size: 15px;
   line-height: 18px;
