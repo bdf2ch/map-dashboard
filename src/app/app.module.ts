@@ -2,27 +2,46 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
+import { AppRoutingModule } from './app.routing.module';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { MatListModule } from '@angular/material/list';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatIconModule, MatIconRegistry } from '@angular/material/icon';
+import { MatTooltipModule } from '@angular/material/tooltip';
 
 
 import { AppComponent } from './app.component';
+import { MapComponent } from './components/map/map.component';
+import { ResolveGuard } from './guards/resolve.guard';
+import { MapsService } from './services/maps.service';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MapComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     HttpClientModule,
+    AppRoutingModule,
     MatExpansionModule,
     MatListModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatIconModule,
+    MatTooltipModule
   ],
-  providers: [],
+  providers: [
+    MapsService,
+    ResolveGuard
+  ],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+  constructor(private readonly matIconRegistry: MatIconRegistry) {
+    matIconRegistry.registerFontClassAlias('fontawesome', 'fa');
+    matIconRegistry.registerFontClassAlias('fortawesome', 'fas');
+    matIconRegistry.registerFontClassAlias('fortawesome', 'far');
+  }
+}

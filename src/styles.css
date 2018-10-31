@@ -1,6 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 @import '~bootstrap/dist/css/bootstrap.css';
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
 @import "~ol/ol.css";
 
 html, body {
@@ -36,11 +37,41 @@ html, body {
   right: 0px;
   top: 64px;
   bottom: 0px;
-  width: 400px;
+  width: 450px;
   padding-top: 25px;
   padding-right: 50px;
   //height: 400px;
   //background: white;
+}
+
+#panel .mat-expansion-panel-header {
+  font-family: "Segoe UI" !important;
+  font-size: 13px;
+}
+
+#panel .mat-list-item {
+  border-bottom: 1px solid #f5f5f5;
+}
+#panel .mat-list-item:nth-last-child(1) {
+  border-bottom: none;
+}
+#panel .mat-list-item:hover {
+  background: #fafafa;
+  cursor: pointer;
+}
+#panel .mat-list-item.selected {
+  background: #eeeeee;
+}
+
+#panel .mat-list-item .power-line-details {
+  font-size: 12px;
+}
+#panel .mat-list-item .power-line-details .mat-icon {
+  width: 14px;
+  height: 14px;
+  font-size: 12px;
+  text-align: center;
+  color: #b0bec5;
 }
 
 

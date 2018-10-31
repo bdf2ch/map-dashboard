@@ -1,0 +1,51 @@
+<mat-toolbar color="primary">
+  <img src="assets/logo-rosseti.png" class="mr-3">
+  <img src="assets/logo-mrsk.png" style="height: 50px !important;">
+</mat-toolbar>
+
+<div id="map" class="map"></div>
+
+<div id="panel">
+  <mat-accordion>
+    <mat-expansion-panel *ngFor="let item of (maps.getRes() | async)">
+      <mat-expansion-panel-header (click)="onResSelect(item)">
+        <mat-panel-title>{{ item.title }}</mat-panel-title>
+        <mat-panel-description class="d-flex justify-content-end text-right">{{ item.length }} км</mat-panel-description>
+      </mat-expansion-panel-header>
+      <mat-list dense>
+        <mat-list-item *ngFor="let line of item.lines" (click)="selectPowerLine(line)" [ngClass]="{'selected': line === (maps.selectPowerLine() | async)}">
+          <div matLine>{{ line.title }}</div>
+          <div class="power-line-details text-muted d-flex flex-row align-items-center" matLine>
+            <div class="mr-3" matTooltip="Протяженность" matTooltipPosition="below">
+              <mat-icon fontSet="fas" fontIcon="fa-globe-asia"></mat-icon>
+              {{ line.length }} км
+            </div>
+            <div class="mr-3" matTooltip="Напряжение" matTooltipPosition="below">
+              <mat-icon fontSet="fas" fontIcon="fa-bolt"></mat-icon>
+              {{ line.voltage }}
+            </div>
+            <div class="mr-3" *ngIf="line.brigades !== 0" matTooltip="Бригады" matTooltipPosition="below">
+              <mat-icon fontSet="fas" fontIcon="fa-users"></mat-icon>
+              {{ line.brigades }}
+            </div>
+            <div class="mr-3" *ngIf="line.people !== 0" matTooltip="Люди" matTooltipPosition="below">
+              <mat-icon fontSet="fas" fontIcon="fa-user"></mat-icon>
+              {{ line.people }}
+            </div>
+            <div class="mr-3" *ngIf="line.machines !== 0" matTooltip="Техника" matTooltipPosition="below">
+              <mat-icon fontSet="fas" fontIcon="fa-truck-monster"></mat-icon>
+              {{ line.machines }}
+            </div>
+          </div>
+        </mat-list-item>
+      </mat-list>
+    </mat-expansion-panel>
+  </mat-accordion>
+
+</div>
+
+
+<div id="popup" class="ol-popup">
+  <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+  <div id="popup-content"></div>
+</div>
