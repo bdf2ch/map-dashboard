@@ -4,5 +4,6 @@
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  geoServerUrl: 'http://10.50.0.16:8080/geoserver/karel/ows/'
 };

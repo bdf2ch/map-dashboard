@@ -12,8 +12,10 @@ import { MatTooltipModule } from '@angular/material/tooltip';
 
 import { AppComponent } from './app.component';
 import { MapComponent } from './components/map/map.component';
-import { ResolveGuard } from './guards/resolve.guard';
+import { ResGeometryResolveGuard } from './guards/res-geometry.resolve.guard';
 import { MapsService } from './services/maps.service';
+import { MapsResource } from './resources/maps.resource';
+import { DataResolveGuard } from './guards/data.resolve.guard';
 
 
 @NgModule({
@@ -34,7 +36,9 @@ import { MapsService } from './services/maps.service';
   ],
   providers: [
     MapsService,
-    ResolveGuard
+    ResGeometryResolveGuard,
+    MapsResource,
+    DataResolveGuard
   ],
   bootstrap: [AppComponent]
 })

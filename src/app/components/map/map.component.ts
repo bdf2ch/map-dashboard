@@ -19,8 +19,11 @@ import {MapsService} from '../../services/maps.service';
   styleUrls: ['./map.component.css']
 })
 export class MapComponent implements OnInit, AfterContentInit {
+  loaded: boolean;
 
-  constructor(public readonly maps: MapsService) {}
+  constructor(public readonly maps: MapsService) {
+    this.loaded = false;
+  }
 
   ngOnInit(): void {
     /**
@@ -52,12 +55,14 @@ export class MapComponent implements OnInit, AfterContentInit {
     };
 
 
+    console.log('MAP INIT');
     this.maps.map = new Map({
       target: document.getElementById('map'),
       layers: this.maps.layers,
       overlays: [overlay],
       view: this.maps.view
     });
+
 
 
 
@@ -93,16 +98,13 @@ export class MapComponent implements OnInit, AfterContentInit {
       // console.log(this.resVectorSource.getFeatures());
     });
 
-    this.maps.map.on('rendercomplete', (evt) => {
-      console.log(evt);
-      console.log('res postcompose', this.maps.resSource.getFeatures());
-      // this.maps.view.fit(this.maps.resSource.getExtent());
-    });
+
     /*
-    this.map.once('postrender', function(event) {
-      console.log('postrender', this.vectorSource.getFeatures());
+    this.maps.map.once('postrender', function(event) {
+      console.log('postrender MAP FINALLY LOADED');
     });
     */
+
 
     /*
     this.map.on('pointermove', (evt) => {
@@ -117,8 +119,12 @@ export class MapComponent implements OnInit, AfterContentInit {
   }
 
   ngAfterContentInit(): void {
+  this.maps.view.fit(this.maps.resSource.getExtent());
+
+    /*
     setTimeout(() =>  {
       this.maps.resSource.getFeatures().forEach((feature: Feature) => {
+        console.log('FEATURE ID', feature.get('id'));
         const findResById = (item: RES) => item.id === feature.get('id');
         this.maps.getRes().subscribe((items: RES[]) => {
           const resFound = items.find(findResById);
@@ -127,32 +133,9 @@ export class MapComponent implements OnInit, AfterContentInit {
           }
         });
       });
-      this.maps.view.fit(this.maps.resSource.getExtent());
-      /*
-      this.maps.getRes().subscribe((res: RES[]) => {
-        this.maps.map.get.forEach((res: RES) => {
-          this.powerLines.forEach((line: string) => {
-            if (line.indexOf(res.id) !== -1) {
-              const layer = new VectorLayer({
-                source: new Vector({
-                  url: `http://localhost:4200/${line}`,
-                  format: new KML({
-                    extractStyles: true,
-                    defaultStyles: false,
-                    showPointNames: false
-                  }),
-                  useSpatialIndex: true
-                }),
-                zIndex: 6
-              });
-            }
-          });
-        });
-      });
-      */
-
-      // console.log('timeout', this.res);
-    }, 3000);
+      // this.maps.view.fit(this.maps.resSource.getExtent());
+    }, 5000);
+    */
   }
 
   onResMouseEnter(res: RES) {
@@ -193,7 +176,7 @@ export class MapComponent implements OnInit, AfterContentInit {
           }
         });
       });
-      this.maps.view.fit(res.feature.getGeometry().getExtent());
+      // this.maps.view.fit(res.feature.getGeometry().getExtent());
       this.maps.view.setZoom(8);
       // res.isOpened = !res.isOpened;
     } else {

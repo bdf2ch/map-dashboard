@@ -1,25 +1,37 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs/Observable';
-import { map } from 'rxjs/operators';
+import {finalize, map} from 'rxjs/operators';
 import { RES } from '../models/res.model';
 import { IRes } from '../interfaces/res.interface';
 import { BehaviorSubject } from 'rxjs/BehaviorSubject';
 import KML from 'ol/format/KML';
+import GeoJSON from 'ol/format/GeoJSON';
 import VectorLayer from 'ol/layer/Vector';
 import TileLayer from 'ol/layer/Tile';
 import { Vector, XYZ } from 'ol/source';
 import View from 'ol/view';
 import Map from 'ol/map';
 import { PowerLine } from '../models/power-line.model';
+import 'rxjs/observable/fromPromise';
+import { MapsResource } from '../resources/maps.resource';
+import 'rxjs/add/observable/fromPromise';
+import { fromPromise } from 'rxjs/observable/fromPromise';
+import Style from 'ol/style/Style';
+import Stroke from 'ol/style/Stroke';
+import Fill from 'ol/style/Fill';
+import CircleStyle from 'ol/style/Circle';
+import Feature from 'ol/feature';
+import Circle from 'ol/geom/Circle';
 
 @Injectable()
 export class MapsService {
   public map: Map;
   public readonly view: View;
   private readonly format: KML;
-  public readonly resLayer: VectorLayer;
-  public readonly resSource: Vector;
+  private readonly resFormat: GeoJSON;
+  public  resLayer: VectorLayer;
+  public resSource: Vector;
   public readonly tileLayer: TileLayer;
   private readonly tileSource: XYZ;
   public layers: any[];
@@ -221,7 +233,8 @@ export class MapsService {
     'assets/КАР000502_КАР000000224.kml'
   ];
 
-  constructor(private readonly http: HttpClient) {
+  constructor(private readonly http: HttpClient,
+              private readonly resource: MapsResource) {
     this.res = new BehaviorSubject<RES[]>([]);
     this.selectedPowerLine = new BehaviorSubject<PowerLine>(null);
     this.layers = [];
@@ -232,6 +245,15 @@ export class MapsService {
     this.format = new KML({
       extractStyles: true,
       defaultStyles: false,
+      showPointNames: false
+    });
+
+
+    this.resFormat = new GeoJSON({
+      // dataProjection: 'EPSG:3857',
+      // featureProjection: 'EPSG:4326',
+      extractStyles: false,
+      defaultStyles: true,
       showPointNames: false
     });
 
@@ -255,32 +277,60 @@ export class MapsService {
     /**
      * Ресурс РЭС
      */
+
+    /*
     this.resSource = new Vector({
-      url: 'http://localhost:4200/assets/kar_res.kml',
-      format: this.format,
+      url: 'http://10.50.0.16:8080/geoserver/karel/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=karel:res&maxFeatures=50&outputFormat=application%2Fjson',
+      format: this.resFormat,
       useSpatialIndex: true
     });
+    */
+
 
     /**
      * Слой РЭС
      */
+    /*
     this.resLayer = new VectorLayer({
       source: this.resSource,
-      zIndex: 5
+      zIndex: 2
     });
+
     this.layers.push(this.resLayer);
+    */
+
 
     /**
      * Вид и проекуия карты
      */
     this.view = new View({
       center: [4664211, 8741020],
-      projection: 'EPSG:3857',
+      // projection: 'EPSG:3857',
       zoom: 7
     });
   }
 
-  getInitialData(): Observable<RES[]> {
+  fetchResGeometry(): Observable<void> {
+    return fromPromise(this.resource.getRes())
+      .pipe(
+        map((data: any) => {
+          this.resSource = new Vector({
+            format: this.resFormat,
+            features: this.resFormat.readFeatures(data, {
+              featureProjection: 'EPSG:3857'
+            }),
+            useSpatialIndex: true
+          });
+          this.resLayer = new VectorLayer({
+            source: this.resSource,
+            zIndex: 2
+          });
+          this.layers.push(this.resLayer);
+        })
+      );
+  }
+
+  fetchInitialData(): Observable<RES[]> {
     return this.http.post('http://localhost:7777', null)
       .pipe(
         map((data: IRes[]) => {
@@ -299,7 +349,7 @@ export class MapsService {
                     });
                     const layer = new VectorLayer({
                       source: source,
-                      zIndex: 5
+                      zIndex: 6
                     });
                     layer.setVisible(false);
                     line.layer = layer;
@@ -309,9 +359,13 @@ export class MapsService {
                 });
               }
             });
+            this.resSource.getFeatures().forEach((feature: Feature) => {
+              console.log(feature.get('name'));
+            });
           });
           this.res.next(result);
           console.log(this.res.value);
+          // this.fetchResGeometry().subscribe();
           return this.res.value;
         })
       );

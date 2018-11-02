@@ -1,25 +1,29 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { ResourceModule } from '@ngx-resource/handler-ngx-http';
 import { MapComponent } from './components/map/map.component';
-import { ResolveGuard } from './guards/resolve.guard';
+import { ResGeometryResolveGuard } from './guards/res-geometry.resolve.guard';
+import { DataResolveGuard } from './guards/data.resolve.guard';
 
 const routes: Routes = [
   {
     path: '',
     component: MapComponent,
     resolve: [
-      ResolveGuard
+      ResGeometryResolveGuard,
+      DataResolveGuard
     ]
   }
 ];
 
 @NgModule({
   imports: [
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes),
+    ResourceModule.forRoot()
   ],
   declarations: [],
   exports: [
     RouterModule
   ]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

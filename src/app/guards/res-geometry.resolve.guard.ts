@@ -4,9 +4,10 @@ import { Observable } from 'rxjs/Observable';
 import { MapsService } from '../services/maps.service';
 
 @Injectable()
-export class ResolveGuard implements Resolve<any[]> {
+export class ResGeometryResolveGuard implements Resolve<any> {
   constructor(private readonly map: MapsService) {}
-  resolve(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): Observable<any[]>  {
-    return this.map.getInitialData();
+
+  resolve(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): Observable<any>  {
+    return this.map.fetchResGeometry();
   }
 }
