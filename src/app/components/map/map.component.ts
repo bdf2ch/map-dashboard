@@ -170,13 +170,17 @@ export class MapComponent implements OnInit, AfterContentInit {
         items.forEach((item: RES) => {
           if (item.id === res.id) {
             console.log('closed res found', item.id);
-            item.turnOnLayers();
+            // item.turnOnLayers();
+            item.lines.forEach((line: PowerLine) => {
+              this.maps.map.addLayer(line.layer);
+              line.layer.setVisible(true);
+            });
           } else {
-            item.turnOffLayers();
+            // item.turnOffLayers();
           }
         });
       });
-      // this.maps.view.fit(res.feature.getGeometry().getExtent());
+      this.maps.view.fit(res.feature.getGeometry().getExtent());
       this.maps.view.setZoom(8);
       // res.isOpened = !res.isOpened;
     } else {

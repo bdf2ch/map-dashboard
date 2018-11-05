@@ -254,7 +254,7 @@ export class MapsService {
       // featureProjection: 'EPSG:4326',
       extractStyles: false,
       defaultStyles: true,
-      showPointNames: false
+      showPointNames: true
     });
 
     /**
@@ -354,18 +354,18 @@ export class MapsService {
                     layer.setVisible(false);
                     line.layer = layer;
                     line.source = source;
-                    this.layers.push(layer);
+                    // this.layers.push(layer);
                   }
                 });
               }
             });
             this.resSource.getFeatures().forEach((feature: Feature) => {
-              console.log(feature.get('name'));
+              if (feature.getId().indexOf(res.id) !== -1) {
+                res.feature = feature;
+              }
             });
           });
           this.res.next(result);
-          console.log(this.res.value);
-          // this.fetchResGeometry().subscribe();
           return this.res.value;
         })
       );

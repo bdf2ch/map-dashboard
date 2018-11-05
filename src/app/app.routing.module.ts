@@ -10,7 +10,7 @@ const routes: Routes = [
     path: '',
     component: MapComponent,
     resolve: [
-      ResGeometryResolveGuard,
+      // ResGeometryResolveGuard,
       DataResolveGuard
     ]
   }

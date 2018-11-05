@@ -4,10 +4,11 @@ import { Observable } from 'rxjs/Observable';
 import { MapsService } from '../services/maps.service';
 
 @Injectable()
-export class DataResolveGuard implements Resolve<any> {
+export class DataResolveGuard implements Resolve<void> {
   constructor(private readonly map: MapsService) {}
 
-  resolve(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): Observable<any>  {
-    return this.map.fetchInitialData();
+  async resolve(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): Promise<void>  {
+    await this.map.fetchResGeometry().toPromise();
+    await this.map.fetchInitialData().toPromise();
   }
 }
