@@ -12,6 +12,8 @@ import {BehaviorSubject} from 'rxjs/BehaviorSubject';
 import { RES } from '../../models/res.model';
 import { PowerLine } from '../..//models/power-line.model';
 import {MapsService} from '../../services/maps.service';
+import * as CanvasJS from '../../../assets/canvasjs/canvasjs.min.js';
+import {normalizeStyles} from '@angular/animations/browser/src/util';
 
 @Component({
   selector: 'app-map',
@@ -20,9 +22,11 @@ import {MapsService} from '../../services/maps.service';
 })
 export class MapComponent implements OnInit, AfterContentInit {
   loaded: boolean;
+  chart: any;
 
   constructor(public readonly maps: MapsService) {
     this.loaded = false;
+    this.chart = null;
   }
 
   ngOnInit(): void {
@@ -32,6 +36,48 @@ export class MapComponent implements OnInit, AfterContentInit {
     const container = document.getElementById('popup');
     const content = document.getElementById('popup-content');
     const closer = document.getElementById('popup-closer');
+
+    this.maps.getSelectedRes()
+      .subscribe((res: RES | null) => {
+        if (res) {
+          this.chart = new CanvasJS.Chart('chart', {
+            width: 350,
+            height: 350,
+            animationEnabled: true,
+            title: {
+              text: res.title,
+              fontFamily: 'Segoe UI',
+              fontWeight: 'normal',
+            },
+            legend: {
+              cursor: 'pointer',
+              fontFamily: 'Segoe UI Light',
+              itemclick: (e) => {
+                if (typeof (e.dataSeries.dataPoints[e.dataPointIndex].exploded) === 'undefined' || !e.dataSeries.dataPoints[e.dataPointIndex].exploded) {
+                  e.dataSeries.dataPoints[e.dataPointIndex].exploded = true;
+                } else {
+                  e.dataSeries.dataPoints[e.dataPointIndex].exploded = false;
+                }
+                e.chart.render();
+
+              }
+            },
+            data: [{
+              type: 'pie',
+              // startAngle: 50,
+              showInLegend: true,
+              toolTipContent: '{y}',
+              dataPoints: [
+                {y: res.planGa, legendText: 'План работ, га', color: '#4FC3F7'},
+                {y: res.factGa, legendText: 'Факт. работ, га', color: '#81C784'},
+              ]
+            }]
+          });
+          this.chart.render();
+        } else {
+         // this.chart.destroy();
+        }
+      });
 
     /**
      * Create an overlay to anchor the popup to the map.
@@ -85,8 +131,34 @@ export class MapComponent implements OnInit, AfterContentInit {
 
         const coordinate = evt.coordinate;
 
-        content.innerHTML = info.join('');
+        const chartContainer = document.createElement('div');
+        chartContainer.setAttribute('id', 'chart');
+        content.appendChild(chartContainer);
+        // content.innerHTML = info.join('');
         overlay.setPosition(coordinate);
+
+
+        console.log('chart', chartContainer);
+        const chart = new CanvasJS.Chart('chart', {
+          animationEnabled: true,
+          title: {
+            text: ''
+          },
+          data: [{
+            type: 'pie',
+            startAngle: 240,
+            yValueFormatString: '##0.00"%"',
+            // indexLabel: "{label} {y}",
+            dataPoints: [
+              {y: 79.45, label: 'Google'},
+              {y: 7.31, label: 'Bing'},
+              {y: 7.06, label: 'Baidu'},
+              {y: 4.91, label: 'Yahoo'},
+              {y: 1.26, label: 'Others'}
+            ]
+          }]
+        });
+        chart.render();
       } else {
         this.maps.map.getTarget().style.cursor = '';
       }
@@ -161,42 +233,6 @@ export class MapComponent implements OnInit, AfterContentInit {
     });
     res.feature.setStyle(style);
     // });
-  }
-
-  onResSelect(res: RES) {
-    console.log(res);
-    if (!res.isOpened) {
-      this.maps.getRes().subscribe((items: RES[]) => {
-        items.forEach((item: RES) => {
-          if (item.id === res.id) {
-            console.log('closed res found', item.id);
-            // item.turnOnLayers();
-            item.lines.forEach((line: PowerLine) => {
-              this.maps.map.addLayer(line.layer);
-              line.layer.setVisible(true);
-            });
-          } else {
-            // item.turnOffLayers();
-          }
-        });
-      });
-      this.maps.view.fit(res.feature.getGeometry().getExtent());
-      this.maps.view.setZoom(8);
-      // res.isOpened = !res.isOpened;
-    } else {
-      /*
-      this.maps.getRes().subscribe((items: RES[]) => {
-        items.forEach((item: RES) => {
-          if (item.id === res.id) {
-            console.log('opened res found', item.id);
-            item.turnOffLayers();
-          }
-        });
-      });
-      */
-      res.turnOffLayers();
-    }
-    res.isOpened = res.isOpened ? false : true;
   }
 
   selectPowerLine(line: PowerLine) {

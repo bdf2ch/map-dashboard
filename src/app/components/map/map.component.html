@@ -5,10 +5,12 @@
 
 <div id="map" class="map"></div>
 
+<div id="chart" class="mat-elevation-z2" [ngClass]="{'invisible': !(maps.getSelectedRes() | async)}"></div>
+
 <div id="panel">
   <mat-accordion>
     <mat-expansion-panel *ngFor="let item of (maps.getRes() | async)">
-      <mat-expansion-panel-header (click)="onResSelect(item)">
+      <mat-expansion-panel-header (click)="maps.selectRes(item)">
         <mat-panel-title>{{ item.title }}</mat-panel-title>
         <mat-panel-description class="d-flex justify-content-end text-right">{{ item.length }} км</mat-panel-description>
       </mat-expansion-panel-header>

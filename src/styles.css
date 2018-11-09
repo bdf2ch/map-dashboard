@@ -29,6 +29,30 @@ html, body {
   top: 64px;
 }
 
+.ol-zoom {
+  left: 20px;
+  // right: 8px;
+  bottom: 20px;
+  top: auto;
+}
+
+#chart {
+  position: absolute;
+  top: 84px;
+  left: 20px;
+  width: 350px;
+  height: 350px;
+  z-index: 10;
+  background: white;
+}
+#chart.invisible {
+  width: 0px;
+  height: 0px;
+}
+.canvasjs-chart-credit {
+  display: none;
+}
+
 #panel {
   overflow-y: auto;
   display: block;
@@ -38,7 +62,7 @@ html, body {
   top: 64px;
   bottom: 0px;
   width: 450px;
-  padding-top: 25px;
+  padding-top: 20px;
   padding-right: 50px;
   //height: 400px;
   //background: white;

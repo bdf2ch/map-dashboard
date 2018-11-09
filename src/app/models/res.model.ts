@@ -8,6 +8,8 @@ export class RES {
   title: string;
   region: string;
   length: number;
+  planGa: number;
+  factGa: number;
   lines: PowerLine[];
   feature: Feature;
   isOpened: boolean;
@@ -16,6 +18,8 @@ export class RES {
     this.id = config ? config.id : null;
     this.title = config ? config.title : null;
     this.region = config ? config.region : null;
+    this.planGa = 0;
+    this.factGa = 0;
     this.length = 0;
     this.lines = [];
     this.feature = null;
@@ -25,6 +29,8 @@ export class RES {
         const line = new PowerLine(item);
         this.length += line.length;
         this.length = +this.length.toFixed(1);
+        this.planGa += line.planGa;
+        this.factGa += line.factGa;
         this.lines.push(line);
       });
     }

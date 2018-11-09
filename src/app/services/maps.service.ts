@@ -23,6 +23,7 @@ import Fill from 'ol/style/Fill';
 import CircleStyle from 'ol/style/Circle';
 import Feature from 'ol/feature';
 import Circle from 'ol/geom/Circle';
+import * as CanvasJS from '../../assets/canvasjs/canvasjs.min';
 
 @Injectable()
 export class MapsService {
@@ -36,6 +37,7 @@ export class MapsService {
   private readonly tileSource: XYZ;
   public layers: any[];
   private res: BehaviorSubject<RES[]>;
+  private selectedRes: BehaviorSubject<RES>;
   private selectedPowerLine: BehaviorSubject<PowerLine>;
   private readonly urls = [
     'assets/КАР000004_КАР000000167.kml',
@@ -236,6 +238,7 @@ export class MapsService {
   constructor(private readonly http: HttpClient,
               private readonly resource: MapsResource) {
     this.res = new BehaviorSubject<RES[]>([]);
+    this.selectedRes = new BehaviorSubject<RES>(null);
     this.selectedPowerLine = new BehaviorSubject<PowerLine>(null);
     this.layers = [];
 
@@ -331,7 +334,7 @@ export class MapsService {
   }
 
   fetchInitialData(): Observable<RES[]> {
-    return this.http.post('http://localhost:7777', null)
+    return this.http.post('http://10.50.4.7:7777', null)
       .pipe(
         map((data: IRes[]) => {
           const result = [];
@@ -375,10 +378,61 @@ export class MapsService {
     return this.res.asObservable();
   }
 
+  selectRes(res: RES) {
+    console.log(res);
+    if (this.selectedRes.value !== res) {
+      this.selectedRes.next(res);
+      if (res) {
+        if (!res.isOpened) {
+          // this.res.subscribe((items: RES[]) => {
+            this.res.value.forEach((item: RES) => {
+              if (item.id === res.id) {
+                console.log('closed res found', item.id);
+                // item.turnOnLayers();
+                item.lines.forEach((line: PowerLine) => {
+                  this.map.addLayer(line.layer);
+                  line.layer.setVisible(true);
+                });
+              } else {
+                // item.turnOffLayers();
+              }
+            });
+          // });
+          this.view.fit(res.feature.getGeometry().getExtent());
+          this.view.setZoom(8);
+          // res.isOpened = !res.isOpened;
+        } else {
+          /*
+          this.maps.getRes().subscribe((items: RES[]) => {
+            items.forEach((item: RES) => {
+              if (item.id === res.id) {
+                console.log('opened res found', item.id);
+                item.turnOffLayers();
+              }
+            });
+          });
+          */
+          res.turnOffLayers();
+        }
+        res.isOpened = res.isOpened ? false : true;
+      }
+    } else {
+      res.turnOffLayers();
+      this.selectedRes.next(null);
+    }
+  }
+
   selectPowerLine(line?: PowerLine): Observable<PowerLine | null> {
     if (line) {
       this.selectedPowerLine.next(line);
     }
     return this.selectedPowerLine.asObservable();
+  }
+
+  /**
+   * Возвращает выбранный РЭС
+   */
+  getSelectedRes(): Observable<RES | null> {
+    return this.selectedRes.asObservable();
   }
 }
